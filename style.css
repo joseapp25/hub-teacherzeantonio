@@ -30,13 +30,15 @@
     --petroleum800: #1C1E21;
     --petroleum900: #131416;
 
-    --font-sans: 'ibm-plex-serif';
-    --font-serif: 'ibm-plex-sans';
+    --font-sans: "IBM Plex Sans";
+    --font-serif: "IBM Plex Serif";
 }
 
 html, body {
     background-color: var(--cerulean100);
     font-size: 1.2em;
+    color: var(--petroleum900);
+    font-family: var(--font-sans);
 }
 
 header {
@@ -45,6 +47,19 @@ header {
     text-align: center;
     padding: 50px;
     margin-bottom: 20px;
+}
+
+nav {
+    background-color: white;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 600px;
+    border-radius: 10px;
 }
 
 main {
@@ -58,7 +73,10 @@ main {
 }
 
 p {
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px; 
 }
 
 footer {
