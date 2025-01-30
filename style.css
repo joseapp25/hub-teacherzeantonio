@@ -41,6 +41,10 @@ html, body {
     font-family: var(--font-sans);
 }
 
+h1, h2 {
+    font-family: var(--font-serif);
+}
+
 header {
     background-color: var(--cerulean500);
     color: white;
@@ -58,17 +62,38 @@ nav {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    width: 600px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px var(--cerulean300);
+}
+
+nav a {
+    color: var(--cerulean600);
+    text-decoration: none;
+    font-weight: bold;
     border-radius: 10px;
 }
 
+nav li {
+    color: var(--cerulean300);
+    margin-left: 15px;
+    padding: 2px;
+}
+
+nav li:hover {
+    background-color: var(--cerulean100);
+    transition-duration: 0.2s;
+    border-radius: 3px;
+}
+ 
 main {
     background-color: white;
     text-align: justify;
-    width: 800px;
+    width: 700px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 2px 2px 7px var(--cerulean300);
     
 }
 
@@ -76,7 +101,7 @@ p {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 footer {
