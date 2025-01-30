@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 html, body {
     background-color: rgb(151, 151, 151)
 }
@@ -7,14 +12,25 @@ html, body {
 header {
     background-color: rgb(53, 53, 167);
     color: white;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
 }
 
 main {
     background-color: white;
+    text-align: justify;
+    width: 500px;
     margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    
 }
 
 footer {
     background-color: rgb(24, 23, 23);
     color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
 }
