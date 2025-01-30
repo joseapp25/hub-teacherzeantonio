@@ -5,6 +5,28 @@
     margin: 0px;
 }
 
+:root {
+    --cerulean100: #CBDCF6;
+    --cerulean200: #A7C5F1;
+    --cerulean300: #84ADEB;
+    --cerulean400: #6196E5;
+    --cerulean500: #3E7EE0;
+    --cerulean600: #2269D3;
+    --cerulean700: #1D58AF;
+    --cerulean800: #143D7B;
+    --cerulean900: #0E2C58;
+
+    --petroleum100: #5E646E;
+    --petroleum200: #545A63;
+    --petroleum300: #4B5058;
+    --petroleum400: #42464D;
+    --petroleum500: #383C42;
+    --petroleum600: #2F3237;
+    --petroleum700: #26282C;
+    --petroleum800: #1C1E21;
+    --petroleum900: #131416;
+}
+
 html, body {
     background-color: rgb(151, 151, 151)
 }
