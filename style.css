@@ -30,16 +30,17 @@
     --petroleum800: #1C1E21;
     --petroleum900: #131416;
 
-    --font-sans: 'ibm-plex-serif-regular';
-    --font-serif: 'ibm-plex-sans-regular';
+    --font-sans: 'ibm-plex-serif';
+    --font-serif: 'ibm-plex-sans';
 }
 
 html, body {
-    background-color: rgb(151, 151, 151)
+    background-color: var(--cerulean100);
+    font-size: 1.2em;
 }
 
 header {
-    background-color: rgb(53, 53, 167);
+    background-color: var(--cerulean500);
     color: white;
     text-align: center;
     padding: 50px;
@@ -49,15 +50,19 @@ header {
 main {
     background-color: white;
     text-align: justify;
-    width: 500px;
+    width: 800px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
     
 }
 
+p {
+    margin: 10px;
+}
+
 footer {
-    background-color: rgb(24, 23, 23);
+    background-color: var(--cerulean900);
     color: white;
     text-align: center;
     padding: 25px;
