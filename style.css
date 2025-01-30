@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -25,6 +29,9 @@
     --petroleum700: #26282C;
     --petroleum800: #1C1E21;
     --petroleum900: #131416;
+
+    --font-sans: 'ibm-plex-serif-regular';
+    --font-serif: 'ibm-plex-sans-regular';
 }
 
 html, body {
