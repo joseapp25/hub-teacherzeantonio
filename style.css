@@ -74,24 +74,24 @@ nav {
     padding-right: 50px;
     min-width: 300px;
     max-width: 550px;
-    border-radius: 10px;
+    border-radius: 3px;
     box-shadow: 2px 2px 7px var(--cerulean300);
 }
 
 nav h1 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 nav a {
     color: var(--cerulean600);
     text-decoration: none;
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 nav li {
+    list-style-type: none;
     color: var(--cerulean300);
-    margin-left: 15px;
     padding: 5px;
 }
 
