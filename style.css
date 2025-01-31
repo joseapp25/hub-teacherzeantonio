@@ -36,7 +36,6 @@
 
 html, body {
     background-color: var(--cerulean100);
-    font-size: 1.2em;
     color: var(--petroleum900);
     font-family: var(--font-sans);
     scroll-behavior: smooth;
@@ -44,12 +43,12 @@ html, body {
 
 h1 {
     font-family: var(--font-serif);
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 h2 {
     font-family: var(--font-serif);
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 header {
@@ -61,7 +60,7 @@ header {
 }
 
 header h1 {
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
 nav {
@@ -73,10 +72,14 @@ nav {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    min-width: 320px;
-    max-width: 650px;
+    min-width: 300px;
+    max-width: 550px;
     border-radius: 10px;
     box-shadow: 2px 2px 7px var(--cerulean300);
+}
+
+nav h1 {
+    margin-bottom: 15px;
 }
 
 nav a {
@@ -89,7 +92,7 @@ nav a {
 nav li {
     color: var(--cerulean300);
     margin-left: 15px;
-    padding: 2px;
+    padding: 5px;
 }
 
 nav li:hover {
@@ -102,8 +105,8 @@ nav li:hover {
 main {
     background-color: white;
     text-align: justify;
-    min-width: 320px;
-    max-width: 750px;
+    min-width: 300px;
+    max-width: 650px;
     margin: auto;
     padding: 20px;
     border-radius: 5px;
@@ -111,11 +114,13 @@ main {
     
 }
 
-p {
+main p {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
+    line-height: 1.6em;
+    font-size: 1.1em;
 }
 
 footer {
