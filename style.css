@@ -48,7 +48,7 @@ h1 {
 
 h2 {
     font-family: var(--font-serif);
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 header {
@@ -119,8 +119,8 @@ main p {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
-    line-height: 1.6em;
-    font-size: 1.1em;
+    line-height: 1.7em;
+    font-size: 1.2em;
 }
 
 footer {
