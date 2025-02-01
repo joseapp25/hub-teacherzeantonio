@@ -114,11 +114,21 @@ main {
     
 }
 
+.lists {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.li-lists {
+    padding: 3px;
+}
+
 main p {
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     line-height: 1.7em;
     font-size: 1.2em;
 }
@@ -129,4 +139,10 @@ footer {
     text-align: center;
     padding: 25px;
     margin-top: 20px;
+}
+
+mark {
+    background-color: var(--cerulean100);
+    padding-left: 3px;
+    padding-right: 3px;
 }
