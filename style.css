@@ -106,6 +106,10 @@ header {
 
 }
 
+header img {
+    text-align: left;
+}
+
 header h1 {
     font-size: 2em;
 }
