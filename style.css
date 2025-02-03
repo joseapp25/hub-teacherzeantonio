@@ -52,6 +52,8 @@ h2 {
 }
 
 .breadcrumbs {
+    position: fixed;
+    width: 100%;
     background-color: var(--cerulean100);
     font-size: 1em;
     list-style: none;
@@ -184,7 +186,7 @@ main {
     background-color: white;
     text-align: justify;
     min-width: 300px;
-    max-width: 650px;
+    max-width: 600px;
     margin: auto;
     padding: 20px;
     border-radius: 5px;
