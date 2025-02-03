@@ -107,7 +107,7 @@ header {
 }
 
 header img {
-    text-align: left;
+    margin-top: 50px;
 }
 
 header h1 {
@@ -213,10 +213,17 @@ main p {
 
 footer {
     background-image: linear-gradient(to bottom, var(--petroleum700), var(--petroleum800));
-    color: white;
+    color: var(--cerulean100);
+    font-size: 1em;
+    font-weight: 600;
+    font-family: var(--font-serif);
     text-align: center;
     padding: 25px;
     margin-top: 20px;
+}
+
+footer img {
+    margin: 30px;
 }
 
 mark {
