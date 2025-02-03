@@ -35,7 +35,7 @@
 }
 
 html, body {
-    background-color: var(--cerulean100);
+    background-color: white;
     color: var(--petroleum900);
     font-family: var(--font-sans);
     scroll-behavior: smooth;
@@ -52,7 +52,7 @@ h2 {
 }
 
 .breadcrumbs {
-    background-color: white;
+    background-color: var(--cerulean100);
     font-size: 1em;
     list-style: none;
     display: flex;
@@ -75,7 +75,7 @@ h2 {
 
 .breadcrumbs li a:hover {
     list-style-type: none;
-    background-color: var(--cerulean100);
+    background-color: var(--cerulean300);
     transition-duration: 0.2s;
     border-radius: 3px;
     box-shadow: 1px 1px 5px var(--cerulean300);
@@ -110,8 +110,12 @@ header h1 {
     font-size: 2em;
 }
 
+.menu {
+    
+}
+
 .toc {
-    background-color: white;
+    background-color: var(--cerulean100);
     text-align: left;
     margin: auto;
     margin-bottom: 20px;
@@ -122,7 +126,7 @@ header h1 {
     min-width: 300px;
     max-width: 550px;
     border-radius: 3px;
-    box-shadow: 2px 2px 7px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean300);
 }
 
 .toc h1 {
@@ -143,7 +147,7 @@ header h1 {
 }
 
 .toc li:hover {
-    background-color: var(--cerulean100);
+    background-color: var(--cerulean300);
     transition-duration: 0.2s;
     border-radius: 3px;
     box-shadow: 1px 1px 5px var(--cerulean300);
@@ -157,7 +161,7 @@ main {
     margin: auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 2px 2px 7px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean300);
     
 }
 
