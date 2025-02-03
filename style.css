@@ -49,19 +49,20 @@ h1 {
 h2 {
     font-family: var(--font-serif);
     font-size: 1.4em;
+    scroll-margin-top: 60px;
 }
 
 .breadcrumbs {
     position: fixed;
     width: 100%;
     background-color: var(--cerulean100);
-    font-size: 1em;
+    font-size: 0.8em;
     list-style: none;
     display: flex;
     font-weight: 600;
     font-family: var(--font-sans);
     gap: 0.5rem;
-    padding: 15px;
+    padding: 10px;
 }
 .breadcrumbs li {
     display: inline;
@@ -121,9 +122,9 @@ header h1 {
     background-color: var(--cerulean700);
     font-weight: 600;
     font-family: var(--font-sans);
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .menu a {
