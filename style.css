@@ -103,7 +103,7 @@ header {
     color: white;
     text-align: center;
     padding: 50px;
-    margin-bottom: 20px;
+
 }
 
 header h1 {
@@ -111,7 +111,30 @@ header h1 {
 }
 
 .menu {
-    
+    color: var(--cerulean100);
+    background-color: var(--cerulean700);
+    font-weight: 600;
+    font-family: var(--font-sans);
+    font-size: 1em;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.menu a {
+    color: var(--cerulean100);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.menu a:hover {
+    background-color: var(--cerulean300);
+    color: var(--cerulean600);
+    transition-duration: 0.2s;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px var(--cerulean300);
+    padding: 5px;
 }
 
 .toc {
