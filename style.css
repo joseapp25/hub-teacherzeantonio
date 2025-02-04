@@ -88,7 +88,8 @@ h2 {
 
 .breadcrumbs li::after {
     content: "/";
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
     color: var(--petroleum800);
 }
 
@@ -98,7 +99,6 @@ h2 {
 
 .breadcrumbs li:last-child a {
     color: var(--petroleum800);
-    pointer-events: none;
     text-decoration: none;
 }
 
