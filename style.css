@@ -186,7 +186,6 @@ main {
 }
 
 main h2 {
-    font-family: var(--font-serif);
     font-size: 1.4em;
     scroll-margin-top: 60px;
 }
