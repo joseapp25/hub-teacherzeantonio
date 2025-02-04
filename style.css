@@ -99,7 +99,7 @@ header {
 }
 
 header img {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .menu {
@@ -217,8 +217,9 @@ main p {
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 20px;
-    line-height: 1.7em;
-    font-size: 1.2em;
+    line-height: 2em;
+    font-size: 1.3em;
+    font-weight: 300;
 }
 
 footer {
