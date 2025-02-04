@@ -47,11 +47,7 @@ h1 {
     scroll-margin-top: 60px;
 }
 
-h2 {
-    font-family: var(--font-serif);
-    font-size: 1.4em;
-    scroll-margin-top: 60px;
-}
+
 
 .breadcrumbs {
     position: fixed;
@@ -115,7 +111,7 @@ header img {
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: left;
 }
 
@@ -195,6 +191,12 @@ main {
     border-radius: 5px;
     box-shadow: 0px 0px 4px var(--cerulean300);
     
+}
+
+main h2 {
+    font-family: var(--font-serif);
+    font-size: 1.4em;
+    scroll-margin-top: 60px;
 }
 
 .lists {
