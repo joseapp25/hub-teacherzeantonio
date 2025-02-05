@@ -49,12 +49,11 @@ html, body {
     font-weight: 600;
     font-size: 1.2em;
     padding: 10px;
-    text-align: left;
 }
 
 .globalmenu a {
     font-size: 1em;
-    color: var(--cerulean600);
+    color: var(--cerulean500);
     text-decoration: none;
     font-weight: 600;
     border-radius: 3px;
@@ -72,55 +71,6 @@ html, body {
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-.breadcrumbs {
-    position: fixed;
-    width: 100%;
-    margin-top: 65px;
-    background-color: white;
-    font-size: 0.8em;
-    list-style: none;
-    display: flex;
-    font-weight: 600;
-    gap: 0.5rem;
-    padding: 10px;
-}
-.breadcrumbs li {
-    display: inline;
-}
-
-.breadcrumbs li a {
-    color: var(--cerulean600);
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 5px;
-}
-
-.breadcrumbs li a:hover {
-    list-style-type: none;
-    background-color: var(--cerulean300);
-    transition-duration: 0.2s;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px var(--cerulean300);
-    padding: 5px;
-}
-
-.breadcrumbs li::after {
-    content: "/";
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
-    color: var(--petroleum800);
-}
-
-.breadcrumbs li:last-child::after {
-    content: "";
-}
-
-.breadcrumbs li:last-child a {
-    color: var(--petroleum800);
-    text-decoration: none;
 }
 
 header {
