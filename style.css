@@ -131,11 +131,10 @@ header img {
     text-align: left;
     font-size: 1.3em;
     margin: auto;
-    margin-bottom: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding-left: 0px;
-    padding-right: 60px;
+    padding-right: 0px;
     min-width: 292px;
     max-width: 512px;
     color: var(--cerulean800);
@@ -174,6 +173,7 @@ header img {
 }
 
 .toc li:hover {
+    color: white;
     background-color: var(--cerulean300);
     transition-duration: 0.2s;
     border-radius: 3px;
@@ -222,7 +222,7 @@ main p {
 }
 
 footer {
-    background-image: linear-gradient(to bottom, var(--petroleum700), var(--petroleum800));
+    background-image: linear-gradient(to bottom, var(--petroleum800), var(--petroleum600));
     color: var(--cerulean100);
     font-size: 1em;
     font-weight: 600;
