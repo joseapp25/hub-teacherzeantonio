@@ -42,16 +42,19 @@ html, body {
 }
 
 .globalmenu {
-    color: var(--cerulean100);
-    background-color: var(--cerulean700);
+    position: fixed;
+    width: 100%;
+    color: var(--cerulean300);
+    background-color: var(--cerulean100);
     font-weight: 600;
-    font-size: 0.8em;
-    margin-bottom: 20px;
-    padding: 10px;
+    font-size: 1.2em;
+    padding: 20px;
+    text-align: center;
 }
 
 .globalmenu a {
-    color: var(--cerulean100);
+    font-size: 1em;
+    color: var(--cerulean600);
     text-decoration: none;
     font-weight: 600;
     border-radius: 3px;
@@ -70,6 +73,7 @@ html, body {
 .breadcrumbs {
     position: fixed;
     width: 100%;
+    margin-top: 65px;
     background-color: var(--cerulean100);
     font-size: 0.8em;
     list-style: none;
