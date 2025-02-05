@@ -48,8 +48,8 @@ html, body {
     background-color: var(--cerulean100);
     font-weight: 600;
     font-size: 1.2em;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+    text-align: left;
 }
 
 .globalmenu a {
@@ -72,6 +72,10 @@ html, body {
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.up {
+    background-color: var(--cerulean200)
 }
 
 .breadcrumbs {
@@ -129,10 +133,6 @@ header {
     text-align: center;
     padding: 100px;
 
-}
-
-header img {
-    margin-top: 80px;
 }
 
 .pagetitle {
