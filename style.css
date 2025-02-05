@@ -41,6 +41,32 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.globalmenu {
+    color: var(--cerulean100);
+    background-color: var(--cerulean700);
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.globalmenu a {
+    color: var(--cerulean100);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.globalmenu a:hover {
+    background-color: var(--cerulean300);
+    color: var(--cerulean600);
+    transition-duration: 0.2s;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px var(--cerulean300);
+    padding: 5px;
+}
+
 .breadcrumbs {
     position: fixed;
     width: 100%;
@@ -99,32 +125,6 @@ header {
 
 header img {
     margin-top: 50px;
-}
-
-.menu {
-    color: var(--cerulean100);
-    background-color: var(--cerulean700);
-    font-weight: 600;
-    font-size: 0.8em;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-.menu a {
-    color: var(--cerulean100);
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 5px;
-}
-
-.menu a:hover {
-    background-color: var(--cerulean300);
-    color: var(--cerulean600);
-    transition-duration: 0.2s;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px var(--cerulean300);
-    padding: 5px;
 }
 
 .pagetitle {
