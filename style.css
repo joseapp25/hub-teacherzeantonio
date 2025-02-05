@@ -31,13 +31,13 @@
     --petroleum900: #131416;
 
     --font-noto: "Noto Serif", serif;
-    --font-grotest: "Space Grotesk", serif;
+    --font-grotesk: "Space Grotesk", serif;
 }
 
 html, body {
     background-color: white;
     color: var(--petroleum900);
-    font-family: var(--font-noto);
+    font-family: var(--font-grotesk);
     scroll-behavior: smooth;
 }
 
@@ -215,9 +215,10 @@ main p {
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 20px;
-    line-height: 2em;
+    line-height: 1.7em;
     font-size: 1.3em;
     font-weight: 400;
+    font-family: var(--font-noto);
 }
 
 footer {
