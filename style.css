@@ -36,7 +36,7 @@
 
 html, body {
     background-color: white;
-    color: var(--petroleum900);
+    color: var(--petroleum500);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
 }
@@ -48,33 +48,27 @@ html, body {
     color: var(--cerulean300);
     background-color: var(--cerulean100);
     font-weight: 600;
-    font-size: 1.2em;
-    padding: 10px;
+    font-size: 0.9em;
+    padding: 5px;
 }
 
 .globalmenu a {
-    font-size: 1em;
-    background-color: var(--cerulean200);
-    color: var(--cerulean500);
+    color: var(--cerulean700);
     text-decoration: none;
     font-weight: 600;
     border-radius: 3px;
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 .globalmenu a:hover {
-    background-color: var(--cerulean400);
-    color: var(--cerulean700);
-    transition-duration: 0.2s;
+    color: white;
+    background-color: var(--cerulean300);
+    transition-duration: 0.1s;
     border-radius: 3px;
-    box-shadow: 1px 1px 5px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean300);
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -85,12 +79,21 @@ html, body {
 }
 
 .uparrow {
-    border: solid var(--cerulean900);
-    border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 4px;
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 10px solid var(--cerulean700);
+}
+
+.uparrow:hover {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 10px solid white;
 }
 
 header {
@@ -111,7 +114,6 @@ header {
     padding-right: 0px;
     min-width: 256px;
     max-width: 512px;
-    color: var(--cerulean800);
 }
 
 .toc {
@@ -134,24 +136,27 @@ header {
 }
 
 .toc a {
-    color: var(--cerulean600);
+    font-size: 1em;
+    color: var(--cerulean700);
     text-decoration: none;
     font-weight: 600;
     border-radius: 3px;
+    padding: 5px;
+}
+
+.toc a:hover {
+    font-size: 1em;
+    color: white;
+    background-color: var(--cerulean300);
+    transition-duration: 0.1s;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px var(--cerulean300);
+    padding: 5px;
 }
 
 .toc li {
     list-style-type: none;
-    color: var(--cerulean300);
     padding: 5px;
-}
-
-.toc li:hover {
-    color: white;
-    background-color: var(--cerulean300);
-    transition-duration: 0.2s;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px var(--cerulean300);
 }
  
 main {
