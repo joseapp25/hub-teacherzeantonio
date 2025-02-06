@@ -43,6 +43,7 @@ html, body {
 
 .globalmenu {
     position: fixed;
+    display: flex;
     width: 100%;
     color: var(--cerulean300);
     background-color: var(--cerulean100);
