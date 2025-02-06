@@ -54,6 +54,7 @@ html, body {
 
 .globalmenu a {
     font-size: 1em;
+    background-color: var(--cerulean200);
     color: var(--cerulean500);
     text-decoration: none;
     font-weight: 600;
@@ -61,17 +62,35 @@ html, body {
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .globalmenu a:hover {
-    background-color: var(--cerulean300);
-    color: var(--cerulean600);
+    background-color: var(--cerulean400);
+    color: var(--cerulean700);
     transition-duration: 0.2s;
     border-radius: 3px;
     box-shadow: 1px 1px 5px var(--cerulean300);
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.globalmenu a:last-child {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.uparrow {
+    border: solid var(--cerulean900);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
 
 header {
