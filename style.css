@@ -75,13 +75,13 @@ html, body {
 
 .back-to-top {
     position: fixed;
-    bottom: 6px;
-    right: 6px;
+    bottom: 20px;
+    right: 20px;
     text-decoration: none;
     background-color: grey;
-    padding: 2px 4px;
+    padding: 5px 10px;
     border-radius: 3px;
-    background-color: var(--cerulean400);
+    background-color: var(--cerulean300);
     box-shadow: 0px 0px 4px var(--cerulean300);
 }
 
@@ -105,7 +105,7 @@ html, body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cerulean600), var(--cerulean700));
+    background-image: linear-gradient(to bottom, var(--petroleum700), var(--petroleum500));
     color: white;
     text-align: center;
     padding: 100px;
@@ -227,7 +227,7 @@ main p {
 }
 
 footer {
-    background-image: linear-gradient(to bottom, var(--petroleum800), var(--petroleum600));
+    background-image: linear-gradient(to bottom, var(--petroleum500), var(--petroleum700));
     color: var(--cerulean100);
     font-size: 1em;
     font-weight: 600;
@@ -238,10 +238,4 @@ footer {
 
 footer img {
     margin: 30px;
-}
-
-mark {
-    background-color: var(--cerulean100);
-    padding-left: 3px;
-    padding-right: 3px;
 }
