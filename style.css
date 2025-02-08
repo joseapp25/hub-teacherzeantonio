@@ -67,7 +67,7 @@ html, body {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
-    box-shadow: 0px 0px 4px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean500);
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
@@ -88,6 +88,7 @@ html, body {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     fill: white;
+    box-shadow: 0px 0px 4px var(--cerulean300);
 }
 
 header {
@@ -144,7 +145,7 @@ header {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
-    box-shadow: 0px 0px 4px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean500);
     padding: 5px;
 }
 
