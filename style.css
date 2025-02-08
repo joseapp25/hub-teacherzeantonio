@@ -73,7 +73,7 @@ html, body {
     margin-right: 5px;
 }
 
-.back-to-top {
+.move-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -84,7 +84,7 @@ html, body {
     box-shadow: 0px 0px 4px var(--cerulean300);
 }
 
-.back-to-top:hover {
+.move-to-top:hover {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     fill: white;
