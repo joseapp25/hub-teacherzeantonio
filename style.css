@@ -212,6 +212,22 @@ main p {
     font-family: var(--font-noto);
 }
 
+div.video {
+    background: var(--cor06);
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 footer {
     background-image: linear-gradient(to bottom, var(--petroleum500), var(--petroleum700));
     color: var(--cerulean100);
