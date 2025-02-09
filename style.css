@@ -50,6 +50,7 @@ html, body {
     font-weight: 600;
     font-size: 0.9em;
     padding: 5px;
+    z-index: 1000;
 }
 
 .globalmenu a {
