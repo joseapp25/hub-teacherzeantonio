@@ -93,7 +93,6 @@ html, body {
 
 header {
     background-image: linear-gradient(to bottom, var(--petroleum700), var(--petroleum500));
-    color: white;
     text-align: center;
     padding: 100px;
 }
