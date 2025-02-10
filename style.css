@@ -201,10 +201,10 @@ main a {
 
 main a:hover {
     color: white;
-    background-color: var(--cerulean300);
+    background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
-    box-shadow: 0px 0px 4px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean500);
     padding: 5px;
 }
 
@@ -256,31 +256,39 @@ footer svg {
     margin-bottom: 15px;
 }
 
+.word-container {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin: 10px;
+}
+
 .word {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
     padding: 10px;
-    border: 2px solid #007bff;
-    border-radius: 5px;
+    border-radius: 3px;
     display: inline-block;
     width: 200px;
     margin: 10px;
-    background-color: #f8f9fa;
-    transition: background-color 0.3s ease;
+    background-color: var(--cerulean100);
+    transition-duration: 0.1s;
 }
 
 .word:hover {
-    background-color: #e0e0e0;
+    color: white;
+    box-shadow: 0px 0px 4px var(--cerulean500);
+    background-color: var(--cerulean500);
 }
 
 .translation {
-    font-size: 1.2em;
-    color: #007bff;
-    margin-top: 5px;
+    color: var(--cerulean700);
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right: auto;
     opacity: 0;
-    height: 0;
-    overflow: hidden;
     transition: opacity 0.3s ease, height 0.3s ease;
 }
 
