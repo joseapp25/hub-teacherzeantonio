@@ -39,6 +39,19 @@ html, body {
     color: var(--petroleum500);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
 }
 
 .globalmenu {
@@ -48,7 +61,6 @@ html, body {
     color: var(--cerulean300);
     background-color: var(--cerulean300);
     font-weight: 600;
-    font-size: 0.9em;
     padding: 5px;
     z-index: 1000;
 }
@@ -100,7 +112,6 @@ header {
 
 .pagetitle {
     text-align: left;
-    font-size: 1.3em;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -127,11 +138,9 @@ header {
 
 .toc h2 {
     margin-bottom: 10px;
-    font-size: 1.3em;
 }
 
 .toc a {
-    font-size: 1em;
     color: var(--cerulean700);
     text-decoration: none;
     font-weight: 600;
@@ -140,7 +149,6 @@ header {
 }
 
 .toc a:hover {
-    font-size: 1em;
     color: white;
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
@@ -168,8 +176,13 @@ main {
     
 }
 
+main h1 {
+    scroll-margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 main h2 {
-    font-size: 1.3em;
     scroll-margin-top: 60px;
     margin-bottom: 10px;
 }
@@ -179,7 +192,6 @@ main section {
 }
 
 main a {
-    font-size: 1em;
     color: var(--cerulean700);
     text-decoration: none;
     font-weight: 600;
@@ -188,17 +200,12 @@ main a {
 }
 
 main a:hover {
-    font-size: 1em;
     color: white;
     background-color: var(--cerulean300);
     transition-duration: 0.1s;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--cerulean300);
     padding: 5px;
-}
-
-main hr {
-    margin-bottom: 30px;
 }
 
 main li {
@@ -212,7 +219,6 @@ main p {
     margin-left: 10px;
     margin-bottom: 20px;
     line-height: 1.6em;
-    font-size: 1.3em;
     font-weight: 400;
     font-family: var(--font-noto);
 }
@@ -236,11 +242,15 @@ div.video > iframe {
 footer {
     background-image: linear-gradient(to bottom, var(--petroleum500), var(--petroleum700));
     color: var(--cerulean100);
-    font-size: 1em;
     font-weight: 600;
     text-align: center;
     padding: 25px;
     margin-top: 20px;
+}
+
+.fullaudio {
+    display: block;
+    margin: auto;
 }
 
 footer svg {
