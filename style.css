@@ -220,7 +220,6 @@ main p {
     margin-bottom: 20px;
     line-height: 1.6em;
     font-weight: 400;
-    font-family: var(--font-noto);
 }
 
 div.video {
