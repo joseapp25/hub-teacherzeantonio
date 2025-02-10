@@ -255,3 +255,36 @@ footer {
 footer svg {
     margin-bottom: 15px;
 }
+
+.word {
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+.word:hover {
+    background-color: #e0e0e0;
+}
+
+.translation {
+    font-size: 1.2em;
+    color: #007bff;
+    margin-top: 5px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, height 0.3s ease;
+}
+
+.translation.show {
+    opacity: 1;
+    height: auto;
+}
