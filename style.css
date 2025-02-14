@@ -221,10 +221,6 @@ header {
     padding: 5px;
 }
 
-.external-arrow {
-    margin-left: 3px;
-}
-
 div.video {
     background: var(--cor06);
     margin: 0px -20px 0px -20px;
