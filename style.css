@@ -115,8 +115,9 @@ header {
 .toc {
     background-color: var(--cerulean300);
     text-align: left;
-    margin: auto;
-    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -152,14 +153,21 @@ header {
     list-style-type: none;
     padding: 5px;
 }
+
+.headingtwo {
+    margin-left: 20px;
+}
  
-main {
+.sectioncontent {
     background-color: white;
     min-width: 256px;
     max-width: 512px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 3px;
@@ -167,22 +175,36 @@ main {
     
 }
 
-main h1 {
+.sectioncontent h1 {
     scroll-margin-top: 60px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-main h2 {
+.sectioncontent h2 {
     scroll-margin-top: 60px;
     margin-bottom: 10px;
 }
 
-main section {
+.sectioncontent section {
     margin-bottom: 30px;
 }
 
-main a {
+.sectioncontent li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.sectioncontent p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+
+.anchorinside a {
     color: var(--cerulean700);
     text-decoration: none;
     font-weight: 600;
@@ -190,27 +212,13 @@ main a {
     padding: 5px;
 }
 
-main a:hover {
+.anchorinside a:hover {
     color: white;
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--cerulean500);
     padding: 5px;
-}
-
-main li {
-    list-style-type: none;
-    padding: 5px;
-}
-
-main p {
-    text-align: justify;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    line-height: 1.6em;
-    font-weight: 400;
 }
 
 div.video {
