@@ -83,19 +83,21 @@
 
 
         <section class="sectioncontent">
+
             <h1 id="transcription">Transcription</h1>
+
                 <h2 id="part01">Part 01</h2>
-                    <audio id="sara-and-john" preload="metadata" controls>
+                    <audio id="sara-and-john-part01" preload="metadata" controls>
                         <source src="midia/sarah.and.john-gpt-highlighttest.mp3" type="audio/mpeg">
                     </audio>
                     <p>
-                        <span class="name-highlight">Sara:</span> <span id="part01-sentence01">Hi John. How are you?</span><br>
-                        <span class="name-highlight">John:</span> <span id="part01-sentence02">Hi Sara. I'm good, thanks. How about you?</span><br>
-                        <span class="name-highlight">Sara:</span> <span id="part01-sentence03">I'm great!</span>
+                        <span class="name-highlight">Sara: </span><span id="part01-sentence01">Hi John. How are you?</span><br>
+                        <span class="name-highlight">John: </span><span id="part01-sentence02">Hi Sara. I'm good, thanks. How about you?</span><br>
+                        <span class="name-highlight">Sara: </span><span id="part01-sentence03">I'm great!</span>
                     </p>
 
                     <script>
-                        document.getElementById("sara-and-john").addEventListener("timeupdate", function() {
+                        document.getElementById("sara-and-john-part01").addEventListener("timeupdate", function() {
                             let currentTime = this.currentTime;
                 
                             document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
@@ -108,63 +110,430 @@
                                 document.getElementById("part01-sentence03").classList.add("highlight");
                             }
                         });
-                
-                        audio.addEventListener("ended", clearHighlights);
                     </script>
 
                 <h2 id="part02">Part 02</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <audio id="audio-part02" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part02-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part02-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part02-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part02-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part02-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part02-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part02-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part02-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part02-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part02-sentence10">-</span>
+                    </p>
 
-                <h2 id="part03">Part 03</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+
+                <h2>Part 03</h2>
+                    <audio id="audio-part03" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part03-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part03-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part03-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part03-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part03-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part03-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part03-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part03-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part03-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part03-sentence10">-</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
 
                 <h2 id="part04">Part 04</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <audio id="audio-part04" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part04-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part04-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part04-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part04-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part04-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part04-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part04-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part04-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part04-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part04-sentence10">-</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
 
                 <h2 id="part05">Part 05</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <audio id="audio-part05" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part05-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part05-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part05-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part05-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part05-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part05-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part05-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part05-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part05-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part05-sentence10">-</span>
+                    </p>
 
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+                    
                 <h2 id="part06">Part 06</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <audio id="audio-part06" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part06-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part06-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part06-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part06-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part06-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part06-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part06-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part06-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part06-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part06-sentence10">-</span>
+                    </p>
 
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+                    
                 <h2 id="part07">Part 07</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <audio id="audio-part07" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part07-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part07-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part07-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part07-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part07-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part07-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part07-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part07-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part07-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part07-sentence10">-</span>
+                    </p>
 
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+                    
                 <h2 id="part08">Part 08</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <audio id="audio-part08" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part08-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part08-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part08-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part08-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part08-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part08-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part08-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part08-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part08-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part08-sentence10">-</span>
+                    </p>
 
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+                    
                 <h2 id="part09">Part 09</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <audio id="audio-part09" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part09-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part09-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part09-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part09-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part09-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part09-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part09-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part09-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part09-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part09-sentence10">-</span>
+                    </p>
 
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part09-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+                    
                 <h2 id="part10">Part 10</h2>
-                    <audio preload="metadata" controls>
-                        <source src="midia/sarah.and.john-gpt.mp3" type="audio/mpeg">
+                    <audio id="audio-part10" preload="metadata" controls>
+                        <source src="#" type="audio/mpeg">
                     </audio>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, a officia esse autem hic quis ipsam repellat, nemo commodi quibusdam corrupti nulla totam possimus libero voluptatem at iure. Pariatur, doloremque?</p>
+                    <p>
+                        <span class="name-highlight">A: </span><span id="part10-sentence01">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part10-sentence02">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part10-sentence03">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part10-sentence04">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part10-sentence05">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part10-sentence06">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part10-sentence07">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part10-sentence08">-</span><br>
+                        <span class="name-highlight">A: </span><span id="part10-sentence09">-</span><br>
+                        <span class="name-highlight">B: </span><span id="part10-sentence10">-</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part10-sentence010").classList.add("highlight");
+                            } 
+                        });
+                    </script>
         </section>
 
         <section class="sectioncontent">
