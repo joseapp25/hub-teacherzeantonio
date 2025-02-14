@@ -85,27 +85,27 @@
         <section class="sectioncontent">
             <h1 id="transcription">Transcription</h1>
                 <h2 id="part01">Part 01</h2>
-                    <audio id="audio" preload="metadata" controls>
+                    <audio id="sara-and-john" preload="metadata" controls>
                         <source src="midia/sarah.and.john-gpt-highlighttest.mp3" type="audio/mpeg">
                     </audio>
                     <p>
-                        <strong>Sara: </strong><span id="word1">Hi John. How are you?</span><br>
-                        <strong>John: </strong><span id="word2">Hi Sara. I'm good, thanks. How about you?</span><br>
-                        <strong>Sara: </strong><span id="word3">I'm great!</span>
+                        <span class="name-highlight">Sara:</span> <span id="part01-sentence01">Hi John. How are you?</span><br>
+                        <span class="name-highlight">John:</span> <span id="part01-sentence02">Hi Sara. I'm good, thanks. How about you?</span><br>
+                        <span class="name-highlight">Sara:</span> <span id="part01-sentence03">I'm great!</span>
                     </p>
 
                     <script>
-                        document.getElementById("audio").addEventListener("timeupdate", function() {
+                        document.getElementById("sara-and-john").addEventListener("timeupdate", function() {
                             let currentTime = this.currentTime;
                 
                             document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
                 
                             if (currentTime >= 0.2 && currentTime < 1.8) {
-                                document.getElementById("word1").classList.add("highlight");
+                                document.getElementById("part01-sentence01").classList.add("highlight");
                             } else if (currentTime >= 1.8 && currentTime < 4.8) {
-                                document.getElementById("word2").classList.add("highlight");
+                                document.getElementById("part01-sentence02").classList.add("highlight");
                             } else if (currentTime >= 4.8 && currentTime < 6.0) {
-                                document.getElementById("word3").classList.add("highlight");
+                                document.getElementById("part01-sentence03").classList.add("highlight");
                             }
                         });
                 

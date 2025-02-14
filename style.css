@@ -208,9 +208,16 @@ header {
     color: white;
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
-    border-radius: 3px;
+    border-radius: 1px;
     box-shadow: 0px 0px 4px var(--cerulean500);
-    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.name-highlight {
+    font-weight: 700;
 }
 
 .anchorinside a {
