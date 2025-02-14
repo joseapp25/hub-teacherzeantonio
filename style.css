@@ -204,6 +204,15 @@ header {
     font-weight: 400;
 }
 
+.highlight {
+    color: white;
+    background-color: var(--cerulean500);
+    transition-duration: 0.1s;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px var(--cerulean500);
+    padding: 1px;
+}
+
 .anchorinside a {
     color: var(--cerulean700);
     text-decoration: none;
