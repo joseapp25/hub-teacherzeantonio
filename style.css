@@ -221,28 +221,6 @@ header {
     padding: 5px;
 }
 
-.anchoroutside a {
-    color: var(--cerulean700);
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 5px;
-}
-
-.anchoroutside a:hover {
-    color: white;
-
-    background-color: var(--cerulean500);
-    transition-duration: 0.1s;
-    border-radius: 3px;
-    box-shadow: 0px 0px 4px var(--cerulean500);
-    padding: 5px;
-}
-
-.anchoroutside a::after {
-    content: 'fas fa-external-link-alt';
-}
-
 div.video {
     background: var(--cor06);
     margin: 0px -20px 0px -20px;
