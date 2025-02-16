@@ -83,10 +83,21 @@
                         <source src="midia/likes-and-family-part-01.mp3" type="audio/mpeg">
                     </audio>
                     <p>
-                        <span class="name-highlight">Arbor: </span><span id="part01-sentence01">Hey Maple, </span><span id="part01-sentence02">do you have a brother or a sister?</span><br>
-                        <span class="name-highlight">Maple: </span><span id="part01-sentence03">Yes, I have a sister. </span><span id="part01-sentence04">Do you have siblings?</span><br>
-                        <span class="name-highlight">Arbor: </span><span id="part01-sentence05">No, I don't have a brother or a sister, </span><span id="part01-sentence06">but I have a dog.</span><br>
-                        <span class="name-highlight">Maple: </span><span id="part01-sentence07">Oh, that's nice! </span><span id="part01-sentence08">I like dogs.</span>
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part01-sentence01">Hey Maple,</span>
+                        <span id="part01-sentence02">do you have a brother or a sister?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part01-sentence03">Yes, I have a sister.</span>
+                        <span id="part01-sentence04">Do you have siblings?</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part01-sentence05">No, I don't have a brother or a sister,</span>
+                        <span id="part01-sentence06">but I have a dog.</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part01-sentence07">Oh, that's nice!</span>
+                        <span id="part01-sentence08">I like dogs.</span>
                     </p>
 
                     <script>
@@ -120,10 +131,21 @@
                         <source src="midia/likes-and-family-part-02.mp3" type="audio/mpeg">
                     </audio>
                     <p>
-                        <span class="name-highlight">Maple: </span><span id="part02-sentence01">Do you like cats too?</span><br>
-                        <span class="name-highlight">Arbor: </span><span id="part02-sentence02">No, I don't like cats, but I like chocolate and pizza. What about you?</span><br>
-                        <span class="name-highlight">Maple: </span><span id="part02-sentence03">I love pizza! But I don't like chocolate.</span><br>
-                        <span class="name-highlight">Arbor: </span><span id="part02-sentence04">Really? That's interesting.</span>
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part02-sentence01">Do you like cats too?</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part02-sentence02">No, I don't like cats,</span>
+                        <span id="part02-sentence03">but I like chocolate and pizza.</span>
+                        <span id="part02-sentence04">What about you?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part02-sentence05">I love pizza!</span>
+                        <span id="part02-sentence06">But I don't like chocolate.</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part02-sentence07">Really?</span>
+                        <span id="part02-sentence08">That's interesting.</span>
                     </p>
 
                     <script>
@@ -132,14 +154,22 @@
                 
                             document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
                 
-                            if (currentTime >= 0.0 && currentTime < 0.0) {
+                            if (currentTime >= 0.1 && currentTime < 1.6) {
                                 document.getElementById("part02-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 1.6 && currentTime < 3.4) {
                                 document.getElementById("part02-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 3.4 && currentTime < 5.4) {
                                 document.getElementById("part02-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 5.4 && currentTime < 6.7) {
                                 document.getElementById("part02-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.7 && currentTime < 8.2) {
+                                document.getElementById("part02-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 8.2 && currentTime < 9.6) {
+                                document.getElementById("part02-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 9.6 && currentTime < 10.4) {
+                                document.getElementById("part02-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 10.4 && currentTime < 11.5) {
+                                document.getElementById("part02-sentence08").classList.add("highlight");
                             }
                         });
                     </script>
@@ -149,11 +179,23 @@
                         <source src="midia/likes-and-family-part-03.mp3" type="audio/mpeg">
                     </audio>
                     <p>
-                        <span class="name-highlight">Arbor: </span><span id="part03-sentence01">Does your sister like chocolate?</span><br>
-                        <span class="name-highlight">Maple: </span><span id="part03-sentence02">Yes, she does! She loves chocolate and tea.</span><br>
-                        <span class="name-highlight">Arbor: </span><span id="part03-sentence03">Cool! Does she have a pet?</span><br>
-                        <span class="name-highlight">Maple: </span><span id="part03-sentence04">No, she doesn't have a pet. But we have a cat at home.</span><br>
-                        <span class="name-highlight">Arbor: </span><span id="part03-sentence05">That's nice.</span>
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part03-sentence01">Does your sister like chocolate?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part03-sentence02">Yes, she does!</span>
+                        <span id="part03-sentence03">She loves chocolate and tea.</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part03-sentence04">Cool!</span>
+                        <span id="part03-sentence05">Does she have a pet?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part03-sentence06">No, she doesn't have a pet.</span>
+                        <span id="part03-sentence07">But we have a cat at home.</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part03-sentence08">That's nice.</span>
                     </p>
 
                     <script>
@@ -162,16 +204,22 @@
             
                             document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
             
-                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                if (currentTime >= 0.2 && currentTime < 1.8) {
                                 document.getElementById("part03-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 1.8 && currentTime < 3.2) {
                                 document.getElementById("part03-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 3.2 && currentTime < 5.0) {
                                 document.getElementById("part03-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 5.0 && currentTime < 6.1) {
                                 document.getElementById("part03-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 6.1 && currentTime < 7.4) {
                                 document.getElementById("part03-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 7.4 && currentTime < 9.3) {
+                                document.getElementById("part03-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 9.3 && currentTime < 11.0) {
+                                document.getElementById("part03-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 11.0 && currentTime < 12.2) {
+                                document.getElementById("part03-sentence08").classList.add("highlight");
                             }
                         });
                     </script>
@@ -181,11 +229,23 @@
                         <source src="midia/likes-and-family-part-04.mp3" type="audio/mpeg">
                     </audio>
                     <p>
-                        <span class="name-highlight">Arbor: </span><span id="part04-sentence01">Do your parents like coffee or tea?</span><br>
-                        <span class="name-highlight">Maple: </span><span id="part04-sentence02">My mom likes coffee, but my dad likes tea. What about your parents?</span><br>
-                        <span class="name-highlight">Arbor: </span><span id="part04-sentence03">They like coffee. They drink it every morning.</span><br>
-                        <span class="name-highlight">Maple: </span><span id="part04-sentence04">Coffee is great! Do we have time to get some now?</span>
-                        <span class="name-highlight">Arbor: </span><span id="part04-sentence05">Yes, let's go!</span>
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part04-sentence01">Do your parents like coffee or tea?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part04-sentence02">My mom likes coffee, but my dad likes tea.</span>
+                        <span id="part04-sentence03">What about your parents?</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part04-sentence04">They like coffee.</span>
+                        <span id="part04-sentence05">They drink it every morning.</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part04-sentence06">Coffee is great!</span>
+                        <span id="part04-sentence07">Do we have time to get some now?</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part04-sentence08">Yes, let's go!</span>
                     </p>
 
                     <script>
@@ -194,16 +254,22 @@
             
                             document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
             
-                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                if (currentTime >= 0.1 && currentTime < 2.4) {
                                 document.getElementById("part04-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 2.4 && currentTime < 5.1) {
                                 document.getElementById("part04-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 5.1 && currentTime < 6.8) {
                                 document.getElementById("part04-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 6.8 && currentTime < 8.2) {
                                 document.getElementById("part04-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                            } else if (currentTime >= 8.2 && currentTime < 10.1) {
                                 document.getElementById("part04-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 10.1 && currentTime < 11.4) {
+                                document.getElementById("part04-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 11.4 && currentTime < 13.0) {
+                                document.getElementById("part04-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 13.0 && currentTime < 14.5) {
+                                document.getElementById("part04-sentence08").classList.add("highlight");
                             }
                         });
                     </script>
