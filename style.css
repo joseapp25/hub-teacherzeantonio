@@ -96,7 +96,7 @@ h3 {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--petroleum700), var(--petroleum500));
+    background-image: linear-gradient(to bottom, var(--cerulean700), var(--cerulean900));
     text-align: center;
     padding: 100px;
 }
@@ -272,7 +272,7 @@ div.video > iframe {
 }
 
 footer {
-    background-image: linear-gradient(to bottom, var(--petroleum500), var(--petroleum700));
+    background-image: linear-gradient(to bottom, var(--petroleum900), var(--petroleum700));
     color: var(--cerulean100);
     font-weight: 600;
     text-align: center;
