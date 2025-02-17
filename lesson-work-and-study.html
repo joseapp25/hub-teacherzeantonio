@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-logo.png" type="image/x-icon">
+    <title>Work and Study | Teacher Zé Antonio Classroom</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav class="globalmenu">
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+    </nav>
+
+    <svg class="icontop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M21.0814 3.96429V0.75L2.9187 3.96429H21.0814Z" fill="#1C1E21"/>
+        <path d="M17.7454 16.8214L21.0814 5.25H2.9187V11.6786H6.2547L2.9187 23.25H21.0814V16.8214H17.7454Z" fill="#1C1E21"/>
+      </svg>
+
+    <header>
+        <svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124" fill="none">
+            <path d="M108.92 20.4821V3.875L15.0801 20.4821H108.92Z" fill="#CBDCF6"/>
+            <path d="M91.6845 86.9107L108.92 27.125H15.0801V60.3393H32.3161L15.0801 120.125H108.92V86.9107H91.6845Z" fill="#CBDCF6"/>
+        </svg>
+    </header>
+
+    <div class="pagetitle">
+        <h1>Work and Study</h1>
+    </div>
+
+    <nav class="toc">
+        <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#vocabulary">Vocabulary</a></li>
+                <li><a href="#transcription">Transcription</a></li>
+                <li class="headingtwo"><a href="#part01">Part 01</a></li>
+                <li class="headingtwo"><a href="#part02">Part 02</a></li>
+                <li class="headingtwo"><a href="#part03">Part 03</a></li>
+                <li class="headingtwo"><a href="#part04">Part 04</a></li>
+                <li><a href="#videolesson">Video Lesson</a></li>
+                <li><a href="#fullaudio">Full Audio</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <section class="sectioncontent">
+            <h1 id="vocabulary">Vocabulary</h1>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans1')">to study</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans1" class="translation">verbo 'TRABALHAR'</div>
+                </div>
+        
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans2')">to work</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans2" class="translation">verbo 'ESTUDAR'</div>
+                </div>
+        
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans03')">language</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans03" class="translation">idioma</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans04')">English</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans04" class="translation">inglês</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans05')">Spanish</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans05" class="translation">espanhol</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans06')">Mandarin</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans06" class="translation">mandarim</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans07')">Japanese</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans07" class="translation">japonês</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans08')">in the morning</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans08" class="translation">no período manhã</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans09')">in the afternoon</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans09" class="translation">no período tarde</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans10')">in the evening</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans10" class="translation">no período do final da tarde</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans11')">at night</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans11" class="translation">no período da noite</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans12')">also</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans12" class="translation">também</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans13')">only</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans13" class="translation">só, somente, apenas</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans14')">cool</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans14" class="translation">legal (gíria)</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans15')">I see</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans15" class="translation">um jeito de dizer 'ah, entendo'</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans16')">parents</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans16" class="translation">pai e mãe</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans17')">must be</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans17" class="translation">deve ser</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans18')">together</div>
+                    <svg class="arrow-container" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M8.47145 8.94281L12.9429 4.4714L8.47145 0L7.52865 0.942809L10.3905 3.80469L0 3.80469V5.13802L10.3906 5.13802L7.52865 8L8.47145 8.94281Z" fill="#383C42"/>
+                      </svg>
+                    <div id="trans18" class="translation">juntos</div>
+                </div>
+        </section>
+
+
+
+        <section class="sectioncontent">
+
+            <h1 id="transcription">Transcription</h1>
+
+                <h2 id="part01">Part 01</h2>
+                    <audio id="work-and-study-part01" preload="metadata" controls>
+                        <source src="midia/work-and-study-part-01.mp3" type="audio/mpeg">
+                    </audio>
+                    <p>
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part01-sentence01">Hey Maple,</span>
+                        <span id="part01-sentence02">do you study English?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part01-sentence03">Yes, I study English in the morning.</span>
+                        <span id="part01-sentence04">Do you study English too?</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part01-sentence05">Yes, I do!</span>
+                        <span id="part01-sentence06">I also study Spanish in the afternoon.</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part01-sentence07">That's nice!</span>
+                        <span id="part01-sentence08">I don't study Spanish,</span>
+                        <span id="part01-sentence09">but I study Japanese at night.</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part01-sentence10">Japanese is cool!</span><br>
+                    </p>
+
+                    <script>
+                        document.getElementById("work-and-study-part01").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.1 && currentTime < 0.8) {
+                                document.getElementById("part01-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.8 && currentTime < 2.1) {
+                                document.getElementById("part01-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.1 && currentTime < 4.9) {
+                                document.getElementById("part01-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.9 && currentTime < 6.6) {
+                                document.getElementById("part01-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.6 && currentTime < 8.3) {
+                                document.getElementById("part01-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 8.3 && currentTime < 11.1) {
+                                document.getElementById("part01-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 11.1 && currentTime < 12.1) {
+                                document.getElementById("part01-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 12.1 && currentTime < 13.4) {
+                                document.getElementById("part01-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 13.4 && currentTime < 14.9) {
+                                document.getElementById("part01-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 14.9 && currentTime < 16.9) {
+                                document.getElementById("part01-sentence10").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h2 id="part02">Part 02</h2>
+                    <audio id="work-and-study-part02" preload="metadata" controls>
+                        <source src="midia/work-and-study-part-02.mp3" type="audio/mpeg">
+                    </audio>
+                    <p>
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part02-sentence01">Does your brother study a language?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part02-sentence02">Yes, he does.</span>
+                        <span id="part02-sentence03">He studies Mandarin in the evening.</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part02-sentence04">That's interesting.</span>
+                        <span id="part02-sentence05">Does he study English too?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part02-sentence06">No, he doesn't study English.</span>
+                        <span id="part02-sentence07">He only studies Mandarin.</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part02-sentence08">Oh, I see.</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("work-and-study-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.2 && currentTime < 2.2) {
+                                document.getElementById("part02-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 2.2 && currentTime < 3.8) {
+                                document.getElementById("part02-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.8 && currentTime < 5.8) {
+                                document.getElementById("part02-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 5.8 && currentTime < 7.5) {
+                                document.getElementById("part02-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 7.5 && currentTime < 9.5) {
+                                document.getElementById("part02-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 9.5 && currentTime < 11.4) {
+                                document.getElementById("part02-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 11.4 && currentTime < 13.0) {
+                                document.getElementById("part02-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 13.1 && currentTime < 14.1) {
+                                document.getElementById("part02-sentence08").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h2>Part 03</h2>
+                    <audio id="work-and-study-part03" preload="metadata" controls>
+                        <source src="midia/work-and-study-part-03.mp3" type="audio/mpeg">
+                    </audio>
+                    <p>
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part03-sentence01">Do your parents work in the morning?</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part03-sentence02">Yes, they do.</span>
+                        <span id="part03-sentence03">They work in the morning and in the afternoon.</span>
+                        <span id="part03-sentence04">Do your parents work?</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part03-sentence05">Yes, they work at night.</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part03-sentence06">Oh, that must be difficult!</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("work-and-study-part03").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.2 && currentTime < 2.7) {
+                                document.getElementById("part03-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 2.7 && currentTime < 4.0) {
+                                document.getElementById("part03-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 4.0 && currentTime < 6.2) {
+                                document.getElementById("part03-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 6.2 && currentTime < 7.8) {
+                                document.getElementById("part03-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 7.8 && currentTime < 9.9) {
+                                document.getElementById("part03-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 9.9 && currentTime < 12.2) {
+                                document.getElementById("part03-sentence06").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h2 id="part04">Part 04</h2>
+                    <audio id="work-and-study-part04" preload="metadata" controls>
+                        <source src="midia/work-and-study-part-04.mp3" type="audio/mpeg">
+                    </audio>
+                    <p>
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part04-sentence01">Do you work too?</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part04-sentence02">No, I don't work.</span>
+                        <span id="part04-sentence03">I only study.</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part04-sentence04">Me too!</span>
+                        <span id="part04-sentence05">I study a lot.</span><br>
+
+                        <span class="name-highlight">Arbor: </span>
+                        <span id="part04-sentence06">That's great!</span>
+                        <span id="part04-sentence07">Let's go study together now.</span><br>
+
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part04-sentence08">Good idea!</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("work-and-study-part04").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.1 && currentTime < 1.2) {
+                                document.getElementById("part04-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.2 && currentTime < 3.0) {
+                                document.getElementById("part04-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.0 && currentTime < 4.3) {
+                                document.getElementById("part04-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.3 && currentTime < 5.5) {
+                                document.getElementById("part04-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 5.5 && currentTime < 6.8) {
+                                document.getElementById("part04-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 6.8 && currentTime < 7.8) {
+                                document.getElementById("part04-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 7.8 && currentTime < 9.5) {
+                                document.getElementById("part04-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 9.5 && currentTime < 10.6) {
+                                document.getElementById("part04-sentence08").classList.add("highlight");
+                            }
+                        });
+                    </script>
+        </section>
+
+        <section class="sectioncontent">
+            <h1 id="videolesson">Video Lesson</h1>
+                <div class="video">
+                    <iframe width="1903" height="750" src="https://www.youtube.com/embed/Si4M7yeeWmc" title="Notion Tutorial Improvisado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+        </section>
+
+        <section class="sectioncontent">
+            <h1 id="fullaudio">Full Audio</h1>
+                <audio class="fullaudio" preload="metadata" controls>
+                    <source src="midia/work-and-study.mp3" type="audio/mpeg">
+                </audio>
+        </section>
+    </main>
+
+    <nav>
+        <a href="#">
+            <svg class="move-to-top" width="24" height="24" viewBox="-0 -0 24 24" fill="#383C42">
+                <path d="M20 4H4V2H20V4Z"/>
+                <path d="M12 5.58579L18.7071 12.2929L17.2929 13.7071L13 9.41421L13 22H11L11 9.41421L6.70711 13.7071L5.29289 12.2929L12 5.58579Z"/>
+            </svg>
+        </a>
+    </nav>
+
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <path d="M56.2169 10.5714V2L7.7832 10.5714H56.2169Z" fill="#3E7EE0"/>
+            <path d="M47.321 44.8571L56.2169 14H7.7832V31.1429H16.6792L7.7832 62H56.2169V44.8571H47.321Z" fill="#3E7EE0"/>
+        </svg>
+        <p>Teacher Zé | English Classes</p>
+        <p>®2025 | All rights Reserved</p>
+    </footer>
+    
+</body>
+</html>
