@@ -178,13 +178,13 @@ header {
 .sectioncontent h1 {
     scroll-margin-top: 60px;
     margin-bottom: 20px;
-    margin-top: 20px;
     text-align: center;
 }
 
 .sectioncontent h2 {
     scroll-margin-top: 60px;
     margin-bottom: 10px;
+    margin-top: 40px;
 }
 
 .sectioncontent section {
