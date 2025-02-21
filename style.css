@@ -67,6 +67,7 @@ h3 {
 
 .globalmenu a {
     color: var(--cerulean700);
+    fill: var(--cerulean700);
     text-decoration: none;
     font-weight: 600;
     border-radius: 3px;
@@ -77,28 +78,6 @@ h3 {
 
 .globalmenu a:hover {
     color: white;
-    background-color: var(--cerulean500);
-    transition-duration: 0.1s;
-    border-radius: 3px;
-    box-shadow: 0px 0px 4px var(--cerulean500);
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.globalmenu button {
-    border: none;
-    fill: var(--cerulean700);
-    background-color: var(--cerulean300);
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.globalmenu button:hover {
-    border: none;
     fill: white;
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
