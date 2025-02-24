@@ -278,8 +278,8 @@ div.video > iframe {
 .bookmark-thumbnail {
     width: 50%;
     height: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 3px;
