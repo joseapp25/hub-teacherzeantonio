@@ -255,6 +255,8 @@ div.video > iframe {
 .bookmark-container {
     text-align: left;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .custom-bookmark {
