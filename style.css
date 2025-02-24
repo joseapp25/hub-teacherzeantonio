@@ -277,8 +277,11 @@ div.video > iframe {
 
 .bookmark-thumbnail {
     width: 50%;
-    height: auto;
-    margin: 10px;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 3px;
     box-shadow: 0px 0px 2px var(--petroleum100);
 }
