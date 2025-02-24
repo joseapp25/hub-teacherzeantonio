@@ -260,6 +260,7 @@ div.video > iframe {
 .custom-bookmark {
     text-decoration: none;
     color: var(--petroleum500);
+    fill: var(--petroleum500);
     background-color: var(--cerulean100);
     display: flex;
     box-shadow: 0px 0px 4px var(--cerulean500);
@@ -271,10 +272,11 @@ div.video > iframe {
     background-color: var(--cerulean400);
     box-shadow: 0px 0px 4px var(--cerulean500);
     color: white;
+    fill: white;
 }
 
 .bookmark-thumbnail {
-    width: 150px;
+    width: 50%;
     height: auto;
     margin: 10px;
     border-radius: 3px;
@@ -304,7 +306,7 @@ div.video > iframe {
 }
 
 .bookmark-outside-link-icon {
-    position: fixed;
+    padding: 10px;
 }
 
 .fullaudio {
