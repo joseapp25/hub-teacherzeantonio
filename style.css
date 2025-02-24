@@ -291,7 +291,6 @@ div.video > iframe {
 }
 
 .bookmark-title {
-    margin-right: 10px;
     margin-left: 5px;
     margin-top: 15px;
     margin-bottom: 2.5px;
@@ -300,7 +299,6 @@ div.video > iframe {
 }
 
 .bookmark-subtitle {
-    margin-right: 10px;
     margin-left: 5px;
     margin-top: 2.5px;
     margin-bottom: 15px;
@@ -309,7 +307,8 @@ div.video > iframe {
 }
 
 .bookmark-outside-link-icon {
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 .fullaudio {
