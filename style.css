@@ -309,6 +309,7 @@ div.video > iframe {
 .bookmark-outside-link-icon {
     padding-top: 10px;
     padding-right: 10px;
+    margin-left: auto;
 }
 
 .fullaudio {
