@@ -139,7 +139,10 @@ header {
     text-decoration: none;
     font-weight: 600;
     border-radius: 3px;
-    padding: 5px;
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.9em;
 }
 
 .toc a:hover {
@@ -148,16 +151,18 @@ header {
     transition-duration: 0.1s;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--cerulean500);
-    padding: 5px;
+    padding: 1px;
 }
 
 .toc li {
     list-style-type: none;
-    padding: 5px;
+    padding: 1px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
 }
 
 .headingtwo {
-    margin-left: 20px;
+    margin-left: 10px;
 }
  
 .sectioncontent {
