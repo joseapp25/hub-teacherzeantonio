@@ -48,6 +48,7 @@
 html, body {
     background-color: var(--cerulean100);
     color: var(--petroleum500);
+    fill: var(--petroleum500);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
     font-size: 1em;
@@ -120,7 +121,7 @@ h3 {
     padding: 5px;
     border-radius: 3px;
     z-index: 1001;
-    fill: var(--petroleum300);
+    fill: var(--cerulean600);
 }
 
 /* GLOBAL MENU ↑ */
