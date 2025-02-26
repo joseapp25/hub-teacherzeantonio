@@ -137,10 +137,15 @@ h3 {
 /* HEADER ↓ */
 
 header {
-    background-image: linear-gradient(to bottom, var(--cerulean700), var(--cerulean900));
+    background-image: linear-gradient(to bottom, var(--petroleum600), var(--petroleum500));
     text-align: center;
     padding: 50px;
     box-shadow: 0px 0px 2px var(--petroleum100);
+    fill: var(--cerulean600);
+}
+
+header svg {
+    margin-top: 30px;
 }
 
 /* HEADER ↑ */
@@ -164,7 +169,7 @@ header {
     padding-left: 0px;
     padding-right: 0px;
     min-width: 124px;
-    max-width: 216px;
+    max-width: 304px;
 }
 
 /* PAGE TITLE ↑ */
@@ -292,6 +297,67 @@ header {
 }
 
 /* SECTION CONTENT ↑ */
+
+
+
+
+
+
+
+
+
+
+/* VOCABULARY HIDE & SHOW ↓ */
+
+.word-container {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin: 10px;
+}
+
+.word {
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+    background-color: var(--cerulean100);
+    transition-duration: 0.1s;
+}
+
+.word:hover {
+    color: white;
+    box-shadow: 0px 0px 4px var(--cerulean500);
+    background-color: var(--cerulean500);
+}
+
+.translation {
+    color: var(--cerulean700);
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease, height 0.3s ease;
+}
+
+.translation.show {
+    opacity: 1;
+    height: auto;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: left;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+/* VOCABULARY HIDE & SHOW ↑ */
 
 
 
@@ -522,67 +588,6 @@ div.video > iframe {
 
 
 
-/* VOCABULARY HIDE & SHOW ↓ */
-
-.word-container {
-    display: flex;
-    justify-content: left;
-    gap: 15px;
-    margin: 10px;
-}
-
-.word {
-    font-weight: 500;
-    cursor: pointer;
-    padding: 5px;
-    border-radius: 3px;
-    display: inline-block;
-    width: auto;
-    margin: 5px;
-    background-color: var(--cerulean100);
-    transition-duration: 0.1s;
-}
-
-.word:hover {
-    color: white;
-    box-shadow: 0px 0px 4px var(--cerulean500);
-    background-color: var(--cerulean500);
-}
-
-.translation {
-    color: var(--cerulean700);
-    font-weight: 400;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 0px;
-    margin-right: auto;
-    opacity: 0;
-    transition: opacity 0.3s ease, height 0.3s ease;
-}
-
-.translation.show {
-    opacity: 1;
-    height: auto;
-}
-
-.arrow-container {
-    display: flex;
-    justify-content: left;
-    margin-top:auto;
-    margin-bottom:auto;
-}
-
-/* VOCABULARY HIDE & SHOW ↑ */
-
-
-
-
-
-
-
-
-
-
 /*FOOTER ↓ */
 
 footer {
@@ -597,6 +602,7 @@ footer {
 
 footer svg {
     margin-bottom: 15px;
+    fill: var(--cerulean300);
 }
 
 /*FOOTER ↑ */
