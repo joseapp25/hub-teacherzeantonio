@@ -54,14 +54,10 @@ html, body {
 }
 
 h1 {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 h2 {
-    font-size: 1.4em;
-}
-
-h3 {
     font-size: 1.2em;
 }
 
@@ -314,6 +310,15 @@ header svg {
     justify-content: left;
     gap: 15px;
     margin: 10px;
+    font-size: 0.8em;
+}
+
+.word-container svg {
+    fill: var(--petroleum500);
+    display: flex;
+    justify-content: left;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 .word {
@@ -348,14 +353,6 @@ header svg {
 .translation.show {
     opacity: 1;
     height: auto;
-}
-
-.arrow-container {
-    fill: var(--petroleum500);
-    display: flex;
-    justify-content: left;
-    margin-top:auto;
-    margin-bottom:auto;
 }
 
 /* VOCABULARY HIDE & SHOW ↑ */
