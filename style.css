@@ -21,6 +21,8 @@
 }
 
 :root {
+    --neutralgray: #FAFAFA;
+
     --cerulean100: #CBDCF6;
     --cerulean200: #A7C5F1;
     --cerulean300: #84ADEB;
@@ -98,8 +100,8 @@ h2 {
 }
 
 .globalmenu a:hover {
-    color: #fafafa;
-    fill: #fafafa;
+    color: var(--neutralgray);
+    fill: var(--neutralgray);
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
@@ -213,7 +215,7 @@ header svg {
 }
 
 .toc a:hover {
-    color: #fafafa;
+    color: var(--neutralgray);
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
@@ -246,7 +248,7 @@ header svg {
 /* SECTION CONTENT ↓ */
  
 .sectioncontent {
-    background-color: #fafafa;
+    background-color: var(--neutralgray);
     min-width: 256px;
     max-width: 512px;
     margin-left: auto;
@@ -333,7 +335,7 @@ header svg {
 }
 
 .word:hover {
-    color: #fafafa;
+    color: var(--neutralgray);
     box-shadow: 0px 0px 4px var(--cerulean500);
     background-color: var(--cerulean500);
 }
@@ -368,7 +370,7 @@ header svg {
 /* HIGHLIGHT TEXT AUDIO ↓ */
 
 .highlight {
-    color: #fafafa;
+    color: var(--neutralgray);
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 1px;
@@ -414,7 +416,7 @@ header svg {
 }
 
 .anchorinside a:hover {
-    color: #fafafa;
+    color: var(--neutralgray);
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
@@ -456,8 +458,8 @@ header svg {
 .custom-bookmark:hover {
     background-color: var(--cerulean400);
     box-shadow: 0px 0px 4px var(--cerulean500);
-    color: #fafafa;
-    fill: #fafafa;
+    color: var(--neutralgray);
+    fill: var(--neutralgray);
 }
 
 .bookmark-thumbnail {
@@ -570,7 +572,7 @@ div.video > iframe {
 .move-to-top:hover {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
-    fill: #fafafa;
+    fill: var(--neutralgray);
     box-shadow: 0px 0px 4px var(--cerulean300);
 }
 
