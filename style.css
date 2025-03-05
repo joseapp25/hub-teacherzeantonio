@@ -268,12 +268,16 @@ header svg {
     scroll-margin-top: 60px;
     margin-bottom: 20px;
     text-align: center;
+    color: var(--cerulean800);
 }
 
 .sectioncontent h2 {
     scroll-margin-top: 60px;
     margin-bottom: 10px;
     margin-top: 40px;
+    background-color: var(--cerulean100);
+    border-radius: 3px;
+    padding: 3px;
 }
 
 .sectioncontent section {
