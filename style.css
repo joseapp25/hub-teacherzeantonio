@@ -48,7 +48,7 @@
 }
 
 html, body {
-    background-color: var(--cerulean100);
+    background-color: white;
     color: var(--petroleum500);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
@@ -81,7 +81,7 @@ h2 {
     display: flex;
     width: 100%;
     color: var(--cerulean300);
-    background-color: var(--cerulean300);
+    background-color: var(--cerulean200);
     font-weight: 600;
     padding: 5px;
     box-shadow: 0px 0px 2px var(--petroleum100);
@@ -184,7 +184,7 @@ header svg {
 /* TABLE OF CONTENTS ↓ */
 
 .toc {
-    background-color: var(--cerulean300);
+    background-color: var(--cerulean100);
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -274,7 +274,7 @@ header svg {
 .sectioncontent h2 {
     scroll-margin-top: 60px;
     margin-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 50px;
     background-color: var(--cerulean100);
     border-radius: 3px;
     padding: 3px;
@@ -294,8 +294,9 @@ header svg {
     font-weight: 400;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
 /* SECTION CONTENT ↑ */
