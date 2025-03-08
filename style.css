@@ -518,9 +518,9 @@ header svg {
 /* VIDEO (NOT USED) ↓ */
 
 div.video {
-    margin: 0px -20px 0px -20px;
+    margin: 0px -50px 0px -50px;
     padding: 20px;
-    padding-bottom: 57%;
+    padding-bottom: 75%;
     position: relative;
 }
 
