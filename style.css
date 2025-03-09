@@ -63,6 +63,10 @@ h2 {
     font-size: 1.2em;
 }
 
+h3 {
+    font-size: 1.2em;
+}
+
 /* HTML | BODY | ROOT | H1, H2, H3 ↑ */
 
 
@@ -245,6 +249,69 @@ header svg {
 
 
 
+/* HOME CONTENT ↓ */
+ 
+.homecontent {
+    background-color: var(--neutralgray);
+    min-width: 256px;
+    max-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px var(--petroleum100);
+    
+}
+
+.homecontent h1 {
+    scroll-margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--cerulean800);
+}
+
+.homecontent h2 {
+    scroll-margin-top: 60px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding: 3px;
+}
+
+.homecontent section {
+    margin-bottom: 30px;
+}
+
+.homecontent li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.homecontent p {
+    text-align: justify;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* HOME CONTENT ↑ */
+
+
+
+
+
+
+
+
+
+
 /* SECTION CONTENT ↓ */
  
 .sectioncontent {
@@ -300,6 +367,69 @@ header svg {
 }
 
 /* SECTION CONTENT ↑ */
+
+
+
+
+
+
+
+
+
+
+/* ASIDE CONTENT ↓ */
+ 
+.asidecontent {
+    background-color: var(--neutralgray);
+    min-width: 256px;
+    max-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px var(--petroleum100);
+    
+}
+
+.asidecontent h1 {
+    scroll-margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--cerulean800);
+}
+
+.asidecontent h2 {
+    scroll-margin-top: 60px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding: 3px;
+}
+
+.asidecontent section {
+    margin-bottom: 30px;
+}
+
+.asidecontent li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.asidecontent p {
+    text-align: justify;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* ASIDE CONTENT ↑ */
 
 
 
