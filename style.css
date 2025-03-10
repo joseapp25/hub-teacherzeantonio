@@ -185,6 +185,30 @@ header svg {
 
 
 
+/* HOME TITLE ↓ */
+
+.hometitle {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 124px;
+    max-width: 304px;
+}
+
+/* HOME TITLE ↑ */
+
+
+
+
+
+
+
+
+
+
 /* TABLE OF CONTENTS ↓ */
 
 .toc {
@@ -278,7 +302,7 @@ header svg {
 .homecontent h2 {
     scroll-margin-top: 60px;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 3px;
 }
 
@@ -727,7 +751,7 @@ div.video > iframe {
 footer {
     background-image: linear-gradient(to bottom, var(--petroleum900), var(--petroleum700));
     color: var(--cerulean100);
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     padding: 25px;
     margin-top: 20px;
