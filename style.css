@@ -88,7 +88,7 @@ h3 {
     background-color: var(--cerulean200);
     font-weight: 600;
     padding: 5px;
-    box-shadow: 0px 0px 2px var(--petroleum100);
+    box-shadow: 0px 0px 5px var(--petroleum100);
     z-index: 1000;
 }
 
@@ -139,10 +139,10 @@ h3 {
 /* HEADER ↓ */
 
 header {
-    background-image: linear-gradient(to bottom, var(--petroleum600), var(--petroleum500));
+    background-color: var(--petroleum600);
     text-align: center;
     padding: 50px;
-    box-shadow: 0px 0px 2px var(--petroleum100);
+    box-shadow: 0px 0px 5px var(--petroleum100);
     fill: var(--cerulean600);
 }
 
@@ -151,30 +151,6 @@ header svg {
 }
 
 /* HEADER ↑ */
-
-
-
-
-
-
-
-
-
-
-/* PAGE TITLE ↓ */
-
-.pagetitle {
-    text-align: left;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-    min-width: 124px;
-    max-width: 304px;
-}
-
-/* PAGE TITLE ↑ */
 
 
 
@@ -209,6 +185,30 @@ header svg {
 
 
 
+/* PAGE TITLE ↓ */
+
+.pagetitle {
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 124px;
+    max-width: 304px;
+}
+
+/* PAGE TITLE ↑ */
+
+
+
+
+
+
+
+
+
+
 /* TABLE OF CONTENTS ↓ */
 
 .toc {
@@ -224,7 +224,7 @@ header svg {
     min-width: 124px;
     max-width: 304px;
     border-radius: 3px;
-    box-shadow: 0px 0px 2px var(--petroleum100);
+    box-shadow: 0px 0px 5px var(--petroleum100);
 }
 
 .toc h2 {
@@ -288,7 +288,7 @@ header svg {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 3px;
-    box-shadow: 0px 0px 2px var(--petroleum100);
+    box-shadow: 0px 0px 5px var(--petroleum100);
     
 }
 
@@ -351,7 +351,7 @@ header svg {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 3px;
-    box-shadow: 0px 0px 2px var(--petroleum100);
+    box-shadow: 0px 0px 5px var(--petroleum100);
     
 }
 
@@ -416,7 +416,7 @@ header svg {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 3px;
-    box-shadow: 0px 0px 2px var(--petroleum100);
+    box-shadow: 0px 0px 5px var(--petroleum100);
     
 }
 
@@ -749,18 +749,18 @@ div.video > iframe {
 /*FOOTER ↓ */
 
 footer {
-    background-image: linear-gradient(to bottom, var(--petroleum900), var(--petroleum700));
+    background-color: var(--petroleum800);
     color: var(--cerulean100);
     font-weight: 400;
     text-align: center;
     padding: 25px;
     margin-top: 20px;
-    box-shadow: 0px 0px 2px var(--petroleum100);
+    box-shadow: 0px 0px 5px var(--petroleum100);
 }
 
 footer svg {
     margin-bottom: 15px;
-    fill: var(--cerulean300);
+    fill: var(--cerulean600);
 }
 
 /*FOOTER ↑ */
