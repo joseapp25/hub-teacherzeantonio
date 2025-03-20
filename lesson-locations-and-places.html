@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-logo.png" type="image/x-icon">
+    <title>Locations and Places | Teacher Zé Antonio Classroom</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav class="globalmenu">
+        <a href="javascript:history.back()">
+            <svg width="7" height="12" viewBox="0 0 7 12">
+                <path d="M7 11.0255L1.95617 6L7 0.974525L6.02192 0L0 6L6.02192 12L7 11.0255Z"/>
+              </svg>
+        </a>
+        <a href="javascript:history.forward()">
+            <svg width="7" height="12" viewBox="0 0 7 12">
+                <path d="M0 0.974524L5.04383 6L0 11.0255L0.978083 12L7 6L0.978083 0L0 0.974524Z"/>
+              </svg>
+        </a>
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <div class="icontop">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M21.0814 3.96429V0.75L2.9187 3.96429H21.0814Z"/>
+                <path d="M17.7454 16.8214L21.0814 5.25H2.9187V11.6786H6.2547L2.9187 23.25H21.0814V16.8214H17.7454Z"/>
+              </svg>
+        </div>
+    </nav>
+
+    <header>
+        <svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+            <path d="M108.92 20.4821V3.875L15.0801 20.4821H108.92Z"/>
+            <path d="M91.6845 86.9107L108.92 27.125H15.0801V60.3393H32.3161L15.0801 120.125H108.92V86.9107H91.6845Z"/>
+        </svg>
+    </header>
+
+    <div class="pagetitle">
+        <h1>Locations and Places</h1>
+    </div>
+
+    <nav class="toc">
+        <h2>Contents</h2>
+            <ul>
+                <li><a href="#vocabulary">Vocabulary</a></li>
+                <li><a href="#transcription">Transcription</a></li>
+                    <ul class="headingtwo">
+                        <li><a href="#part01">Part 01</a></li>
+                        <li><a href="#part02">Part 02</a></li>
+                        <li><a href="#part03">Part 03</a></li>
+                        <li><a href="#part04">Part 04</a></li>
+                    </ul>
+                <li><a href="#videolesson">Video Lesson</a></li>
+                <li><a href="#fullaudio">Full Audio</a></li>
+            </ul>
+    </nav>
+
+    <main>
+        <section class="sectioncontent">
+            <h1 id="vocabulary">Vocabulary</h1>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans1')">to learn</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans1" class="translation">verbo aprender</div>
+                </div>
+        
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans2')">to study</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans2" class="translation">verbo estudar</div>
+                </div>
+        
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans03')">to work</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans03" class="translation">verbo trabalhar</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans04')">at home</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans04" class="translation">em casa</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans05')">exam</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans05" class="translation">prova, exame, teste</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans06')">office</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans06" class="translation">escritório</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans07')">project</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans07" class="translation">projeto</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans08')">team</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans08" class="translation">time</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans09')">supermarket</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans09" class="translation">school</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans10')">university</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans10" class="translation">universidade</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans11')">beach</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans11" class="translation">praia</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans12')">summer</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans12" class="translation">verão</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans13')">brother</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans13" class="translation">irmão</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans14')">sister</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans14" class="translation">irmã</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans15')">parents</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans15" class="translation">pai e mãe</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans16')">cousin</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans16" class="translation">primo(a)</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans17')">park</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans17" class="translation">parque, praça</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans18')">soccer</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans18" class="translation">futebol de campo</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans19')">great</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans19" class="translation">ótimo</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans20')">happy</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans20" class="translation">feliz</div>
+                </div>
+
+                <div class="word-container">
+                    <div class="word" onclick="toggleTranslation('trans21')">school</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M9.80446 12.4716L14.2759 8.00021L9.80446 3.52881L8.86165 4.47162L11.7235 7.3335L1.33301 7.3335V8.66683L11.7236 8.66683L8.86165 11.5288L9.80446 12.4716Z"/>
+                        </svg>
+                    <div id="trans21" class="translation">school</div>
+                </div>
+
+        </section>
+
+        <section class="sectioncontent">
+
+            <h1 id="transcription">Transcription</h1>
+
+                <h2 id="part01">Part 01</h2>
+                    <audio id="audio-part01" preload="metadata" controls>
+                        <source src="midia/locations-and-places/locations-and-places-part-01.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Vale: </span>
+                        <span id="part01-sentence01">Hi Maple!</span>
+                        <span id="part01-sentence02">How are you?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part01-sentence03">Hi Vale!</span>
+                        <span id="part01-sentence04">I'm good, thanks.</span>
+                        <span id="part01-sentence05">How about you?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vale: </span>
+                        <span id="part01-sentence06">I'm great, thanks for asking.</span>
+                        <span id="part01-sentence07">Where are you right now?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part01-sentence08">I'm at home.</span>
+                        <span id="part01-sentence09">Where are you?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vale: </span>
+                        <span id="part01-sentence10">I'm at the office.</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("audio-part01").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.3 && currentTime < 1.2) {
+                                document.getElementById("part01-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.2 && currentTime < 2.2) {
+                                document.getElementById("part01-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.2 && currentTime < 3.2) {
+                                document.getElementById("part01-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 3.2 && currentTime < 4.7) {
+                                document.getElementById("part01-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 4.7 && currentTime < 5.6) {
+                                document.getElementById("part01-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 5.6 && currentTime < 7.5) {
+                                document.getElementById("part01-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 7.5 && currentTime < 8.6) {
+                                document.getElementById("part01-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 8.6 && currentTime < 9.9) {
+                                document.getElementById("part01-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 9.9 && currentTime < 11.0) {
+                                document.getElementById("part01-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 11.0 && currentTime < 12.4) {
+                                document.getElementById("part01-sentence10").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h2 id="part02">Part 02</h2>
+                    <audio id="audio-part02" preload="metadata" controls>
+                        <source src="midia/locations-and-places/locations-and-places-part-02.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Vale: </span>
+                        <span id="part02-sentence01">What do you do at home?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part02-sentence02">I'm studying for my exams.</span>
+                        <span id="part02-sentence03">What do you do at the office?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vale: </span>
+                        <span id="part02-sentence04">I am working on a project with my team.</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.2 && currentTime < 1.5) {
+                                document.getElementById("part02-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.5 && currentTime < 3.2) {
+                                document.getElementById("part02-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.2 && currentTime < 4.6) {
+                                document.getElementById("part02-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.6 && currentTime < 7.3) {
+                                document.getElementById("part02-sentence04").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+
+                <h2 id="part03">Part 03</h2>
+                    <audio id="audio-part03" preload="metadata" controls>
+                        <source src="midia/locations-and-places/locations-and-places-part-03.mp3" type="audio/mpeg">
+                    </audio>
+
+                        <p>
+                            <span class="name-highlight">Vale: </span>
+                            <span id="part03-sentence01">Where is your brother?</span>
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Maple: </span>
+                            <span id="part03-sentence02">He is at school.</span>
+                            <span id="part03-sentence03">Where is your sister?</span>
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Vale: </span>
+                            <span id="part03-sentence04">She is at the supermarket.</span>
+                            <span id="part03-sentence05">Are your parents at home?</span>
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Maple: </span>
+                            <span id="part03-sentence06">No, they are at the mall.</span>
+                            <span id="part03-sentence07">Are your cousins at the park?</span>
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Vale: </span>
+                            <span id="part03-sentence08">Yes, they are playing soccer there.</span>
+                        </p>
+
+                    <script>
+                        document.getElementById("audio-part03").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.2 && currentTime < 1.7) {
+                                document.getElementById("part03-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.7 && currentTime < 2.9) {
+                                document.getElementById("part03-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.9 && currentTime < 4.2) {
+                                document.getElementById("part03-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.2 && currentTime < 6.3) {
+                                document.getElementById("part03-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.3 && currentTime < 8.0) {
+                                document.getElementById("part03-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 8.0 && currentTime < 10.0) {
+                                document.getElementById("part03-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 10.0 && currentTime < 11.9) {
+                                document.getElementById("part03-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 11.9 && currentTime < 14.1) {
+                                document.getElementById("part03-sentence08").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h2 id="part04">Part 04</h2>
+                    <audio id="audio-part04" preload="metadata" controls>
+                        <source src="midia/locations-and-places/locations-and-places-part-04.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Vale: </span>
+                        <span id="part04-sentence01">Do you go to the beach with your family?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part04-sentence02">Yes, we go every summer.</span>
+                        <span id="part04-sentence03">Do you like university?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vale: </span>
+                        <span id="part04-sentence04">Yes, I do.</span>
+                        <span id="part04-sentence05">I am learning a lot there.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Maple: </span>
+                        <span id="part04-sentence06">That's great!</span>
+                        <span id="part04-sentence07">I am happy to hear that.</span>
+                    </p>
+
+                    <script>
+                        document.getElementById("audio-part04").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.2 && currentTime < 2.2) {
+                                document.getElementById("part04-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 2.2 && currentTime < 4.2) {
+                                document.getElementById("part04-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 4.2 && currentTime < 5.8) {
+                                document.getElementById("part04-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 5.8 && currentTime < 7.0) {
+                                document.getElementById("part04-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 7.0 && currentTime < 8.8) {
+                                document.getElementById("part04-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 8.8 && currentTime < 9.4) {
+                                document.getElementById("part04-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 9.4 && currentTime < 10.5) {
+                                document.getElementById("part04-sentence07").classList.add("highlight");
+                            }
+                        });
+                    </script>
+        </section>
+
+        <section class="sectioncontent">
+            <h1 id="videolesson">Video Lesson</h1>
+                <div class="bookmark-container">
+                    <a href="#" class="custom-bookmark" target="_blank">
+                        <img src="images/thumbnails/locations-and-places-web-thumbnail.svg" alt="Thumbnail" class="bookmark-thumbnail">
+                        <div class="bookmark-info">
+                            <div class="bookmark-title">Locations and Places</div>
+                            <div class="bookmark-subtitle">Module 01</div>
+                        </div>
+                        <div class="bookmark-outside-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path clip-rule="evenodd" d="M5.59986 0H0V16H15.9996V10.4H14.3996V14.4H1.59996V1.6H5.59986V0ZM8.0002 1.6H13.2684L5.03425 9.83438L6.1656 10.9657L14.4 2.7311V8H16V0H8.0002V1.6Z"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+        </section>
+
+        <section class="sectioncontent">
+            <h1 id="fullaudio">Full Audio</h1>
+                <audio class="fullaudio" preload="metadata" controls>
+                    <source src="midia/locations-and-places/locations-and-places.mp3" type="audio/mpeg">
+                </audio>
+        </section>
+    </main>
+
+    <nav>
+        <a href="#">
+            <svg class="move-to-top" width="24" height="24" viewBox="-0 -0 24 24">
+                <path d="M20 4H4V2H20V4Z"/>
+                <path d="M12 5.58579L18.7071 12.2929L17.2929 13.7071L13 9.41421L13 22H11L11 9.41421L6.70711 13.7071L5.29289 12.2929L12 5.58579Z"/>
+            </svg>
+        </a>
+    </nav>
+
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+            <path d="M56.2169 10.5714V2L7.7832 10.5714H56.2169Z"/>
+            <path d="M47.321 44.8571L56.2169 14H7.7832V31.1429H16.6792L7.7832 62H56.2169V44.8571H47.321Z"/>
+        </svg>
+        <p>Teacher Zé | English Classes</p>
+        <p>®2025 | All rights Reserved</p>
+    </footer>
+    
+</body>
+</html>
