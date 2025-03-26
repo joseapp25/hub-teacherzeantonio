@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 h3 {
@@ -171,7 +171,7 @@ header svg {
     padding-left: 0px;
     padding-right: 0px;
     min-width: 124px;
-    max-width: 304px;
+    max-width: 50%;
 }
 
 /* HOME TITLE ↑ */
@@ -195,7 +195,7 @@ header svg {
     padding-left: 0px;
     padding-right: 0px;
     min-width: 124px;
-    max-width: 304px;
+    max-width: 50%;
 }
 
 /* PAGE TITLE ↑ */
@@ -222,7 +222,7 @@ header svg {
     padding-left: 30px;
     padding-right: 30px;
     min-width: 124px;
-    max-width: 304px;
+    max-width: 50%;
     border-radius: 3px;
     box-shadow: 0px 0px 5px var(--petroleum100);
 }
@@ -406,7 +406,7 @@ header svg {
 .asidecontent {
     background-color: var(--neutralgray);
     min-width: 256px;
-    max-width: 512px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -470,7 +470,7 @@ header svg {
     display: flex;
     justify-content: left;
     gap: 5px;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .word-container svg {
@@ -622,8 +622,8 @@ header svg {
 }
 
 .bookmark-thumbnail {
-    width: 40%;
-    height: 40%;
+    width: 25%;
+    height: 25%;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -634,6 +634,7 @@ header svg {
 
 .bookmark-info {
     display: grid;
+    margin-left: 10px;
 }
 
 .bookmark-title {
@@ -641,7 +642,7 @@ header svg {
     margin-top: 15px;
     margin-bottom: 2.5px;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 .bookmark-subtitle {
@@ -649,7 +650,7 @@ header svg {
     margin-top: 2.5px;
     margin-bottom: 15px;
     font-weight: 300;
-    font-size: 0.7em;
+    font-size: 1.1em;
 }
 
 .bookmark-outside-link-icon {
