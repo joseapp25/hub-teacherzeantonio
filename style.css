@@ -278,7 +278,7 @@ header svg {
 .homecontent {
     background-color: var(--neutralgray);
     min-width: 256px;
-    max-width: 512px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -341,7 +341,7 @@ header svg {
 .sectioncontent {
     background-color: var(--neutralgray);
     min-width: 256px;
-    max-width: 512px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
