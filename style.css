@@ -56,11 +56,11 @@ html, body {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 h3 {
@@ -188,7 +188,7 @@ header svg {
 /* PAGE TITLE ↓ */
 
 .pagetitle {
-    text-align: left;
+    text-align: center;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -296,7 +296,6 @@ header svg {
     scroll-margin-top: 60px;
     margin-bottom: 20px;
     text-align: center;
-    color: var(--cerulean800);
 }
 
 .homecontent h2 {
@@ -359,7 +358,6 @@ header svg {
     scroll-margin-top: 60px;
     margin-bottom: 20px;
     text-align: center;
-    color: var(--cerulean800);
 }
 
 .sectioncontent h2 {
@@ -424,7 +422,7 @@ header svg {
     scroll-margin-top: 60px;
     margin-bottom: 20px;
     text-align: center;
-    color: var(--cerulean800);
+
 }
 
 .asidecontent h2 {
