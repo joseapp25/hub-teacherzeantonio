@@ -85,8 +85,7 @@ h3 {
     display: flex;
     width: 100%;
     color: var(--cerulean300);
-    background-color: var(--cerulean200);
-    font-weight: 600;
+    background-color: var(--cerulean100);
     padding: 5px;
     box-shadow: 0px 0px 5px var(--petroleum100);
     z-index: 1000;
@@ -96,7 +95,7 @@ h3 {
     color: var(--cerulean700);
     fill: var(--cerulean700);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 3px;
     padding: 5px;
     margin-left: 5px;
@@ -212,7 +211,7 @@ header svg {
 /* TABLE OF CONTENTS ↓ */
 
 .toc {
-    background-color: var(--cerulean100);
+    background-color: var(--neutralgray);
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -232,23 +231,22 @@ header svg {
 }
 
 .toc a {
-    color: var(--cerulean700);
+    color: var(--cerulean500);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 3px;
-    padding: 1px;
+    padding: 2px;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 0.9em;
 }
 
 .toc a:hover {
-    color: var(--neutralgray);
-    background-color: var(--cerulean500);
+    color: var(--cerulean600);
+    text-decoration: underline;
+    font-weight: 700;
     transition-duration: 0.1s;
-    border-radius: 3px;
-    box-shadow: 0px 0px 4px var(--cerulean500);
-    padding: 1px;
+    padding: 2px;
 }
 
 .toc li {
@@ -567,18 +565,18 @@ header svg {
 .anchorinside a {
     color: var(--cerulean700);
     text-decoration: none;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 5px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 3px;
 }
 
 .anchorinside a:hover {
     color: var(--neutralgray);
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
-    border-radius: 3px;
+    border-radius: 2px;
     box-shadow: 0px 0px 4px var(--cerulean500);
-    padding: 5px;
+    padding: 3px;
 }
 
 /* ANCHOR INSIDE ↑ */
@@ -684,7 +682,7 @@ header svg {
 .video-thumbnail {
     width: 300px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0px 0px 2px var(--petroleum100);
     transition: transform 0.1s ease-in-out;
 }
