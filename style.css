@@ -242,7 +242,8 @@ header svg {
 }
 
 .toc a:hover {
-    color: var(--cerulean600);
+    color: var(--cerulean700);
+    font-weight: 500;
     text-decoration: underline;
     transition-duration: 0.1s;
     padding: 2px;
@@ -596,6 +597,8 @@ header svg {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .custom-bookmark {
@@ -614,6 +617,7 @@ header svg {
     box-shadow: 0px 0px 4px var(--cerulean500);
     color: var(--neutralgray);
     fill: var(--neutralgray);
+    transform: scale(1.02);
 }
 
 .bookmark-thumbnail {
@@ -622,7 +626,6 @@ header svg {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
-    margin-right: 10px;
     border-radius: 3px;
     box-shadow: 0px 0px 2px var(--petroleum100);
 }
