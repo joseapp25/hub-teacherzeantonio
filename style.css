@@ -757,8 +757,9 @@ div.video > iframe {
     text-decoration: none;
     padding: 5px;
     border-radius: 3px;
-    background-color: var(--cerulean300);
+    background-color: var(--cerulean100);
     fill: var(--petroleum500);
+    box-shadow: 0px 0px 5px var(--petroleum100);
 }
 
 .move-to-top:hover {
