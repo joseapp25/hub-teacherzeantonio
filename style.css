@@ -798,3 +798,53 @@ footer svg {
 }
 
 /*FOOTER ↑ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IPAR ↓ */
+
+.ipa-section {
+    background-color: var(--cerulean300);
+    justify-content: center;
+    align-items: center;
+}
+
+.ipa-mono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voiced {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #CBDCF6;
+}
+
+/*IPA ↑ */
