@@ -823,6 +823,7 @@ footer svg {
     background-color: var(--cerulean300);
     justify-content: center;
     align-items: center;
+    overflow-x: auto;
 }
 
 .ipa-mono {
