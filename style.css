@@ -820,13 +820,16 @@ footer svg {
 /*IPA ↓ */
 
 .ipa-section {
-    background-color: var(--cerulean300);
+    background-color: var(--neutralgray);
+    padding: 50px;
     justify-content: center;
     align-items: center;
     overflow-x: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 5px var(--petroleum100);
 }
 
-.ipa-mono {
+.ipa-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -836,16 +839,71 @@ footer svg {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
-    margin: 10px;
+    margin: 8px;
     justify-content: center;
     align-items: center;
     gap: 1px;
     flex-shrink: 0;
     border-radius: 5px;
     background: var(--cerulean100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
+}
+
+.voiced:hover {
+    background-color: var(--cerulean900);
+    color: var(--neutralgray);
+    fill: var(--neutralgray);
+    transition-duration: 0.2s;
+}
+
+.voiceless {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--cerulean300);
+    box-shadow: 0px 0px 2px var(--petroleum100);
+}
+
+.voiceless:hover {
+    background-color: var(--cerulean900);
+    color: var(--neutralgray);
+    fill: var(--neutralgray);
+    transition-duration: 0.2s;
+}
+
+.hidden {
+    visibility: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--cerulean100);
+}
+
+.space {
+    visibility: hidden;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 /*IPA ↑ */
