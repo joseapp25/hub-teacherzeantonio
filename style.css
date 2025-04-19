@@ -702,121 +702,6 @@ header svg {
 
 
 
-/* VIDEO (NOT USED) ↓ */
-
-div.video {
-    margin: 0px -30px 0px -30px;
-    padding: 20px;
-    padding-bottom: 60%;
-    position: relative;
-}
-
-div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-}
-
-/* VIDEO (NOT USED) ↑ */
-
-
-
-
-
-
-
-
-
-
-/* FULL AUDIO ↓ */
-
-.fullaudio {
-    display: block;
-    margin: auto;
-}
-
-/* FULL AUDIO ↑ */
-
-
-
-
-
-
-
-
-
-
-/*MOVE TO TOP ARROW ↓ */
-
-.move-to-top {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 3px;
-    background-color: var(--cerulean100);
-    fill: var(--petroleum500);
-    box-shadow: 0px 0px 5px var(--petroleum100);
-}
-
-.move-to-top:hover {
-    background-color: var(--cerulean500);
-    transition-duration: 0.1s;
-    fill: var(--neutralgray);
-    box-shadow: 0px 0px 4px var(--cerulean300);
-}
-
-/*MOVE TO TOP ARROW ↑ */
-
-
-
-
-
-
-
-
-
-
-/*FOOTER ↓ */
-
-footer {
-    background-color: var(--petroleum600);
-    color: var(--cerulean100);
-    font-weight: 400;
-    text-align: center;
-    padding: 25px;
-    margin-top: 20px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
-}
-
-footer svg {
-    margin-bottom: 15px;
-    fill: var(--cerulean600);
-}
-
-/*FOOTER ↑ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*IPA ↓ */
 
 .ipa-section {
@@ -907,3 +792,81 @@ footer svg {
 }
 
 /*IPA ↑ */
+
+
+
+
+
+
+
+
+
+
+/* FULL AUDIO ↓ */
+
+.fullaudio {
+    display: block;
+    margin: auto;
+}
+
+/* FULL AUDIO ↑ */
+
+
+
+
+
+
+
+
+
+
+/*MOVE TO TOP ARROW ↓ */
+
+.move-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: var(--cerulean100);
+    fill: var(--petroleum500);
+    box-shadow: 0px 0px 5px var(--petroleum100);
+}
+
+.move-to-top:hover {
+    background-color: var(--cerulean500);
+    transition-duration: 0.1s;
+    fill: var(--neutralgray);
+    box-shadow: 0px 0px 4px var(--cerulean300);
+}
+
+/*MOVE TO TOP ARROW ↑ */
+
+
+
+
+
+
+
+
+
+
+/*FOOTER ↓ */
+
+footer {
+    background-color: var(--petroleum600);
+    color: var(--cerulean100);
+    font-weight: 400;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px var(--petroleum100);
+}
+
+footer svg {
+    margin-bottom: 15px;
+    fill: var(--cerulean600);
+}
+
+/*FOOTER ↑ */
