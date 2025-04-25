@@ -56,14 +56,15 @@
         <section class="alphabet-section">
 
             <div class="alphabet-div">
+                <audio src=""></audio>
                 
-                <div class="alphabet-letter">
+                <div class="alphabet-letter" data-audio="midia/alphabet-sounds/a-alphabet.mp3">
                     <div>
                         A a
                     </div>
                 </div>
 
-                <div class="alphabet-letter">
+                <div class="alphabet-letter" data-audio="midia/alphabet-sounds/b-alphabet.mp3">
                     <div>
                         B b
                     </div>
@@ -306,7 +307,7 @@
 
             <div class="alphabet-div">
                 
-                <div class="alphabet-letter">
+                <div class="alphabet-letter" data-audio="midia/alphabet-sounds/a-alphabet.mp3">
                     <div>
                         A a
                     </div>
@@ -315,7 +316,7 @@
                     </div>
                 </div>
 
-                <div class="alphabet-letter">
+                <div class="alphabet-letter" data-audio="midia/alphabet-sounds/b-alphabet.mp3">
                     <div>
                         B b
                     </div>
@@ -577,10 +578,14 @@
     </footer>
 
     <script>
-        const nodeList = document.querySelectorAll(".alphabet-letter");
-        for (let i = 0; i < nodeList.length; i++) {
-        nodeList[i].style.backgroundColor = "";
-        }
+        const letters = document.querySelectorAll(".alphabet-letter, .voiced, .voiceless");
+            letters.forEach(letter => {
+                letter.addEventListener("click", () => {
+                    const audioSrc = letter.getAttribute("data-audio");
+                    const audio = new Audio(audioSrc);
+                    audio.play();
+                });
+        });
     </script>
     
 </body>
