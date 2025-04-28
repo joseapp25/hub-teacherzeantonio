@@ -706,13 +706,11 @@ header svg {
 
 .ipa-section {
     background-color: var(--neutralgray);
-    padding: 60px;
+    padding: 30px;
     align-items: center;
     margin: auto;
-    max-width: 80%;
     overflow-x: auto;
     margin-bottom: 50px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
 }
 
 .ipa-div {
@@ -809,13 +807,12 @@ header svg {
 /*HEADING ↓ */
 .heading h1 {
     background-color: var(--neutralgray);
-    max-width: 80%;
+    padding-top: 20px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-
+    margin-top: 50px;
     scroll-margin-top: 60px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
 }
 /*HEADING ↑ */
 
@@ -832,13 +829,11 @@ header svg {
 
 .alphabet-section {
     background-color: var(--neutralgray);
-    padding: 50px;
+    padding: 30px;
     align-items: center;
     margin: auto;
-    max-width: 80%;
     overflow-x: auto;
     margin-bottom: 50px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
 }
 
 .alphabet-div {
