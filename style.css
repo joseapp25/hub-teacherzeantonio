@@ -717,15 +717,17 @@ header svg {
 
 .ipa-div {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .voiced {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.4em;
     display: flex;
     width: 50px;
     height: 50px;
-    padding: 10px;
+    padding: 5px;
     margin: 8px;
     justify-content: center;
     align-items: center;
@@ -746,11 +748,11 @@ header svg {
 
 .voiceless {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.4em;
     display: flex;
     width: 50px;
     height: 50px;
-    padding: 10px;
+    padding: 5px;
     margin: 8px;
     justify-content: center;
     align-items: center;
@@ -772,11 +774,11 @@ header svg {
 .hidden-ipa {
     visibility: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.4em;
     display: flex;
     width: 50px;
     height: 50px;
-    padding: 10px;
+    padding: 5px;
     margin: 8px;
     justify-content: center;
     align-items: center;
@@ -804,7 +806,7 @@ header svg {
 
 
 
-/*HEADING ↓ */
+/*IPA & ALPHABET HEADING ↓ */
 .heading h1 {
     background-color: var(--neutralgray);
     text-align: left;
@@ -814,7 +816,7 @@ header svg {
     position: sticky;
     top: 0;
 }
-/*HEADING ↑ */
+/*IPA & ALPHABET HEADING ↑ */
 
 
 
@@ -840,15 +842,17 @@ header svg {
 
 .alphabet-div {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .alphabet-letter {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 1.4em;
     display: grid;
-    width: 90px;
-    height: 90px;
-    padding: 10px;
+    width: 80px;
+    height: 50px;
+    padding: 5px;
     margin: 8px;
     justify-content: center;
     align-items: center;
