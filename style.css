@@ -769,7 +769,7 @@ header svg {
     transition-duration: 0.2s;
 }
 
-.hidden {
+.hidden-ipa {
     visibility: hidden;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
