@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 /* HTML | BODY | ROOT | H1, H2, H3 ↑ */
@@ -411,9 +411,15 @@ header svg {
 
 .asidecontent h2 {
     scroll-margin-top: 60px;
-    margin-bottom: 10px;
     margin-top: 50px;
     padding: 3px;
+}
+
+.asidecontent h3 {
+    font-weight: 100;
+    margin-bottom: 10px;
+    padding: 6px;
+
 }
 
 .asidecontent section {
