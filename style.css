@@ -410,6 +410,7 @@ header svg {
 }
 
 .asidecontent h2 {
+    visibility: hidden;
     scroll-margin-top: 60px;
     margin-top: 50px;
     padding: 3px;
