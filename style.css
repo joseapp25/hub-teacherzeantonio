@@ -106,7 +106,7 @@ h3 {
     color: var(--neutralgray);
     fill: var(--neutralgray);
     background-color: var(--cerulean500);
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     border-radius: 3px;
     box-shadow: 0px 0px 2px var(--cerulean500);
     padding: 5px;
@@ -237,7 +237,7 @@ header svg {
     color: var(--cerulean700);
     font-weight: 500;
     text-decoration: underline;
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     padding: 2px;
 }
 
@@ -416,13 +416,6 @@ header svg {
     padding: 3px;
 }
 
-.asidecontent h3 {
-    font-weight: 100;
-    margin-bottom: 10px;
-    padding: 6px;
-
-}
-
 .asidecontent section {
     margin-bottom: 30px;
 }
@@ -479,7 +472,7 @@ header svg {
     width: auto;
     margin: 5px;
     background-color: var(--cerulean100);
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
 }
 
 .word:hover {
@@ -520,7 +513,7 @@ header svg {
 .highlight {
     color: var(--neutralgray);
     background-color: var(--cerulean500);
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     border-radius: 1px;
     box-shadow: 0px 0px 2px var(--cerulean500);
 }
@@ -566,7 +559,7 @@ header svg {
 .anchorinside a:hover {
     color: var(--neutralgray);
     background-color: var(--cerulean500);
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     border-radius: 2px;
     box-shadow: 0px 0px 2px var(--cerulean500);
     padding: 3px;
@@ -599,7 +592,7 @@ header svg {
     background-color: var(--cerulean100);
     display: flex;
     box-shadow: 0px 0px 2px var(--cerulean500);
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     border-radius: 3px;
 }
 
@@ -913,7 +906,7 @@ header svg {
 
 .move-to-top:hover {
     background-color: var(--cerulean500);
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     fill: var(--neutralgray);
     box-shadow: 0px 0px 2px var(--cerulean300);
 }
