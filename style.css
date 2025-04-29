@@ -87,7 +87,7 @@ h3 {
     color: var(--cerulean300);
     background-color: var(--cerulean100);
     padding: 5px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
     z-index: 1000;
 }
 
@@ -108,7 +108,7 @@ h3 {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
-    box-shadow: 0px 0px 4px var(--cerulean500);
+    box-shadow: 0px 0px 2px var(--cerulean500);
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
@@ -141,7 +141,7 @@ header {
     background-color: var(--cerulean500);
     text-align: center;
     padding: 50px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
     fill: var(--petroleum500);
 }
 
@@ -167,10 +167,6 @@ header svg {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-    min-width: 124px;
-    max-width: 50%;
 }
 
 /* HOME TITLE ↑ */
@@ -191,10 +187,6 @@ header svg {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-    min-width: 124px;
-    max-width: 50%;
 }
 
 /* PAGE TITLE ↑ */
@@ -223,7 +215,7 @@ header svg {
     min-width: 124px;
     max-width: 60%;
     border-radius: 3px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
 }
 
 .toc h2 {
@@ -284,8 +276,7 @@ header svg {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
     
 }
 
@@ -345,8 +336,7 @@ header svg {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
     
 }
 
@@ -408,8 +398,7 @@ header svg {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
     
 }
 
@@ -488,7 +477,7 @@ header svg {
 
 .word:hover {
     color: var(--neutralgray);
-    box-shadow: 0px 0px 4px var(--cerulean500);
+    box-shadow: 0px 0px 2px var(--cerulean500);
     background-color: var(--cerulean500);
 }
 
@@ -526,7 +515,7 @@ header svg {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 1px;
-    box-shadow: 0px 0px 4px var(--cerulean500);
+    box-shadow: 0px 0px 2px var(--cerulean500);
 }
 
 /* HIGHLIGHT TEXT AUDIO ↑ */
@@ -572,7 +561,7 @@ header svg {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 2px;
-    box-shadow: 0px 0px 4px var(--cerulean500);
+    box-shadow: 0px 0px 2px var(--cerulean500);
     padding: 3px;
 }
 
@@ -602,22 +591,22 @@ header svg {
     fill: var(--petroleum500);
     background-color: var(--cerulean100);
     display: flex;
-    box-shadow: 0px 0px 4px var(--cerulean500);
+    box-shadow: 0px 0px 2px var(--cerulean500);
     transition-duration: 0.1s;
     border-radius: 3px;
 }
 
 .custom-bookmark:hover {
     background-color: var(--cerulean400);
-    box-shadow: 0px 0px 4px var(--cerulean500);
+    box-shadow: 0px 0px 2px var(--cerulean500);
     color: var(--neutralgray);
     fill: var(--neutralgray);
     transform: scale(1.02);
 }
 
 .bookmark-thumbnail {
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -709,7 +698,7 @@ header svg {
     padding-right: 50px;
     overflow-x: auto;
     margin-bottom: 50px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
 }
 
 .ipa-div {
@@ -834,7 +823,7 @@ header svg {
     padding-right: 50px;
     overflow-x: auto;
     margin-bottom: 50px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
 }
 
 .alphabet-div {
@@ -912,14 +901,14 @@ header svg {
     border-radius: 3px;
     background-color: var(--cerulean100);
     fill: var(--petroleum500);
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
 }
 
 .move-to-top:hover {
     background-color: var(--cerulean500);
     transition-duration: 0.1s;
     fill: var(--neutralgray);
-    box-shadow: 0px 0px 4px var(--cerulean300);
+    box-shadow: 0px 0px 2px var(--cerulean300);
 }
 
 /*MOVE TO TOP ARROW ↑ */
@@ -942,7 +931,7 @@ footer {
     text-align: center;
     padding: 25px;
     margin-top: 20px;
-    box-shadow: 0px 0px 5px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--petroleum100);
 }
 
 footer svg {
