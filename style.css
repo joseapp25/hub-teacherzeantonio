@@ -718,11 +718,10 @@ header svg {
 .ipa-div {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .voiced {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-noto);
     font-size: 1.4em;
     display: flex;
     width: 50px;
@@ -747,7 +746,7 @@ header svg {
 }
 
 .voiceless {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-noto);
     font-size: 1.4em;
     display: flex;
     width: 50px;
@@ -773,7 +772,7 @@ header svg {
 
 .hidden-ipa {
     visibility: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-noto);
     font-size: 1.4em;
     display: flex;
     width: 50px;
@@ -814,7 +813,7 @@ header svg {
     margin-bottom: 10px;
     scroll-margin-top: 60px;
     position: sticky;
-    top: 0;
+    left: 0;
 }
 /*IPA & ALPHABET HEADING ↑ */
 
@@ -843,11 +842,10 @@ header svg {
 .alphabet-div {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .alphabet-letter {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-noto);
     font-size: 1.4em;
     display: grid;
     width: 80px;
@@ -872,8 +870,8 @@ header svg {
 }
 
 .alphabet-transcription {
+    font-family: var(--font-noto);
     font-size: 0.6em;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*ALPHABET ↑ */
