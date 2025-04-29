@@ -276,15 +276,14 @@ header svg {
 .homecontent {
     background-color: var(--neutralgray);
     min-width: 256px;
-    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 3px;
     box-shadow: 0px 0px 5px var(--petroleum100);
     
@@ -338,15 +337,14 @@ header svg {
 .sectioncontent {
     background-color: var(--neutralgray);
     min-width: 256px;
-    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 3px;
     box-shadow: 0px 0px 5px var(--petroleum100);
     
@@ -402,15 +400,14 @@ header svg {
 .asidecontent {
     background-color: var(--neutralgray);
     min-width: 256px;
-    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 3px;
     box-shadow: 0px 0px 5px var(--petroleum100);
     
@@ -809,7 +806,8 @@ header svg {
 .heading h1 {
     background-color: var(--neutralgray);
     text-align: left;
-    margin-left: 8px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
     scroll-margin-top: 60px;
     position: sticky;
