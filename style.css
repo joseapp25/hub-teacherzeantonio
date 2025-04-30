@@ -48,7 +48,7 @@
 }
 
 html, body {
-    background-color: white;
+    background-color: var(--neutralgray);
     color: var(--petroleum500);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
