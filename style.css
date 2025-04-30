@@ -287,8 +287,8 @@ header h1 {
 
 .section-content h2 {
     scroll-margin-top: 60px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 3px;
     padding: 3px;
     background-color: var(--cerulean100);
@@ -296,8 +296,8 @@ header h1 {
 
 .section-content h3 {
     scroll-margin-top: 60px;
-    margin-bottom: 10px;
-    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-top: 20px;
     padding: 3px;
 }
 
@@ -636,16 +636,15 @@ header h1 {
 /*IPA ↓ */
 
 .ipa-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     overflow-x: auto;
 }
 
 .ipa-div {
     display: flex;
-    justify-content: center;
 }
 
 .voiced {
@@ -734,19 +733,19 @@ header h1 {
 
 
 /*IPA & ALPHABET HEADING ↓ */
-.heading h1 {
-    font-size: 1.4em;
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    padding-left: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+.heading-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ipa-heading {
     scroll-margin-top: 60px;
-    background-color: var(--cerulean200);
+    margin-top: 50px;
     border-radius: 3px;
+    padding: 3px;
+    background-color: var(--cerulean100);
 }
 /*IPA & ALPHABET HEADING ↑ */
 
@@ -762,16 +761,15 @@ header h1 {
 /*ALPHABET ↓ */
 
 .alphabet-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     overflow-x: auto;
 }
 
 .alphabet-div {
     display: flex;
-    justify-content: center;
 }
 
 .alphabet-letter {
