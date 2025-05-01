@@ -630,7 +630,7 @@ header h1 {
 
 .voiced {
     font-family: var(--font-noto);
-    font-size: 1.4em;
+    font-size: 1.5em;
     display: flex;
     width: 60px;
     height: 60px;
@@ -655,7 +655,7 @@ header h1 {
 
 .voiceless {
     font-family: var(--font-noto);
-    font-size: 1.4em;
+    font-size: 1.5em;
     display: flex;
     width: 60px;
     height: 60px;
@@ -681,7 +681,7 @@ header h1 {
 .hidden-ipa {
     visibility: hidden;
     font-family: var(--font-noto);
-    font-size: 1.4em;
+    font-size: 1.5em;
     display: flex;
     width: 60px;
     height: 60px;
