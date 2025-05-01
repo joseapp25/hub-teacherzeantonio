@@ -70,7 +70,7 @@ html, body {
 .globalmenu {
     position: fixed;
     display: flex;
-    width: 100%;
+    width: 100vw;
     color: var(--cerulean300);
     background-color: var(--cerulean100);
     padding: 5px;
@@ -133,7 +133,7 @@ header {
 }
 
 header h1 {
-    max-width: 60%;
+    max-width: 90vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -166,7 +166,7 @@ header h1 {
     padding-left: 30px;
     padding-right: 30px;
     min-width: 124px;
-    max-width: 60%;
+    max-width: 60vw;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--petroleum100);
 }
@@ -635,10 +635,7 @@ header h1 {
 /*IPA ↓ */
 
 .ipa-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px;
     overflow-x: auto;
 }
 
@@ -735,22 +732,13 @@ header h1 {
 .heading-container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .ipa-heading {
     scroll-margin-top: 60px;
     margin-top: 50px;
-    border-radius: 3px 3px 0px 0px;
-    padding: 3px;
-    background-color: var(--cerulean100);
-}
-
-.sub-heading-ipa {
-    padding: 3px;
-    background-color: var(--cerulean100);
-    border-radius: 0px 0px 3px 3px;
 }
 /*IPA & ALPHABET HEADING ↑ */
 
@@ -766,10 +754,7 @@ header h1 {
 /*ALPHABET ↓ */
 
 .alphabet-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px;
     overflow-x: auto;
 }
 
@@ -781,7 +766,7 @@ header h1 {
     font-family: var(--font-noto);
     font-size: 1.4em;
     display: grid;
-    width: 80px;
+    width: 60px;
     height: 50px;
     padding: 5px;
     margin: 8px;
@@ -804,7 +789,7 @@ header h1 {
 
 .alphabet-transcription {
     font-family: var(--font-noto);
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 
 /*ALPHABET ↑ */
