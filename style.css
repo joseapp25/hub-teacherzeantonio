@@ -742,9 +742,15 @@ header h1 {
 .ipa-heading {
     scroll-margin-top: 60px;
     margin-top: 50px;
-    border-radius: 3px;
+    border-radius: 3px 3px 0px 0px;
     padding: 3px;
     background-color: var(--cerulean100);
+}
+
+.sub-heading-ipa {
+    padding: 3px;
+    background-color: var(--cerulean100);
+    border-radius: 0px 0px 3px 3px;
 }
 /*IPA & ALPHABET HEADING ↑ */
 
