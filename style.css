@@ -658,6 +658,8 @@ header h1 {
 .ipa-section {
     padding: 20px;
     overflow-x: auto;
+    display: grid;
+    justify-items: center;
 }
 
 .ipa-div {
@@ -754,6 +756,8 @@ header h1 {
 .alphabet-section {
     padding: 20px;
     overflow-x: auto;
+    display: grid;
+    justify-items: center;
 }
 
 .alphabet-div {
@@ -790,54 +794,7 @@ header h1 {
     font-size: 0.5em;
 }
 
-.hidden-alphabet {
-    visibility: hidden;
-    font-family: var(--font-noto);
-    font-size: 1.4em;
-    display: grid;
-    width: 30px;
-    height: 30px;
-    padding: 2.5px;
-    margin: 4px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 1px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background: var(--cerulean100);
-}
-
 /*ALPHABET ↑ */
-
-
-
-
-
-
-
-
-
-
-/*HIDDEN-ELEMENT ↓ */
-
-.hidden-element {
-    visibility: hidden;
-    font-family: var(--font-noto);
-    font-size: 1.4em;
-    display: flex;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 1px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background: var(--cerulean100);
-}
-
-/*HIDDEN-ELEMENT ↑ */
 
 
 
