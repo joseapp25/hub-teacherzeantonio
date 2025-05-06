@@ -665,7 +665,6 @@ header h1 {
     display: grid;
     justify-items: center;
     background-color: white;
-    border: 2px solid var(--cerulean100);
 }
 
 .ipa-div {
@@ -765,7 +764,6 @@ header h1 {
     display: grid;
     justify-items: center;
     background-color: white;
-    border: 2px solid var(--cerulean100);
 }
 
 .alphabet-div {
