@@ -632,15 +632,19 @@ header h1 {
 
 /*IPA & ALPHABET HEADING ↓ */
 .heading-container {
+    max-width: 60vw;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: var(--cerulean500);
+    color: var(--neutralgray);
 }
 
 .ipa-heading {
     scroll-margin-top: 60px;
-    margin-top: 50px;
 }
 /*IPA & ALPHABET HEADING ↑ */
 
@@ -660,6 +664,7 @@ header h1 {
     overflow-x: auto;
     display: grid;
     justify-items: center;
+    background-color: white;
 }
 
 .ipa-div {
@@ -758,6 +763,7 @@ header h1 {
     overflow-x: auto;
     display: grid;
     justify-items: center;
+    background-color: white;
 }
 
 .alphabet-div {
