@@ -166,7 +166,7 @@ header h1 {
     padding-left: 30px;
     padding-right: 30px;
     min-width: 124px;
-    max-width: 60vw;
+    max-width: 80vw;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--petroleum100);
 }
@@ -632,15 +632,11 @@ header h1 {
 
 /*IPA & ALPHABET HEADING ↓ */
 .heading-container {
-    max-width: 60vw;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
     margin-bottom: 10px;
-    border-radius: 3px;
-    padding: 3px;
-    background-color: var(--cerulean400);
-    color: var(--neutralgray);
 }
 
 .ipa-heading {
