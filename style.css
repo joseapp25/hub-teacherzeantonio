@@ -572,7 +572,7 @@ header h1 {
 }
 
 .video-thumbnail {
-    width: 400px;
+    width: 300px;
     height: auto;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--petroleum100);
@@ -608,7 +608,7 @@ header h1 {
 }
 
 .external-thumbnail {
-    width: 400px;
+    width: 300px;
     height: auto;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--petroleum100);
