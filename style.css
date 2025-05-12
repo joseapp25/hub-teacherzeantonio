@@ -142,6 +142,12 @@ header h1 {
     color: var(--neutralgray);
 }
 
+@media only screen and (min-width: 600px) {
+    header h1 {
+        max-width: 50vw;
+    }
+}
+
 /* HEADER ↑ */
 
 
@@ -206,45 +212,13 @@ header h1 {
     margin-left: 20px;
 }
 
+@media only screen and (min-width: 600px) {
+    .toc {
+        max-width: 50vw;
+    }
+}
+
 /* TABLE OF CONTENTS ↑ */
-
-
-
-
-
-
-
-
-
-
-/* HOME CONTENT ↓ */
- 
-.home-content {
-    background-color: var(--neutralgray);
-    min-width: 256px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.home-content h2 {
-    scroll-margin-top: 60px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 3px;
-    padding: 3px;
-    background-color: var(--cerulean100);
-}
-
-.home-content h3 {
-    scroll-margin-top: 60px;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    padding: 3px;
-}
-
-/* HOME CONTENT ↑ */
 
 
 
@@ -259,7 +233,7 @@ header h1 {
  
 .section-content {
     background-color: var(--neutralgray);
-    min-width: 256px;
+    max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
@@ -301,6 +275,12 @@ header h1 {
     line-height: 1.5;
 }
 
+@media only screen and (min-width: 600px) {
+    .section-content {
+        max-width: 50vw;
+    }
+}
+
 /* SECTION CONTENT ↑ */
 
 
@@ -338,6 +318,12 @@ header h1 {
     visibility: hidden;
     scroll-margin-top: 60px;
     padding: 3px;
+}
+
+@media only screen and (min-width: 600px) {
+    .aside-content {
+        max-width: 50vw;
+    }
 }
 
 /* ASIDE CONTENT ↑ */
@@ -584,6 +570,13 @@ header h1 {
     transform: scale(1.05);
 }
 
+@media only screen and (min-width: 600px) {
+    .video-thumbnail {
+        width: 400px;
+        height: auto;
+    }
+}
+
 /* YOUTUBE VIDEO ↑ */
 
 
@@ -620,6 +613,13 @@ header h1 {
     transform: scale(1.05);
 }
 
+@media only screen and (min-width: 600px) {
+    .external-thumbnail {
+        width: 400px;
+        height: auto;
+    }
+}
+
 /* EXTERNAL LINK ↑ */
 
 
@@ -633,7 +633,8 @@ header h1 {
 
 /*IPA & ALPHABET HEADING ↓ */
 .heading-container {
-    max-width: 75vw;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -642,6 +643,12 @@ header h1 {
 
 .ipa-heading {
     scroll-margin-top: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+    .heading-container {
+        max-width: 50vw;
+    }
 }
 /*IPA & ALPHABET HEADING ↑ */
 
