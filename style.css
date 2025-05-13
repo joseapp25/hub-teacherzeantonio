@@ -549,7 +549,7 @@ header h1 {
 }
 
 .video-thumbnail {
-    width: 50vw;
+    width: 60vw;
     height: auto;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--petroleum100);
@@ -562,7 +562,7 @@ header h1 {
 
 @media only screen and (min-width: 600px) {
     .video-thumbnail {
-        width: 25vw;
+        width: 30vw;
     }
 }
 
@@ -591,7 +591,7 @@ header h1 {
 }
 
 .external-thumbnail {
-    width: 50vw;
+    width: 60vw;
     height: auto;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--petroleum100);
@@ -635,7 +635,7 @@ header h1 {
 
 @media only screen and (min-width: 600px) {
     .heading-container {
-        max-width: 50vw;
+        max-width: 25vw;
     }
 }
 /*IPA & ALPHABET HEADING ↑ */
