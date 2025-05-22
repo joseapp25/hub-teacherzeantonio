@@ -206,7 +206,12 @@ header h1 {
     margin-bottom: 2px;
 }
 
-.headingtwo {
+.heading-one {
+    list-style-type: none;
+}
+
+.heading-two {
+    list-style-type: none;
     margin-left: 20px;
 }
 
