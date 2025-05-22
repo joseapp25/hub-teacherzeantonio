@@ -72,7 +72,7 @@ html, body {
     display: flex;
     width: 100vw;
     color: var(--cerulean300);
-    background-color: var(--cerulean100);
+    background-color: white;
     padding: 5px;
     box-shadow: 0px 0px 3px var(--petroleum100);
     z-index: 1000;
@@ -125,7 +125,7 @@ html, body {
 /* HEADER ↓ */
 
 header {
-    background-color: var(--cerulean500);
+    background-color: var(--cerulean600);
     padding-top: 51px;
     padding-bottom: 10px;
     box-shadow: 0px 0px 3px var(--petroleum100);
@@ -858,8 +858,8 @@ header h1 {
 /*FOOTER ↓ */
 
 footer {
-    background-color: var(--petroleum600);
-    color: var(--cerulean100);
+    background-color: var(--petroleum400);
+    color: var(--neutralgray);
     font-weight: 400;
     text-align: center;
     padding: 25px;
