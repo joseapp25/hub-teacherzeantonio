@@ -543,9 +543,11 @@ header h1 {
 /* YOUTUBE VIDEO ↓ */
 
 .yt-video {
-    width: 560xp;
-    height: 315px;
-
+    width: 352px;
+    height: 198px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 /* YOUTUBE VIDEO ↑ */
