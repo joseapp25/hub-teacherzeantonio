@@ -542,6 +542,25 @@ header h1 {
 
 /* YOUTUBE VIDEO ↓ */
 
+.yt-video {
+    width: 560xp;
+    height: 315px;
+
+}
+
+/* YOUTUBE VIDEO ↑ */
+
+
+
+
+
+
+
+
+
+
+/* YOUTUBE THUMBNAIL ↓ */
+
 .video-container {
     display: flex;
 }
@@ -571,7 +590,7 @@ header h1 {
     }
 }
 
-/* YOUTUBE VIDEO ↑ */
+/* YOUTUBE THUMBNAIL ↑ */
 
 
 
