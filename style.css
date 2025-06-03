@@ -434,6 +434,37 @@ header h1 {
 
 
 
+/* TRANSLATION-TEXT ↓*/
+
+    .translation-text {
+      color: transparent;
+      background-color: white;
+      padding: 10px;
+      transition: color 0.3s;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    .translation-text.visible {
+      color: var(--cerulean600);
+    }
+
+    .translation-text::before {
+      content: "(click to see translation) ";
+      color: var(--cerulean300);
+    }
+
+/* TRANSLATION-TEXT ↑ */
+
+
+
+
+
+
+
+
+
+
 /* ANCHOR INSIDE ↓ */
 
 .anchor-inside a {

@@ -25,4 +25,12 @@ function setYouTubeThumbnails() {
     });
 }
 
+    const translations = document.querySelectorAll('.translation-text');
+
+    translations.forEach(el => {
+      el.addEventListener('click', () => {
+        el.classList.toggle('visible');
+      });
+    });
+
 document.addEventListener("DOMContentLoaded", setYouTubeThumbnails);
