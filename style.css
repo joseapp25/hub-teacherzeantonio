@@ -437,21 +437,22 @@ header h1 {
 /* TRANSLATION-TEXT ↓*/
 
     .translation-text {
-      color: transparent;
-      background-color: white;
-      padding: 10px;
-      transition: color 0.3s;
-      cursor: pointer;
-      border-radius: 3px;
+        font-size: 0.9em;
+        color: transparent;
+        padding: 20px;
+        transition: color 0.3s;
+        cursor: pointer;
+        border-radius: 3px;
+        box-shadow: 0px 0px 4px var(--cerulean100);
     }
 
     .translation-text.visible {
-      color: var(--cerulean600);
+        color: var(--cerulean300);
     }
 
     .translation-text::before {
-      content: "(click to see translation) ";
-      color: var(--cerulean300);
+        content: "(click to see translation) ";
+        color: var(--cerulean300);
     }
 
     .translation-text:hover::before {
