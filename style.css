@@ -101,16 +101,6 @@ html, body {
     margin-right: 5px;
 }
 
-.icontop {
-    position: fixed;
-    top: 3px;
-    right: 5px;
-    padding: 5px;
-    border-radius: 3px;
-    z-index: 1001;
-    fill: var(--cerulean600);
-}
-
 /* GLOBAL MENU ↑ */
 
 
@@ -342,13 +332,6 @@ header h1 {
 .word-container {
     display: flex;
     gap: 5px;
-}
-
-.word-container svg {
-    fill: var(--petroleum500);
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .word {
@@ -915,6 +898,7 @@ header h1 {
 /*MOVE TO TOP ARROW ↓ */
 
 .move-to-top {
+    cursor: pointer;
     position: fixed;
     bottom: 10px;
     right: 10px;
