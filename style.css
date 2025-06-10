@@ -125,7 +125,7 @@ html, body {
 /* HEADER ↓ */
 
 header {
-    background-color: var(--cerulean600);
+    background-image: linear-gradient(to right, var(--cerulean600), var(--cerulean400));
     padding-top: 51px;
     padding-bottom: 10px;
     box-shadow: 0px 0px 3px var(--petroleum100);
