@@ -757,6 +757,7 @@ header h1 {
     color: var(--neutralgray);
     fill: var(--neutralgray);
     transition-duration: 0.2s;
+    cursor: pointer;
 }
 
 .voiceless {
@@ -782,6 +783,7 @@ header h1 {
     color: var(--neutralgray);
     fill: var(--neutralgray);
     transition-duration: 0.2s;
+    cursor: pointer;
 }
 
 .hidden-ipa {
@@ -856,6 +858,7 @@ header h1 {
     color: var(--neutralgray);
     fill: var(--neutralgray);
     transition-duration: 0.2s;
+    cursor: pointer;
 }
 
 .alphabet-transcription {
@@ -930,7 +933,6 @@ header h1 {
 /*FOOTER ↓ */
 
 footer {
-    display: flex;
     background-image: linear-gradient(to right, var(--petroleum700), var(--petroleum400));
     color: var(--neutralgray);
     font-weight: 300;
@@ -942,8 +944,9 @@ footer {
 }
 
 .footer-logo-container {
-    margin-right: 16px;
-    margin-left: 32px;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 30px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -953,7 +956,7 @@ footer {
 }
 
 .footer-text-container {
-    font-size: 1em;
+    display: inline-block;
 }
 
 /*FOOTER ↑ */
