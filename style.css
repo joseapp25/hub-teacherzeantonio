@@ -943,20 +943,18 @@ footer {
     box-shadow: 0px 0px 3px var(--petroleum100);
 }
 
-.footer-logo-container {
-    display: inline-block;
-    padding-right: 15px;
-    padding-left: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
+.footer-copyright-container {
+    display: flex;
+    align-items: center;
 }
 
-.footer-logo-container svg {
-    fill: var(--cerulean100);
+.footer-logo-container {
+    margin-left: 32px;
 }
 
 .footer-text-container {
-    display: inline-block;
+    margin-left: 4px;
+    font-size: 1.2em;
 }
 
 /*FOOTER ↑ */
