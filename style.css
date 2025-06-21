@@ -933,7 +933,7 @@ header h1 {
 /*FOOTER ↓ */
 
 footer {
-    background-image: linear-gradient(to right, var(--petroleum700), var(--petroleum400));
+    background-image: linear-gradient(to right, var(--petroleum900), var(--petroleum600));
     color: var(--neutralgray);
     font-weight: 300;
     font-size: 0.8em;
@@ -946,6 +946,7 @@ footer {
 .footer-copyright-container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .footer-logo-container {
