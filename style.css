@@ -490,7 +490,8 @@ header h1 {
 
 .table-section {
     overflow-x: auto;
-    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .vocabulary-table {
@@ -500,10 +501,11 @@ header h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 1280px;
+    table-layout: fixed;
 }
 
 .vocabulary-table caption {
-    font-size: 1.2em;
+    text-align: left;
     font-weight: bold;
     padding: 10px;
     background-color: var(--cerulean100);
