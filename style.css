@@ -486,6 +486,62 @@ header h1 {
 
 
 
+/* TABLES ↓ */
+
+.table-section {
+    overflow-x: auto;
+    padding: 30px;
+}
+
+.vocabulary-table {
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1280px;
+}
+
+.vocabulary-table caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--cerulean100);
+    border: 1px solid var(--petroleum500);
+    border-bottom: none;
+}
+
+.vocabulary-table th {
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--cerulean100);
+    border: 1px solid var(--petroleum500);
+}
+
+.vocabulary-table td {
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--cerulean100);
+    border: 1px solid var(--petroleum500);
+}
+
+/* TABLES ↑ */
+
+
+
+
+
+
+
+
+
+
 /* BOOKMARK LINK ↓ */
 
 .bookmark-container {
