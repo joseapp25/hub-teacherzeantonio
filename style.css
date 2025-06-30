@@ -306,11 +306,6 @@ header h1 {
 
 }
 
-.aside-content h3 {
-    visibility: hidden;
-    scroll-margin-top: 60px;
-}
-
 @media only screen and (min-width: 600px) {
     .aside-content {
         max-width: 50vw;
@@ -318,6 +313,24 @@ header h1 {
 }
 
 /* ASIDE CONTENT ↑ */
+
+
+
+
+
+
+
+
+
+
+/* HIDDEN HEADING ↓ */
+
+.hidden-heading {
+    visibility: hidden;
+    scroll-margin-top: 60px;
+}
+
+/* HIDDEN HEADING ↑ */
 
 
 
