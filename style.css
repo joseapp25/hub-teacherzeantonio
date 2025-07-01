@@ -1028,3 +1028,23 @@ footer {
 }
 
 /*FOOTER ↑ */
+
+.img-container {
+    gap: 4px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-hover {
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.img-hover:hover {
+    background-color: var(--petroleum900);
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 3px var(--cerulean300);
+}
