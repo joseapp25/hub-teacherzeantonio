@@ -206,37 +206,6 @@
                         <span class="name-highlight">Arbor: </span>
                         <span id="part01-sentence10">Japanese is cool!</span>
                     </p>
-
-                    <script>
-                        document.getElementById("audio-part01").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-                
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-                
-                            if (currentTime >= 0.1 && currentTime < 0.8) {
-                                document.getElementById("part01-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 0.8 && currentTime < 2.1) {
-                                document.getElementById("part01-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 2.1 && currentTime < 4.9) {
-                                document.getElementById("part01-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 4.9 && currentTime < 6.6) {
-                                document.getElementById("part01-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 6.6 && currentTime < 8.3) {
-                                document.getElementById("part01-sentence05").classList.add("highlight");
-                            } else if (currentTime >= 8.3 && currentTime < 11.1) {
-                                document.getElementById("part01-sentence06").classList.add("highlight");
-                            } else if (currentTime >= 11.1 && currentTime < 12.1) {
-                                document.getElementById("part01-sentence07").classList.add("highlight");
-                            } else if (currentTime >= 12.1 && currentTime < 13.4) {
-                                document.getElementById("part01-sentence08").classList.add("highlight");
-                            } else if (currentTime >= 13.4 && currentTime < 15.3) {
-                                document.getElementById("part01-sentence09").classList.add("highlight");
-                            } else if (currentTime >= 15.3 && currentTime < 16.9) {
-                                document.getElementById("part01-sentence10").classList.add("highlight");
-                            }
-                        });
-                    </script>
-                                        
                     <div class="translation-text">
 
                         <p>
@@ -270,7 +239,37 @@
                         </p>
 
                     </div>
-
+                    
+                    <script>
+                        document.getElementById("audio-part01").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.1 && currentTime < 0.8) {
+                                document.getElementById("part01-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.8 && currentTime < 2.1) {
+                                document.getElementById("part01-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.1 && currentTime < 4.9) {
+                                document.getElementById("part01-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.9 && currentTime < 6.6) {
+                                document.getElementById("part01-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.6 && currentTime < 8.3) {
+                                document.getElementById("part01-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 8.3 && currentTime < 11.1) {
+                                document.getElementById("part01-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 11.1 && currentTime < 12.1) {
+                                document.getElementById("part01-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 12.1 && currentTime < 13.4) {
+                                document.getElementById("part01-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 13.4 && currentTime < 15.3) {
+                                document.getElementById("part01-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 15.3 && currentTime < 16.9) {
+                                document.getElementById("part01-sentence10").classList.add("highlight");
+                            }
+                        });
+                    </script>
+                    
                 <h3 id="part02">Part 02</h3>
 
                     <audio id="audio-part02" preload="metadata" controls>
@@ -304,32 +303,6 @@
                         <span class="name-highlight">Arbor: </span>
                         <span id="part02-sentence08">Oh, I see.</span>
                     </p>
-
-                    <script>
-                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-                
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-                
-                            if (currentTime >= 0.2 && currentTime < 2.2) {
-                                document.getElementById("part02-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 2.2 && currentTime < 3.8) {
-                                document.getElementById("part02-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 3.8 && currentTime < 5.8) {
-                                document.getElementById("part02-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 5.8 && currentTime < 7.5) {
-                                document.getElementById("part02-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 7.5 && currentTime < 9.5) {
-                                document.getElementById("part02-sentence05").classList.add("highlight");
-                            } else if (currentTime >= 9.5 && currentTime < 11.4) {
-                                document.getElementById("part02-sentence06").classList.add("highlight");
-                            } else if (currentTime >= 11.4 && currentTime < 13.0) {
-                                document.getElementById("part02-sentence07").classList.add("highlight");
-                            } else if (currentTime >= 13.1 && currentTime < 14.1) {
-                                document.getElementById("part02-sentence08").classList.add("highlight");
-                            }
-                        });
-                    </script>
                                         
                     <div class="translation-text">
 
@@ -362,6 +335,32 @@
                         </p>
 
                     </div>
+                    
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.2 && currentTime < 2.2) {
+                                document.getElementById("part02-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 2.2 && currentTime < 3.8) {
+                                document.getElementById("part02-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.8 && currentTime < 5.8) {
+                                document.getElementById("part02-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 5.8 && currentTime < 7.5) {
+                                document.getElementById("part02-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 7.5 && currentTime < 9.5) {
+                                document.getElementById("part02-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 9.5 && currentTime < 11.4) {
+                                document.getElementById("part02-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 11.4 && currentTime < 13.0) {
+                                document.getElementById("part02-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 13.1 && currentTime < 14.1) {
+                                document.getElementById("part02-sentence08").classList.add("highlight");
+                            }
+                        });
+                    </script>
 
                 <h3 id="part03">Part 03</h3>
 
@@ -390,28 +389,6 @@
                         <span class="name-highlight">Maple: </span>
                         <span id="part03-sentence06">Oh, that must be difficult!</span>
                     </p>
-
-                    <script>
-                        document.getElementById("audio-part03").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-            
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-            
-                                if (currentTime >= 0.2 && currentTime < 2.7) {
-                                document.getElementById("part03-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 2.7 && currentTime < 4.0) {
-                                document.getElementById("part03-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 4.0 && currentTime < 6.2) {
-                                document.getElementById("part03-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 6.2 && currentTime < 7.8) {
-                                document.getElementById("part03-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 7.8 && currentTime < 9.9) {
-                                document.getElementById("part03-sentence05").classList.add("highlight");
-                            } else if (currentTime >= 9.9 && currentTime < 12.2) {
-                                document.getElementById("part03-sentence06").classList.add("highlight");
-                            }
-                        });
-                    </script>
                                         
                     <div class="translation-text">
 
@@ -438,6 +415,28 @@
                         </p>
 
                     </div>
+                    
+                    <script>
+                        document.getElementById("audio-part03").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.2 && currentTime < 2.7) {
+                                document.getElementById("part03-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 2.7 && currentTime < 4.0) {
+                                document.getElementById("part03-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 4.0 && currentTime < 6.2) {
+                                document.getElementById("part03-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 6.2 && currentTime < 7.8) {
+                                document.getElementById("part03-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 7.8 && currentTime < 9.9) {
+                                document.getElementById("part03-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 9.9 && currentTime < 12.2) {
+                                document.getElementById("part03-sentence06").classList.add("highlight");
+                            }
+                        });
+                    </script>
 
                 <h3 id="part04">Part 04</h3>
 
@@ -472,32 +471,6 @@
                         <span class="name-highlight">Maple: </span>
                         <span id="part04-sentence08">Good idea!</span>
                     </p>
-
-                    <script>
-                        document.getElementById("audio-part04").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-            
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-            
-                                if (currentTime >= 0.1 && currentTime < 1.2) {
-                                document.getElementById("part04-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 1.2 && currentTime < 3.0) {
-                                document.getElementById("part04-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 3.0 && currentTime < 4.3) {
-                                document.getElementById("part04-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 4.3 && currentTime < 5.5) {
-                                document.getElementById("part04-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 5.5 && currentTime < 6.8) {
-                                document.getElementById("part04-sentence05").classList.add("highlight");
-                            } else if (currentTime >= 6.8 && currentTime < 7.8) {
-                                document.getElementById("part04-sentence06").classList.add("highlight");
-                            } else if (currentTime >= 7.8 && currentTime < 9.5) {
-                                document.getElementById("part04-sentence07").classList.add("highlight");
-                            } else if (currentTime >= 9.5 && currentTime < 10.6) {
-                                document.getElementById("part04-sentence08").classList.add("highlight");
-                            }
-                        });
-                    </script>
                                         
                     <div class="translation-text">
 
@@ -530,6 +503,32 @@
                         </p>
 
                     </div>
+                    
+                    <script>
+                        document.getElementById("audio-part04").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.1 && currentTime < 1.2) {
+                                document.getElementById("part04-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.2 && currentTime < 3.0) {
+                                document.getElementById("part04-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.0 && currentTime < 4.3) {
+                                document.getElementById("part04-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.3 && currentTime < 5.5) {
+                                document.getElementById("part04-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 5.5 && currentTime < 6.8) {
+                                document.getElementById("part04-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 6.8 && currentTime < 7.8) {
+                                document.getElementById("part04-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 7.8 && currentTime < 9.5) {
+                                document.getElementById("part04-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 9.5 && currentTime < 10.6) {
+                                document.getElementById("part04-sentence08").classList.add("highlight");
+                            }
+                        });
+                    </script>
         </section>
     </main>
 
