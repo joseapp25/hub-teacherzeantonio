@@ -181,6 +181,30 @@
                         <span id="part01-sentence08">thanks.</span>
                     </p>
 
+                    <div class="translation-text">
+                        
+                        <p>
+                            <span class="name-highlight">Maple: </span>
+                            <span>Oi Cove!</span>
+                            <span>Oi Spruce!</span>
+                            <span>Como vocês estão hoje?</span>
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Cove: </span>
+                            <span>Ei Maple!</span>
+                            <span>Estou ótimo, obrigado.</span>
+                            <span>E você, Spruce?</span>
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Spruce: </span>
+                            <span>Eu estou bem,</span>
+                            <span>obrigado.</span>
+                        </p>
+
+                    </div>
+
                     <script>
                         document.getElementById("audio-part01").addEventListener("timeupdate", function() {
                             let currentTime = this.currentTime;
@@ -207,30 +231,6 @@
                         });
                     </script>
                                         
-                    <div class="translation-text">
-                        
-                        <p>
-                            <span class="name-highlight">Maple: </span>
-                            <span>Oi Cove!</span>
-                            <span>Oi Spruce!</span>
-                            <span>Como vocês estão hoje?</span>
-                        </p>
-
-                        <p>
-                            <span class="name-highlight">Cove: </span>
-                            <span>Ei Maple!</span>
-                            <span>Estou ótimo, obrigado.</span>
-                            <span>E você, Spruce?</span>
-                        </p>
-
-                        <p>
-                            <span class="name-highlight">Spruce: </span>
-                            <span>Eu estou bem,</span>
-                            <span>obrigado.</span>
-                        </p>
-
-                    </div>
-
                 <h3 id="part02">Part 02</h3>
 
                     <audio id="audio-part02" preload="metadata" controls>
@@ -253,24 +253,6 @@
                         <span id="part02-sentence04">I like sushi the most.</span>
                     </p>
 
-                    <script>
-                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-                
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-                
-                            if (currentTime >= 0.2 && currentTime < 2.2) {
-                                document.getElementById("part02-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 2.2 && currentTime < 3.6) {
-                                document.getElementById("part02-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 3.6 && currentTime < 5.6) {
-                                document.getElementById("part02-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 5.6 && currentTime < 7.2) {
-                                document.getElementById("part02-sentence04").classList.add("highlight");
-                            }
-                        });
-                    </script>
-                                        
                     <div class="translation-text">
                         
                         <p>
@@ -291,6 +273,24 @@
 
                     </div>
 
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.2 && currentTime < 2.2) {
+                                document.getElementById("part02-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 2.2 && currentTime < 3.6) {
+                                document.getElementById("part02-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.6 && currentTime < 5.6) {
+                                document.getElementById("part02-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 5.6 && currentTime < 7.2) {
+                                document.getElementById("part02-sentence04").classList.add("highlight");
+                            }
+                        });
+                    </script>
+                                        
                 <h3 id="part03">Part 03</h3>
 
                     <audio id="audio-part03" preload="metadata" controls>
@@ -315,28 +315,6 @@
                         <span id="part03-sentence06">It's so cozy!</span>
                     </p>
 
-                    <script>
-                        document.getElementById("audio-part03").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-            
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-            
-                                if (currentTime >= 0.2 && currentTime < 1.1) {
-                                document.getElementById("part03-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 1.1 && currentTime < 3.2) {
-                                document.getElementById("part03-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 3.2 && currentTime < 4.5) {
-                                document.getElementById("part03-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 4.5 && currentTime < 6.6) {
-                                document.getElementById("part03-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 6.6 && currentTime < 7.6) {
-                                document.getElementById("part03-sentence05").classList.add("highlight");
-                            } else if (currentTime >= 7.6 && currentTime < 8.7) {
-                                document.getElementById("part03-sentence06").classList.add("highlight");
-                            }
-                        });
-                    </script>
-                                        
                     <div class="translation-text">
 
                         <p>
@@ -358,6 +336,28 @@
                         </p>
 
                     </div>
+
+                    <script>
+                        document.getElementById("audio-part03").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.2 && currentTime < 1.1) {
+                                document.getElementById("part03-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.1 && currentTime < 3.2) {
+                                document.getElementById("part03-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.2 && currentTime < 4.5) {
+                                document.getElementById("part03-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.5 && currentTime < 6.6) {
+                                document.getElementById("part03-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.6 && currentTime < 7.6) {
+                                document.getElementById("part03-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 7.6 && currentTime < 8.7) {
+                                document.getElementById("part03-sentence06").classList.add("highlight");
+                            }
+                        });
+                    </script>
 
                 <h3 id="part04">Part 04</h3>
 
@@ -382,26 +382,6 @@
                         <span id="part04-sentence05">I'm not a fan of orange.</span>
                     </p>
 
-                    <script>
-                        document.getElementById("audio-part04").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-            
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-            
-                                if (currentTime >= 0.2 && currentTime < 1.0) {
-                                document.getElementById("part04-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 1.0 && currentTime < 3.5) {
-                                document.getElementById("part04-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 3.5 && currentTime < 4.9) {
-                                document.getElementById("part04-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 4.9 && currentTime < 6.5) {
-                                document.getElementById("part04-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 6.5 && currentTime < 8.0) {
-                                document.getElementById("part04-sentence05").classList.add("highlight");
-                            }
-                        });
-                    </script>
-                                        
                     <div class="translation-text">
 
                         <p>
@@ -423,6 +403,25 @@
 
                     </div>
 
+                    <script>
+                        document.getElementById("audio-part04").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.2 && currentTime < 1.0) {
+                                document.getElementById("part04-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.0 && currentTime < 3.5) {
+                                document.getElementById("part04-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.5 && currentTime < 4.9) {
+                                document.getElementById("part04-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.9 && currentTime < 6.5) {
+                                document.getElementById("part04-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.5 && currentTime < 8.0) {
+                                document.getElementById("part04-sentence05").classList.add("highlight");
+                            }
+                        });
+                    </script>
                 <h3 id="part05">Part 05</h3>
 
                     <audio id="audio-part05" preload="metadata" controls>
@@ -447,28 +446,6 @@
                         <span id="part05-sentence06">I admire Beyoncé.</span>
                     </p>
 
-                    <script>
-                        document.getElementById("audio-part05").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-            
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-            
-                                if (currentTime >= 0.2 && currentTime < 0.9) {
-                                document.getElementById("part05-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 0.9 && currentTime < 2.6) {
-                                document.getElementById("part05-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 2.6 && currentTime < 4.9) {
-                                document.getElementById("part05-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 4.9 && currentTime < 5.5) {
-                                document.getElementById("part05-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 5.5 && currentTime < 7.0) {
-                                document.getElementById("part05-sentence05").classList.add("highlight");
-                            } else if (currentTime >= 7.0 && currentTime < 8.6) {
-                                document.getElementById("part05-sentence06").classList.add("highlight");
-                            }
-                        });
-                    </script>
-                                        
                     <div class="translation-text">
 
                         <p>
@@ -490,6 +467,28 @@
                         </p>
 
                     </div>
+
+                    <script>
+                        document.getElementById("audio-part05").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.2 && currentTime < 0.9) {
+                                document.getElementById("part05-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.9 && currentTime < 2.6) {
+                                document.getElementById("part05-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.6 && currentTime < 4.9) {
+                                document.getElementById("part05-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.9 && currentTime < 5.5) {
+                                document.getElementById("part05-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 5.5 && currentTime < 7.0) {
+                                document.getElementById("part05-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 7.0 && currentTime < 8.6) {
+                                document.getElementById("part05-sentence06").classList.add("highlight");
+                            }
+                        });
+                    </script>
                     
                 <h3 id="part06">Part 06</h3>
 
@@ -515,28 +514,6 @@
                         <span id="part06-sentence06">I'm a big fan of Emma Watson.</span>
                     </p>
 
-                    <script>
-                        document.getElementById("audio-part06").addEventListener("timeupdate", function() {
-                            let currentTime = this.currentTime;
-            
-                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
-            
-                                if (currentTime >= 0.1 && currentTime < 0.6) {
-                                document.getElementById("part06-sentence01").classList.add("highlight");
-                            } else if (currentTime >= 0.6 && currentTime < 2.6) {
-                                document.getElementById("part06-sentence02").classList.add("highlight");
-                            } else if (currentTime >= 2.6 && currentTime < 5.4) {
-                                document.getElementById("part06-sentence03").classList.add("highlight");
-                            } else if (currentTime >= 5.4 && currentTime < 6.2) {
-                                document.getElementById("part06-sentence04").classList.add("highlight");
-                            } else if (currentTime >= 6.2 && currentTime < 8.0) {
-                                document.getElementById("part06-sentence05").classList.add("highlight");
-                            } else if (currentTime >= 8.0 && currentTime < 9.6) {
-                                document.getElementById("part06-sentence06").classList.add("highlight");
-                            }
-                        });
-                    </script>
-                                        
                     <div class="translation-text">
 
                         <p>
@@ -558,6 +535,28 @@
                         </p>
 
                     </div>
+
+                    <script>
+                        document.getElementById("audio-part06").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.1 && currentTime < 0.6) {
+                                document.getElementById("part06-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.6 && currentTime < 2.6) {
+                                document.getElementById("part06-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.6 && currentTime < 5.4) {
+                                document.getElementById("part06-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 5.4 && currentTime < 6.2) {
+                                document.getElementById("part06-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.2 && currentTime < 8.0) {
+                                document.getElementById("part06-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 8.0 && currentTime < 9.6) {
+                                document.getElementById("part06-sentence06").classList.add("highlight");
+                            }
+                        });
+                    </script>
         </section>
 
     </main>
