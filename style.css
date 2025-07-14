@@ -399,8 +399,9 @@ header h1 {
     color: var(--neutralgray);
     background-color: var(--cerulean500);
     transition-duration: 0.2s;
-    border-radius: 1px;
+    border-radius: 3px;
     box-shadow: 0px 0px 4px var(--cerulean500);
+    padding: 2px;
 }
 
 /* HIGHLIGHT TEXT AUDIO ↑ */
