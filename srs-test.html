@@ -10,28 +10,33 @@
       margin: 2rem auto;
       text-align: center;
     }
+
     .card {
       border: 2px solid #ccc;
       padding: 2rem;
       border-radius: 10px;
       margin-bottom: 2rem;
     }
+
     .answer {
       display: none;
       margin-top: 1rem;
       font-weight: bold;
       color: green;
     }
+
     button {
       margin: 0.5rem;
       padding: 0.6rem 1.5rem;
       font-size: 1rem;
       cursor: pointer;
     }
+
     #complete-message {
       font-size: 1.3rem;
       color: blue;
     }
+    
   </style>
 </head>
 <body>
@@ -53,16 +58,15 @@
   </div>
 
   <script>
-    const deck = [
-        { question: "What is the past tense of 'go'?", answer: "Went" },
-        { question: "What is the plural of 'child'?", answer: "Children" },
-        { question: "What is the opposite of 'hot'?", answer: "Cold" },
-        { question: "Translate: 'Cachorro' (in English)", answer: "Dog" },
-        { question: "What is the synonym of 'happy'?", answer: "Glad / Joyful / Cheerful" },
-        { question: "What is the plural of 'dwarf'?", answer: "Dwarves" },
+    const initialDeck = [
+      { question: "What is the past tense of 'go'?", answer: "Went" },
+      { question: "What is the plural of 'child'?", answer: "Children" },
+      { question: "What is the opposite of 'hot'?", answer: "Cold" },
+      { question: "Translate: 'Cachorro' (in English)", answer: "Dog" },
+      { question: "What is the synonym of 'happy'?", answer: "Glad / Joyful / Cheerful" },
     ];
 
-    // Shuffle the deck
+    // Shuffle function
     function shuffle(array) {
       for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -70,8 +74,9 @@
       }
     }
 
+    // Clone and shuffle deck
+    let deck = [...initialDeck];
     shuffle(deck);
-    let currentIndex = 0;
 
     const questionEl = document.getElementById('question');
     const answerEl = document.getElementById('answer');
@@ -80,13 +85,13 @@
     const completeMessage = document.getElementById('complete-message');
 
     function showCard() {
-      if (currentIndex >= deck.length) {
+      if (deck.length === 0) {
         cardContainer.style.display = 'none';
         completeMessage.style.display = 'block';
         return;
       }
 
-      const card = deck[currentIndex];
+      const card = deck[0];
       questionEl.textContent = card.question;
       answerEl.textContent = card.answer;
       answerEl.style.display = 'none';
@@ -99,11 +104,17 @@
     }
 
     function handleAnswer(known) {
-      currentIndex++;
+      const currentCard = deck.shift(); // remove the first card
+
+      if (!known) {
+        // Put the card back at the end
+        deck.push(currentCard);
+      }
+
       showCard();
     }
 
-    // Load first card
+    // Start session
     showCard();
   </script>
 
