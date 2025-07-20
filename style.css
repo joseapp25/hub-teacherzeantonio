@@ -401,7 +401,6 @@ header h1 {
     transition-duration: 0.2s;
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--cerulean500);
-    padding: 2px;
 }
 
 /* HIGHLIGHT TEXT AUDIO ↑ */
