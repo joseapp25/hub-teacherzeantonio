@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cloze Deletion Revision</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+    .card {
+      border: 2px solid #ccc;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    .hidden-part {
+      background-color: #eee;
+      color: #eee;
+      border-bottom: 2px dashed #ccc;
+    }
+    .revealed {
+      color: #d9534f;
+      font-weight: bold;
+      background-color: transparent;
+      border-bottom: none;
+    }
+    button {
+      margin: 0.5rem;
+      padding: 0.6rem 1.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    #complete-message {
+      font-size: 1.3rem;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cloze Deletion Revision</h1>
+
+  <div class="card" id="card-container">
+    <div id="cloze-text"></div>
+    <audio id="audio-player" controls style="display: none;"></audio>
+
+    <button id="show-btn" onclick="showAnswer()">Show Answer</button>
+    
+    <div id="buttons" style="display:none; margin-top: 1rem;">
+      <button onclick="handleAnswer(true)">Yes, I know</button>
+      <button onclick="handleAnswer(false)">No, I don't know</button>
+    </div>
+  </div>
+
+  <div id="complete-message" style="display:none;">
+    <p>✅ You've finished the review!</p>
+    <button onclick="resetSession()">🔁 Reset Session</button>
+  </div>
+
+  <script>
+    const initialDeck = [
+      {
+        fullText: "Albert Einstein developed the theory of relativity.",
+        cloze: "theory of relativity",
+        audio: "audio/einstein.mp3"
+      },
+      {
+        fullText: "The capital of France is Paris.",
+        cloze: "Paris",
+        audio: "audio/paris.mp3"
+      },
+      {
+        fullText: "The process by which plants make food is called photosynthesis.",
+        cloze: "photosynthesis",
+        audio: "audio/photosynthesis.mp3"
+      },
+      {
+        fullText: "Shakespeare wrote Romeo and Juliet.",
+        cloze: "Romeo and Juliet",
+        audio: "audio/shakespeare.mp3"
+      },
+      {
+        fullText: "Water boils at 100 degrees Celsius at sea level.",
+        cloze: "100 degrees Celsius",
+        audio: "audio/boiling.mp3"
+      }
+    ];
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    let deck = [];
+    let currentCard = null;
+
+    const clozeTextEl = document.getElementById('cloze-text');
+    const showBtn = document.getElementById('show-btn');
+    const buttonsEl = document.getElementById('buttons');
+    const cardContainer = document.getElementById('card-container');
+    const completeMessage = document.getElementById('complete-message');
+    const audioPlayer = document.getElementById('audio-player');
+
+    function createClozeText(card) {
+      const placeholder = `<span class="hidden-part">________</span>`;
+      return card.fullText.replace(card.cloze, placeholder);
+    }
+
+    function showCard() {
+      if (deck.length === 0) {
+        cardContainer.style.display = 'none';
+        completeMessage.style.display = 'block';
+        return;
+      }
+
+      currentCard = deck[0];
+      clozeTextEl.innerHTML = createClozeText(currentCard);
+      showBtn.style.display = 'inline-block';
+      buttonsEl.style.display = 'none';
+
+      // Play audio
+      if (currentCard.audio) {
+        audioPlayer.src = currentCard.audio;
+        audioPlayer.style.display = 'block';
+        audioPlayer.play();
+      } else {
+        audioPlayer.style.display = 'none';
+      }
+    }
+
+    function showAnswer() {
+      clozeTextEl.innerHTML = currentCard.fullText.replace(
+        currentCard.cloze,
+        `<span class="revealed">${currentCard.cloze}</span>`
+      );
+      showBtn.style.display = 'none';
+      buttonsEl.style.display = 'block';
+    }
+
+    function handleAnswer(known) {
+      const card = deck.shift();
+      if (!known) {
+        deck.push(card); // repeat it later
+      }
+      showCard();
+    }
+
+    function resetSession() {
+      deck = [...initialDeck];
+      shuffle(deck);
+      cardContainer.style.display = 'block';
+      completeMessage.style.display = 'none';
+      showCard();
+    }
+
+    // Initialize session
+    resetSession();
+  </script>
+
+</body>
+</html>

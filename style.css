@@ -223,6 +223,27 @@ header h1 {
 
 
 
+/* FULL AUDIO ↓ */
+
+.fullaudio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* FULL AUDIO ↑ */
+
+
+
+
+
+
+
+
+
+
 /* SECTION CONTENT ↓ */
  
 .section-content {
@@ -947,17 +968,131 @@ header h1 {
 
 
 
-/* FULL AUDIO ↓ */
+/*FLASHCARDS & REVIEW ↓ */
 
-.fullaudio {
+.flashcard-container {
+    background-color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 0px 0px 3px var(--petroleum100);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-radius: 3px;
+}
+
+.flashcard-text {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.flashcard-revealed {
+    color: var(--cerulean600);
+    font-weight: bold;
+}
+
+.flashcard-cloze {
+    color: var(--cerulean600);
+    font-weight: bold;
+}
+
+.flashcard-audio {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
-/* FULL AUDIO ↑ */
+.flashcard-buttons-container {
+    justify-content: center;
+}
+
+.flashcard-button-answer {
+    color: var(--petroleum500);
+    border: none;
+    background-color: var(--cerulean200);
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: var(--font-grotesk);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flashcard-button-answer:hover {
+    color: var(--neutralgray);
+    background-color: var(--cerulean500);
+    box-shadow: 0px 0px 4px var(--cerulean500);
+    transition-duration: 0.2s;
+}
+
+.flashcard-button-correct {
+    color: var(--petroleum500);
+    border: none;
+    background-color: var(--cerulean200);
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: var(--font-grotesk);
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.flashcard-button-correct:hover {
+    color: var(--neutralgray);
+    background-color: var(--cerulean500);
+    box-shadow: 0px 0px 4px var(--cerulean500);
+    transition-duration: 0.2s;
+}
+
+.flashcard-button-wrong {
+    color: var(--petroleum500);
+    border: none;
+    background-color: var(--cerulean200);
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: var(--font-grotesk);
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.flashcard-button-wrong:hover {
+    color: var(--neutralgray);
+    background-color: var(--cerulean500);
+    box-shadow: 0px 0px 4px var(--cerulean500);
+    transition-duration: 0.2s;
+}
+
+.flashcard-button-reset {
+    display: flex;
+    color: var(--petroleum500);
+    border: none;
+    background-color: var(--cerulean200);
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: var(--font-grotesk);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flashcard-button-reset:hover {
+    color: var(--neutralgray);
+    background-color: var(--cerulean500);
+    box-shadow: 0px 0px 4px var(--cerulean500);
+    transition-duration: 0.2s;
+}
+
+/*FLASHCARDS & REVIEW ↑ */
 
 
 
