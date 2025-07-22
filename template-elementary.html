@@ -1308,7 +1308,12 @@
 
                 <div class="flashcard-container" id="card-container">
 
-                    <div id="cloze-text" class="flashcard-text"></div>
+                    <div class="flashcard-text-container">
+
+                        <div id="cloze-text" class="flashcard-text"></div>
+
+                    </div>
+
 
                     <audio id="audio-player" class="flashcard-audio" controls></audio>
 
@@ -1316,9 +1321,9 @@
                     
                     <div class="flashcard-buttons-container" id="buttons">
 
-                        <button class="flashcard-button-correct" onclick="handleAnswer(true)">Correct</button>
+                        <button class="flashcard-button-correct" onclick="handleAnswer(true)"><img src="images/icons/correct-answer.svg" alt="correct answer"></button>
                         
-                        <button class="flashcard-button-wrong" onclick="handleAnswer(false)">Wrong</button>
+                        <button class="flashcard-button-wrong" onclick="handleAnswer(false)"><img src="images/icons/wrong-answer.svg" alt="wrong answer"></button>
 
                     </div>
 
@@ -1326,8 +1331,8 @@
 
             <div id="complete-message" class="flashcard-finished-container" style="display:none;">
 
-                <p style="text-align: center;">You have finished the review!</p>
-                <button class="flashcard-button-reset" onclick="resetSession()">Reset Session</button>
+                <p>Congratulations! You have finished the review!</p>
+                <button class="flashcard-button-reset" onclick="resetSession()"><img src="images/icons/reset-icon.svg" alt="reset session"></button>
 
             </div>
 
@@ -1397,7 +1402,7 @@
                 // Play audio
                 if (currentCard.audio) {
                     audioPlayer.src = currentCard.audio;
-                    audioPlayer.style.display = 'block';
+                    audioPlayer.style.display = 'none';
                     audioPlayer.play();
                 } else {
                     audioPlayer.style.display = 'none';
