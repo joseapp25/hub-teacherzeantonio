@@ -37,11 +37,9 @@
                 <li class="heading-one">
                     <a href="#vocabulary">Vocabulary</a>
                 </li>
-
                 <li class="heading-one">
                     <a href="#fullaudio">Full Audio</a>
                 </li>
-
                 <li class="heading-one">
                     <a href="#transcription">Transcription</a>
                         <ol>
@@ -57,7 +55,6 @@
                             <li class="heading-two"><a href="#part10">Part 10</a></li>
                         </ol>
                 </li>
-
                 <li class="heading-one">
                     <a href="#recall">Recall</a>
                 </li>
@@ -1302,7 +1299,7 @@
                     </script>
         </section>
 
-        <section class="section-content">
+        <section class="flashcard-section-content">
 
             <h2 id="recall">Recall</h2>
 
@@ -1313,7 +1310,6 @@
                         <div id="cloze-text" class="flashcard-text"></div>
 
                     </div>
-
 
                     <audio id="audio-player" class="flashcard-audio" controls></audio>
 
@@ -1329,9 +1325,10 @@
 
                 </div>
 
-            <div id="complete-message" class="flashcard-finished-container" style="display:none;">
+            <div id="complete-message" style="display:none;">
 
-                <p>Congratulations! You have finished the review!</p>
+                <p class="flashcard-finished-paragraph">Congratulations! You have finished the review!</p>
+
                 <button class="flashcard-button-reset" onclick="resetSession()"><img src="images/icons/reset-icon.svg" alt="reset session"></button>
 
             </div>
@@ -1339,27 +1336,12 @@
             <script>
                 const initialDeck = [
                 {
-                    fullText: "We are from Brazil. And, we are from Rio de Janeiro too. Oh MY GOD! Also, I would like to say that Bill is a motherfucker piece of shit.",
-                    cloze: "are",
-                    audio: "#"
-                },
-                {
-                    fullText: "I am an actor.",
-                    cloze: "am",
-                    audio: "#"
-                },
-                {
-                    fullText: "Are they at home?<br> -Yes, they are at home.",
-                    cloze: "are",
-                    audio: "#"
-                },
-                {
-                    fullText: "She is a student.",
+                    fullText: "That is a test.",
                     cloze: "is",
                     audio: "#"
                 },
                 {
-                    fullText: "He is at work.",
+                    fullText: "That is a test!",
                     cloze: "is",
                     audio: "#"
                 }
@@ -1399,7 +1381,6 @@
                 showBtn.style.display = 'flex';
                 buttonsEl.style.display = 'none';
 
-                // Play audio
                 if (currentCard.audio) {
                     audioPlayer.src = currentCard.audio;
                     audioPlayer.style.display = 'none';
@@ -1421,7 +1402,7 @@
                 function handleAnswer(known) {
                 const card = deck.shift();
                 if (!known) {
-                    deck.push(card); // repeat it later
+                    deck.push(card);
                 }
                 showCard();
                 }
@@ -1434,7 +1415,6 @@
                 showCard();
                 }
 
-                // Initialize session
                 resetSession();
             </script>
             

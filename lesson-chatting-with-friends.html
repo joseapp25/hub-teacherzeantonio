@@ -43,10 +43,19 @@
                 <li class="heading-one">
                     <a href="#transcription">Transcription</a>
                         <ol>
-                            <li class="heading-two"><a href="#part01">Part 01</a></li>
-                            <li class="heading-two"><a href="#part02">Part 02</a></li>
-                            <li class="heading-two"><a href="#part03">Part 03</a></li>
+                            <li class="heading-two">
+                                <a href="#part01">Part 01</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part02">Part 02</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part03">Part 03</a>
+                            </li>
                         </ol>
+                </li>
+                <li class="heading-one">
+                    <a href="#recall">Recall</a>
                 </li>
             </ol>
     </nav>
@@ -425,6 +434,128 @@
                         });
                     </script>
         </section>
+
+        <section class="flashcard-section-content">
+
+            <h2 id="recall">Recall</h2>
+
+                <div class="flashcard-container" id="card-container">
+
+                    <div class="flashcard-text-container">
+
+                        <div id="cloze-text" class="flashcard-text"></div>
+
+                    </div>
+
+                    <audio id="audio-player" class="flashcard-audio" controls></audio>
+
+                    <button class="flashcard-button-answer" id="show-btn" onclick="showAnswer()">Show Answer</button>
+                    
+                    <div class="flashcard-buttons-container" id="buttons">
+
+                        <button class="flashcard-button-correct" onclick="handleAnswer(true)"><img src="images/icons/correct-answer.svg" alt="correct answer"></button>
+                        
+                        <button class="flashcard-button-wrong" onclick="handleAnswer(false)"><img src="images/icons/wrong-answer.svg" alt="wrong answer"></button>
+
+                    </div>
+
+                </div>
+
+            <div id="complete-message" style="display:none;">
+
+                <p class="flashcard-finished-paragraph">Congratulations! You have finished the review!</p>
+
+                <button class="flashcard-button-reset" onclick="resetSession()"><img src="images/icons/reset-icon.svg" alt="reset session"></button>
+
+            </div>
+
+            <script>
+                const initialDeck = [
+                {
+                    fullText: "That is a test.",
+                    cloze: "is",
+                    audio: "#"
+                },
+                {
+                    fullText: "That is a test!",
+                    cloze: "is",
+                    audio: "#"
+                }
+                ];
+
+                function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                }
+
+                let deck = [];
+                let currentCard = null;
+
+                const clozeTextEl = document.getElementById('cloze-text');
+                const showBtn = document.getElementById('show-btn');
+                const buttonsEl = document.getElementById('buttons');
+                const cardContainer = document.getElementById('card-container');
+                const completeMessage = document.getElementById('complete-message');
+                const audioPlayer = document.getElementById('audio-player');
+
+                function createClozeText(card) {
+                const placeholder = `<span class="flashcard-cloze">[...]</span>`;
+                return card.fullText.replace(card.cloze, placeholder);
+                }
+
+                function showCard() {
+                if (deck.length === 0) {
+                    cardContainer.style.display = 'none';
+                    completeMessage.style.display = 'block';
+                    return;
+                }
+
+                currentCard = deck[0];
+                clozeTextEl.innerHTML = createClozeText(currentCard);
+                showBtn.style.display = 'flex';
+                buttonsEl.style.display = 'none';
+
+                if (currentCard.audio) {
+                    audioPlayer.src = currentCard.audio;
+                    audioPlayer.style.display = 'none';
+                    audioPlayer.play();
+                } else {
+                    audioPlayer.style.display = 'none';
+                }
+                }
+
+                function showAnswer() {
+                clozeTextEl.innerHTML = currentCard.fullText.replace(
+                    currentCard.cloze,
+                    `<span class="flashcard-revealed">${currentCard.cloze}</span>`
+                );
+                showBtn.style.display = 'none';
+                buttonsEl.style.display = 'flex';
+                }
+
+                function handleAnswer(known) {
+                const card = deck.shift();
+                if (!known) {
+                    deck.push(card);
+                }
+                showCard();
+                }
+
+                function resetSession() {
+                deck = [...initialDeck];
+                shuffle(deck);
+                cardContainer.style.display = 'block';
+                completeMessage.style.display = 'none';
+                showCard();
+                }
+
+                resetSession();
+            </script>
+            
+        </section>
+
     </main>
 
     <nav>
