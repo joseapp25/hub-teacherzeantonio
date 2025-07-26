@@ -1277,4 +1277,9 @@ footer {
     margin-left: 4px;
 }
 
+footer img {
+    display: flex;
+    justify-content: center;
+}
+
 /*FOOTER ↑ */

@@ -225,6 +225,7 @@ html, body {
 }
 
 .section-3-content {
+
     max-width: 360px;
     margin-left: auto;
     margin-right: auto;
@@ -245,7 +246,7 @@ html, body {
 
 .section-4 {
     height: 656px;
-    background-color: var(--cerulean500);
+    background-color: var(--petroleum700);
 }
 
 .section-4-content {
@@ -265,20 +266,35 @@ html, body {
 
 
 
-/* FOOTER ↓ */
+/*FOOTER ↓ */
 
-.footer {
-    background-color: var(--cerulean100);
+footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.footer-content {
-    text-align: center;
-    max-width: 360px;
-    margin-left: auto;
-    margin-right: auto;
+.footer-copyright-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* FOOTER ↑ */
+.footer-logo-container {
+    margin-left: 32px;
+}
+
+.footer-text-container {
+    margin-left: 4px;
+}
+
+footer img {
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER ↑ */
 
 /* - ↓ */
 
