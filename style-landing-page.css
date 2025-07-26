@@ -56,6 +56,17 @@ html, body {
 
 /* HTML | BODY | ROOT | ↑ */
 
+
+
+
+
+
+
+
+
+
+/* HEADER ↓ */
+
 .header {
 
 }
@@ -71,6 +82,19 @@ html, body {
     margin-top: 40px;
     margin-bottom: 24px;
 }
+
+/* HEADER ↑ */
+
+
+
+
+
+
+
+
+
+
+/* SECTION 1 ↓ */
 
 .section-1 {
     height: 656px;
@@ -116,6 +140,19 @@ html, body {
     background-color: var(--petroleum500);
 }
 
+/* SECTION 1 ↑ */
+
+
+
+
+
+
+
+
+
+
+/* SECTION 2 ↓ */
+
 .section-2 {
     height: 656px;
     background-color: var(--cerulean500);
@@ -127,6 +164,19 @@ html, body {
     margin-right: auto;
 }
 
+/* SECTION 2 ↑ */
+
+
+
+
+
+
+
+
+
+
+/* SECTION 3 ↓ */
+
 .section-3 {
     height: 656px;
 }
@@ -136,6 +186,19 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* SECTION 3 ↑ */
+
+
+
+
+
+
+
+
+
+
+/* SECTION 4 ↓ */
 
 .section-4 {
     height: 656px;
@@ -148,6 +211,19 @@ html, body {
     margin-right: auto;
 }
 
+/* SECTION 4 ↑ */
+
+
+
+
+
+
+
+
+
+
+/* FOOTER ↓ */
+
 .footer {
     background-color: var(--cerulean100);
 }
@@ -158,3 +234,9 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* FOOTER ↑ */
+
+/* - ↓ */
+
+/* - ↑ */
