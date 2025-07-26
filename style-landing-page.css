@@ -106,13 +106,15 @@ html, body {
 .section-1 {
     position: relative;
     padding-bottom: 80px;
+    overflow: hidden;
 }
 
 .section-1 img {
     position: absolute;
-    right: 20px;
+    right: -50px;
     bottom: 0px;
 }
+
 
 .section-1-content {
     max-width: 360px;
@@ -154,6 +156,11 @@ html, body {
     background-color: var(--petroleum500);
 }
 
+@media only screen and (min-width: 600px) {
+    .section-1 img {
+        visibility: hidden;
+    }
+}
 /* SECTION 1 ↑ */
 
 
