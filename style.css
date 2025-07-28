@@ -1054,12 +1054,12 @@ header h1 {
     margin-bottom: 8px;
 }
 
-.flascard-text-question {
+.flashcard-text-question {
     margin-bottom: 16px;
     line-height: 1.4em;
 }
 
-.flascard-text-answer {
+.flashcard-text-answer {
     margin-top: 16px;
     line-height: 1.4em;
 }
@@ -1146,6 +1146,10 @@ header h1 {
     justify-content: center;
 }
 
+.flashcard-button-reset-container {
+    display: none;
+}
+
 .flashcard-button-reset {
     background-color: white;
     display: flex;
@@ -1171,8 +1175,6 @@ header h1 {
 .flashcard-finished-paragraph {
     text-align: center;
     font-weight: bold;
-    margin-top: 16px;
-    margin-bottom: 24px;
 }
 
 /*FLASHCARDS & REVIEW ↑ */

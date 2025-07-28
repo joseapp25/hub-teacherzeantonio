@@ -485,128 +485,101 @@
 
                     </div>
 
-                    <audio id="audio-player" class="flashcard-audio" controls></audio>
-
                     <button class="flashcard-button-answer" id="show-btn" onclick="showAnswer()">Show Answer</button>
-                    
+
                     <div class="flashcard-buttons-container" id="buttons">
 
                         <button class="flashcard-button-correct" onclick="handleAnswer(true)"><img src="images/icons/correct-answer.svg" alt="correct answer"></button>
-                        
+
                         <button class="flashcard-button-wrong" onclick="handleAnswer(false)"><img src="images/icons/wrong-answer.svg" alt="wrong answer"></button>
+
+                    </div>
+
+                    <div id="completemessage" style="display: none;">
+
+                        <button class="flashcard-button-reset" onclick="resetSession()"><img src="images/icons/reset-icon.svg" alt="reset session"></button>
 
                     </div>
 
                 </div>
 
-            <div id="complete-message" style="display:none;">
-
-                <p class="flashcard-finished-paragraph">Congratulations! You have finished the review!</p>
-
-                <button class="flashcard-button-reset" onclick="resetSession()"><img src="images/icons/reset-icon.svg" alt="reset session"></button>
-
-            </div>
-
             <script>
-                const initialDeck = [
+
+                const flashcards = [
                 {
-                    fullText: "<p class='flascard-text-question'><span class='name-highlight'>A: </span>Does your brother have breakfast in the morning?</p> <p class='flascard-text-answer'><span class='name-highlight'>B: </span>Yes, he has breakfast every day.</p>",
-                    cloze: "Does",
-                    audio: "#"
+                    fullText: "<p class='flashcard-text-question'><span class='name-highlight'>A: </span>[cloze]Are[/cloze] your parents at home?</p> <p class='flashcard-text-answer'><span class='name-highlight'>B: </span>No, they are at the mall.</p>"
                 },
                 {
-                    fullText: "<p class='flascard-text-question'><span class='name-highlight'>A: </span>Does your sister have coffee in the morning?</p> <p class='flascard-text-answer'><span class='name-highlight'>B: </span>No, she doesn't have coffee. She drinks tea.</p>",
-                    cloze: "doesn't",
-                    audio: "#"
+                    fullText: "<p><span class='name-highlight'>Joseph: </span>[cloze]Clegane[/cloze], we need  you!</p>"
                 },
                 {
-                    fullText: "<p class='flascard-text-question'><span class='name-highlight'>A: </span> Does your father eat vegetables for lunch?</p> <p class='flascard-text-answer'><span class='name-highlight'>B: </span>Yes, he eats vegetables every day.</p>",
-                    cloze: "Does",
-                    audio: "#"
+                    fullText: "<p><span class='name-highlight'>Maple: </span>I [cloze]love[/cloze] chocolate ice cream!</p>"
                 },
                 {
-                    fullText: "<p class='flascard-text-question'><span class='name-highlight'>A: </span>Does your family have dinner early?</p> <p class='flascard-text-answer'><span class='name-highlight'>B: </span>No, we have dinner late.</p>",
-                    cloze: "Does",
-                    audio: "#"
-                },
-                {
-                    fullText: "<p class='flascard-text-question'><span class='name-highlight'>A: </span>Does your brother drink milk?</p> <p class='flascard-text-answer'><span class='name-highlight'>B: </span>No, he doesn't drink milk. He has juice in the morning.</p>",
-                    cloze: "doesn't",
-                    audio: "#"
+                    fullText: "<p><span class='name-highlight'>Breeze: </span>She is [cloze]watching[/cloze] a movie right now.</p>"
                 }
                 ];
 
+                let deck = [];
+                let currentCard;
+                let clozeTextEl = document.getElementById('cloze-text');
+                let buttonsEl = document.getElementById('buttons');
+                let showBtn = document.getElementById('show-btn');
+
                 function shuffle(array) {
-                for (let i = array.length - 1; i > 0; i--) {
+                    for (let i = array.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
                     [array[i], array[j]] = [array[j], array[i]];
-                }
+                    }
                 }
 
-                let deck = [];
-                let currentCard = null;
-
-                const clozeTextEl = document.getElementById('cloze-text');
-                const showBtn = document.getElementById('show-btn');
-                const buttonsEl = document.getElementById('buttons');
-                const cardContainer = document.getElementById('card-container');
-                const completeMessage = document.getElementById('complete-message');
-                const audioPlayer = document.getElementById('audio-player');
+                function startSession() {
+                    deck = [...flashcards];
+                    shuffle(deck);
+                    showNextCard();
+                }
 
                 function createClozeText(card) {
-                const placeholder = `<span class="flashcard-cloze">[...]</span>`;
-                return card.fullText.replace(card.cloze, placeholder);
+                    return card.fullText.replace(/\[cloze\](.*?)\[\/cloze\]/gi, `<span class="flashcard-cloze">[...]</span>`);
                 }
 
-                function showCard() {
-                if (deck.length === 0) {
-                    cardContainer.style.display = 'none';
-                    completeMessage.style.display = 'block';
+                function showNextCard() {
+                    if (deck.length === 0) {
+                    clozeTextEl.innerHTML = "<p class='flashcard-finished-paragraph'>Congratulations! You have finished it!</p>";
+                    completemessage.style.display = "block";
+                    showBtn.style.display = "none";
+                    buttonsEl.style.display = "none";
                     return;
                 }
 
-                currentCard = deck[0];
-                clozeTextEl.innerHTML = createClozeText(currentCard);
-                showBtn.style.display = 'flex';
-                buttonsEl.style.display = 'none';
-
-                if (currentCard.audio) {
-                    audioPlayer.src = currentCard.audio;
-                    audioPlayer.style.display = 'none';
-                    audioPlayer.play();
-                } else {
-                    audioPlayer.style.display = 'none';
-                }
+                currentCard = deck.shift();
+                    clozeTextEl.innerHTML = createClozeText(currentCard);
+                    showBtn.style.display = "flex";
+                    buttonsEl.style.display = "none";
+                    completemessage.style.display = "none";
                 }
 
                 function showAnswer() {
-                clozeTextEl.innerHTML = currentCard.fullText.replace(
-                    currentCard.cloze,
-                    `<span class="flashcard-revealed">${currentCard.cloze}</span>`
-                );
-                showBtn.style.display = 'none';
-                buttonsEl.style.display = 'flex';
+                    clozeTextEl.innerHTML = currentCard.fullText.replace(/\[cloze\](.*?)\[\/cloze\]/gi, `<span class="flashcard-revealed">$1</span>`);
+                    showBtn.style.display = "none";
+                    buttonsEl.style.display = "flex";
                 }
 
                 function handleAnswer(known) {
-                const card = deck.shift();
-                if (!known) {
-                    deck.push(card);
-                }
-                showCard();
+                    if (!known) {
+                    deck.push(currentCard);
+                    }
+                    showNextCard();
                 }
 
                 function resetSession() {
-                deck = [...initialDeck];
-                shuffle(deck);
-                cardContainer.style.display = 'block';
-                completeMessage.style.display = 'none';
-                showCard();
+                    startSession();
                 }
 
-                resetSession();
+                window.onload = startSession;
+
             </script>
-            
+
         </section>
 
     </main>
