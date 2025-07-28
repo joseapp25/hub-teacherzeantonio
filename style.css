@@ -1146,12 +1146,7 @@ header h1 {
     justify-content: center;
 }
 
-.flashcard-button-reset-container {
-    display: none;
-}
-
 .flashcard-button-reset {
-    background-color: white;
     display: flex;
     border: none;
     cursor: pointer;
