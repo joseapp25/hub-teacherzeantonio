@@ -48,8 +48,8 @@
 }
 
 html, body {
-    background-color: var(--neutralgray);
-    color: var(--petroleum500);
+    background-color: var(--petroleum700);
+    color: var(--neutralgray);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
 }
@@ -66,10 +66,6 @@ html, body {
 
 
 /* HEADER ↓ */
-
-.header {
-    background-color: var(--neutralgray);
-}
 
 .header-content {
     max-width: 360px;
@@ -89,6 +85,11 @@ html, body {
     line-height: 34px;
 }
 
+@media only screen and (min-width: 600px) {
+    .header-content {
+        max-width: 90vw;
+    }
+}
 /* HEADER ↑ */
 
 
@@ -106,12 +107,6 @@ html, body {
     position: relative;
     padding-bottom: 80px;
     overflow: hidden;
-}
-
-.section-1 img {
-    position: absolute;
-    right: -70px;
-    bottom: 0px;
 }
 
 .section-1-content {
@@ -151,11 +146,6 @@ html, body {
     transition-duration: 0.2s;
 }
 
-@media only screen and (min-width: 600px) {
-    .section-1 img {
-        visibility: hidden;
-    }
-}
 /* SECTION 1 ↑ */
 
 
@@ -176,12 +166,6 @@ html, body {
     background-color: var(--cerulean600);
 }
 
-.section-2 img {
-    position: absolute;
-    left: -70px;
-    bottom: 0px;
-}
-
 .section-2-content {
     max-width: 360px;
     margin-left: auto;
@@ -194,7 +178,6 @@ html, body {
     font-size: 32px;
     font-weight: 700;
     line-height: 42px;
-    margin-left: 160px;
 }
 
 .paragraph-2 {
@@ -203,7 +186,6 @@ html, body {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
-    margin-left: 160px;
 }
 
 .button-2 {
@@ -215,7 +197,6 @@ html, body {
     border-radius: 3px;
     border: 4px solid var(--petroleum500);
     background: var(--neutralgray);
-    margin-left: 160px;
 }
 
 .button-2:hover {
@@ -243,6 +224,7 @@ html, body {
 /* SECTION 3 ↓ */
 
 .section-3 {
+    position: relative;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -295,6 +277,7 @@ html, body {
 /* SECTION 4 ↓ */
 
 .section-4 {
+    position: relative;
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: var(--petroleum700);
