@@ -118,7 +118,6 @@ header {
     background-image: linear-gradient(to right, var(--cerulean600), var(--cerulean400));
     padding-top: 51px;
     padding-bottom: 10px;
-    box-shadow: 0px 0px 3px var(--petroleum100);
     fill: var(--petroleum500);
     margin-bottom: 50px;
 }
@@ -164,8 +163,8 @@ header h1 {
     padding-right: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 3px var(--petroleum100);
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px var(--cerulean100);
 }
 
 .toc h3 {
@@ -465,12 +464,12 @@ header h1 {
     }
 
     .translation-text.visible {
-        color: var(--cerulean300);
+        color: var(--cerulean400);
     }
 
     .translation-text::before {
         content: "(click to see translation) ";
-        color: var(--cerulean300);
+        color: var(--cerulean500);
     }
 
     .translation-text:hover::before {
@@ -1031,12 +1030,12 @@ header h1 {
     margin-bottom: 16px;
     margin-left: 8px;
     margin-right: 8px;
-    box-shadow: 0px 0px 3px var(--petroleum100);
+    box-shadow: 0px 0px 8px var(--cerulean300);
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 64px;
     padding-bottom: 64px;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
 .flashcard-text-container {
@@ -1098,12 +1097,13 @@ header h1 {
     font-family: var(--font-grotesk);
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 4px var(--cerulean200);
+
 }
 
 .flashcard-button-answer:hover {
     background-color: var(--cerulean100);
     transition-duration: 0.2s;
+    box-shadow: 0px 0px 4px var(--cerulean200);
 }
 
 .flashcard-button-correct {
@@ -1113,12 +1113,13 @@ header h1 {
     border-radius: 3px;
     margin-left: 8px;
     margin-right: 8px;
-    box-shadow: 0px 0px 4px var(--cerulean200);
+
 }
 
 .flashcard-button-correct:hover {
     background-color: var(--cerulean100);
     transition-duration: 0.2s;
+    box-shadow: 0px 0px 4px var(--cerulean200);
 }
 
 .flashcard-button-correct img {
@@ -1133,12 +1134,13 @@ header h1 {
     border-radius: 3px;
     margin-left: 8px;
     margin-right: 8px;
-    box-shadow: 0px 0px 4px var(--cerulean200);
+
 }
 
 .flashcard-button-wrong:hover {
     background-color: var(--cerulean100);
     transition-duration: 0.2s;
+    box-shadow: 0px 0px 4px var(--cerulean200);
 }
 
 .flashcard-button-wrong img {
@@ -1154,12 +1156,12 @@ header h1 {
     border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 4px var(--cerulean200);
 }
 
 .flashcard-button-reset:hover {
     background-color: var(--cerulean100);
     transition-duration: 0.2s;
+    box-shadow: 0px 0px 4px var(--cerulean200);
 }
 
 .flashcard-button-reset img {
@@ -1195,7 +1197,7 @@ header h1 {
     border-radius: 3px;
     background-color: var(--cerulean100);
     fill: var(--petroleum500);
-    box-shadow: 0px 0px 3px var(--petroleum100);
+    box-shadow: 0px 0px 4px var(--petroleum100);
 }
 
 .move-to-top:hover {
@@ -1234,7 +1236,7 @@ header h1 {
 .contacts-link:hover {
     background-color: var(--cerulean100);
     transition-duration: 0.2s;
-    box-shadow: 0px 0px 3px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean300);
 }
 
 /*CONTACTS ↑ */
@@ -1258,7 +1260,6 @@ footer {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 32px;
-    box-shadow: 0px 0px 3px var(--petroleum100);
 }
 
 .footer-copyright-container {
