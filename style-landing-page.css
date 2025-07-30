@@ -105,16 +105,15 @@ html, body {
 /* POSTER ↓ */
 
 .poster {
+    position: relative;
+    border-radius: 10px;
+    border: 8px solid #143D7B;
+}
+
+.poster img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-@media only screen and (max-width: 600px) {
-    .poster {
-        width: 80%;
-        height: 80%;
-    }
 }
 
 /* POSTER ↑ */
