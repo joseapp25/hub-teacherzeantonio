@@ -107,7 +107,9 @@ html, body {
 .poster {
     position: relative;
     border-radius: 10px;
-    border: 8px solid #143D7B;
+    border: 8px solid;
+    border-image-source: linear-gradient(to left, #143D7B, #143D7B);
+    border-image-slice: 1;
 }
 
 .poster img {
