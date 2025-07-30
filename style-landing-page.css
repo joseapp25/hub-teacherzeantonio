@@ -107,15 +107,16 @@ html, body {
 .poster {
     position: relative;
     border-radius: 10px;
-    border: 8px solid;
-    border-image-source: linear-gradient(to left, #143D7B, #143D7B);
-    border-image-slice: 1;
+    border: 8px solid var(--cerulean600);
 }
 
 .poster img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+}
+
+.poster-invisible-element {
+    display: flex;
+    padding: 128px;
 }
 
 /* POSTER ↑ */
