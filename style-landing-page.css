@@ -298,10 +298,10 @@ html, body {
 .section-3-cards {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
     color: var(--petroleum500);
     background-color: var(--cerulean200);
-    padding: 24px;
+    padding: 16px;
     border-radius: 8px;
     margin-top: 16px;
     margin-bottom: 16px;
