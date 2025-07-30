@@ -207,7 +207,7 @@ html, body {
 .section-2 {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: var(--petroleum500);
+    background-color: var(--cerulean900);
 }
 
 .section-2 img {
@@ -216,7 +216,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 32px;
-    box-shadow: 0px 0px 16px var(--cerulean900);
+    box-shadow: 0px 0px 16px var(--petroleum900);
     border-radius: 10px;
 }
 
@@ -243,9 +243,6 @@ html, body {
 }
 
 .button-2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     color: var(--petroleum600);
     font-size: 24px;
     font-weight: bold;
@@ -316,10 +313,11 @@ html, body {
 }
 
 .title-3 {
+    text-align: center;
     font-size: 24px;
     font-weight: 500;
-    line-height: 34px;
-    margin-bottom: 16px;
+    line-height: 26px;
+    font-weight: 300;
 }
 
 .paragraph-3 {
