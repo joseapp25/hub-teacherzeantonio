@@ -79,9 +79,10 @@ html, body {
 }
 
 .header-title {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
+    color: var(--cerulean400);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -106,17 +107,27 @@ html, body {
 
 .poster {
     position: relative;
+    margin-top: 128px;
     border-radius: 10px;
-    border: 8px solid var(--cerulean600);
+    background-image: linear-gradient(100deg, var(--cerulean800), var(--cerulean600));
+    box-shadow: 0px 0px 16px var(--cerulean900);
 }
 
 .poster img {
-    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .poster-invisible-element {
     display: flex;
     padding: 128px;
+}
+
+@media only screen and (min-width: 600px) {
+    .poster img {
+        left: 144px;
+    }
 }
 
 /* POSTER ↑ */
@@ -399,8 +410,8 @@ html, body {
 footer {
     color: var(--petroleum500);
     background-color: var(--neutralgray);
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-size: 16px;
     font-weight: 500;
 }
