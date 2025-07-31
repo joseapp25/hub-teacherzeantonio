@@ -123,7 +123,7 @@ html, body {
 }
 
 @media only screen and (min-width: 600px) {
-    .poster img {
+    .headline-poster img {
         left: 188px;
     }
 }
@@ -344,8 +344,18 @@ html, body {
     margin-right: auto;
 }
 
+.who-title {
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
 .who-section-content li {
-    list-style: none;
+    list-style-image: url('images/landing-page/icons/check-icon.svg');
+    list-style-position: inside;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 @media only screen and (min-width: 600px) {
