@@ -48,6 +48,7 @@
 }
 
 html, body {
+    background-color: var(--neutralgray);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
 }
@@ -66,8 +67,8 @@ html, body {
 /* HEADER ↓ */
 
 .header-content {
-    margin-top: 32px;
-    margin-bottom: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -142,8 +143,8 @@ html, body {
 /* HEADLINE SECTION ↓ */
 
 .headline-section {
+    color: var(--petroleum500);
     padding-bottom: 80px;
-    overflow: hidden;
 }
 
 .headline-section-content {
@@ -168,17 +169,22 @@ html, body {
 }
 
 .headline-button {
-    font-size: 24px;
+    color: var(--petroleum500);
+    display: block;
+    margin: auto;
+    margin: auto;
+    font-size: 16px;
     font-weight: bold;
-    width: 200px;
+    width: 264px;
     height: 64px;
-    border-radius: 3px;
-    border: 4px solid var(--petroleum500);
-    background: var(--cerulean600);
+    border-radius: 8px;
+    border: none;
+    background: var(--cerulean200);
 }
 
 .headline-button:hover {
-    background-color: var(--cerulean800);
+    background-color: var(--cerulean400);
+    box-shadow: 0px 0px 8px var(--cerulean600);
     transition-duration: 0.2s;
 }
 
@@ -202,6 +208,8 @@ html, body {
 /* HERO SECTION ↓ */
 
 .hero-section {
+    color: var(--neutralgray);
+    background-color: var(--cerulean900);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -237,17 +245,22 @@ html, body {
 }
 
 .hero-button {
-    font-size: 24px;
+    color: var(--petroleum500);
+    display: block;
+    margin: auto;
+    margin: auto;
+    font-size: 16px;
     font-weight: bold;
-    width: 200px;
+    width: 264px;
     height: 64px;
-    border-radius: 3px;
-    border: 4px solid var(--petroleum500);
-    background: var(--neutralgray);
+    border-radius: 8px;
+    border: none;
+    background: var(--cerulean200);
 }
 
 .hero-button:hover {
-    background-color: var(--cerulean200);
+    background-color: var(--cerulean400);
+    box-shadow: 0px 0px 8px var(--cerulean600);
     transition-duration: 0.2s;
 }
 
@@ -272,6 +285,7 @@ html, body {
 /* BENEFITS-SECTION ↓ */
 
 .benefits-section {
+    color: var(--petroleum500);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -292,11 +306,12 @@ html, body {
     display: flex;
     align-items: center;
     gap: 16px;
-    background-color: var(--cerulean100);
+    background-color: white;
     padding: 16px;
     border-radius: 8px;
     margin-top: 16px;
     margin-bottom: 16px;
+    box-shadow: 0px 0px 4px var(--cerulean100);
 }
 
 .benefits-title {
@@ -312,6 +327,27 @@ html, body {
     font-weight: 500;
     line-height: 26px;
     font-weight: 500;
+}
+
+.benefits-button {
+    color: var(--petroleum500);
+    display: block;
+    margin: auto;
+    margin: auto;
+    margin-top: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 264px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    background: var(--cerulean200);
+}
+
+.benefits-button:hover {
+    background-color: var(--cerulean400);
+    box-shadow: 0px 0px 8px var(--cerulean600);
+    transition-duration: 0.2s;
 }
 
 @media only screen and (min-width: 600px) {
@@ -334,6 +370,8 @@ html, body {
 /* WHO-SECTION ↓ */
 
 .who-section {
+    color: var(--neutralgray);
+    background-color: var(--petroleum700);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -351,11 +389,38 @@ html, body {
     line-height: 42px;
 }
 
-.who-section-content li {
-    list-style-image: url('images/landing-page/icons/check-icon.svg');
-    list-style-position: inside;
-    font-size: 24px;
-    font-weight: 400;
+.who-cards {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.who-paragraph {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.who-button {
+    color: var(--petroleum500);
+    display: block;
+    margin: auto;
+    margin: auto;
+    margin-top: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 264px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    background: var(--cerulean200);
+}
+
+.who-button:hover {
+    background-color: var(--cerulean400);
+    box-shadow: 0px 0px 8px var(--cerulean600);
+    transition-duration: 0.2s;
 }
 
 @media only screen and (min-width: 600px) {
