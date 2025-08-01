@@ -1005,6 +1005,12 @@ header h1 {
     margin-left: 3px;
 }
 
+.flashcard-verb {
+    font-weight: 600;
+    font-size: 0.8em;
+    color: var(--cerulean600);
+}
+
 @media only screen and (min-width: 600px) {
     .flashcard-section-content {
         max-width: 50vw;
