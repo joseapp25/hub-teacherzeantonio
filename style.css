@@ -1086,6 +1086,24 @@ header h1 {
     margin-top: 32px;
 }
 
+.flashcard-hint-container {
+    margin-top: 32px;
+    color: var(--petroleum300);
+    border: 1px solid var(--cerulean100);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.flashcard-hint {
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+
+.flashcard-hint-paragraph {
+    color: var(--cerulean100);
+}
+
 .flashcard-button-answer {
     margin-top: 32px;
     color: var(--cerulean500);
