@@ -1095,13 +1095,17 @@ header h1 {
 }
 
 .flashcard-hint {
-    font-weight: 500;
+    color: var(--petroleum200);
     margin-bottom: 8px;
-
 }
 
 .flashcard-hint-paragraph {
-    color: var(--cerulean100);
+    color: var(--cerulean300);
+}
+
+.flashcard-hint-main {
+    font-weight: 900;
+    color: var(--cerulean600);
 }
 
 .flashcard-button-answer {
