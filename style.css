@@ -1047,18 +1047,19 @@ header h1 {
 }
 
 .flashcard-text {
-    font-size: 1.4em;
     text-align: left;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
 .flashcard-text-question {
+    font-size: 1.4em;
     margin-bottom: 16px;
     line-height: 1.4em;
 }
 
 .flashcard-text-answer {
+    font-size: 1.4em;
     margin-top: 16px;
     line-height: 1.4em;
 }
@@ -1087,9 +1088,11 @@ header h1 {
 }
 
 .flashcard-hint-container {
+    font-size: 1em;
     margin-top: 32px;
     color: var(--petroleum300);
-    border: 1px solid var(--cerulean100);
+    border: 2px solid var(--cerulean100);
+    background-color: var(--neutralgray);
     border-radius: 8px;
     padding: 16px;
 }
@@ -1100,11 +1103,11 @@ header h1 {
 }
 
 .flashcard-hint-paragraph {
-    color: var(--cerulean300);
+    color: var(--cerulean400);
 }
 
 .flashcard-hint-main {
-    font-weight: 900;
+    font-weight: 600;
     color: var(--cerulean600);
 }
 
