@@ -1104,7 +1104,7 @@ header h1 {
 }
 
 .flashcard-hint-paragraph {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 300;
     color: var(--cerulean400);
 }
