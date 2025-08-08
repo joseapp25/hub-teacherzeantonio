@@ -112,7 +112,6 @@ html, body {
 
 @media only screen and (min-width: 600px) {
     .header-content > a {
-        max-width: none;
         padding-right: 32px;
     }
     
