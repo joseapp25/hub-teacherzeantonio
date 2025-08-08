@@ -89,6 +89,33 @@ html, body {
         max-width: none;
         padding-left: 32px;
     }
+
+}
+
+.contacts-link {
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.contacts-link:hover {
+    background-color: var(--cerulean100);
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 4px var(--cerulean300);
+}
+
+.header-content > a {
+    display: flex;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .header-content > a {
+        max-width: none;
+        padding-right: 32px;
+    }
+    
 }
 
 /* HEADER ↑ */
@@ -471,6 +498,7 @@ html, body {
 .social-paragraph {
     font-size: 16px;
     line-height: 26px;
+    margin-bottom: 8px;
 }
 
 .social-paragraph-name {
@@ -479,7 +507,7 @@ html, body {
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
-    margin-top: 8px;
+
 }
 
 .social-button {
