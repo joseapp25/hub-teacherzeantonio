@@ -488,13 +488,17 @@ html, body {
 }
 
 .social-quote-container {
+    background-color: white;
     border-left: 4px solid var(--cerulean300);
-    padding-left: 16px;
+    box-shadow: 0px 0px 4px var(--cerulean100);
+    padding: 16px;
     margin-top: 32px;
     margin-bottom: 24px;
+    border-radius: 4px;
 }
 
 .social-paragraph {
+    font-style: italic;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 8px;
@@ -502,7 +506,6 @@ html, body {
 
 .social-paragraph-name {
     color: var(--cerulean600);
-    font-style: italic;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
@@ -570,11 +573,11 @@ html, body {
 }
 
 .meet-paragraph {
-    margin-top: 32px;
+    margin-top: 16px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .meet-button {
@@ -582,6 +585,7 @@ html, body {
     display: block;
     margin: auto;
     margin: auto;
+    margin-top: 48px;
     font-size: 16px;
     font-weight: bold;
     width: 264px;
