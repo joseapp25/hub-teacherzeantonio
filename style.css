@@ -839,8 +839,7 @@ header h1 {
     gap: 1px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--cerulean100);
-    box-shadow: 0px 0px 2px var(--cerulean100);
+    background-color: var(--cerulean200);
 }
 
 .voiceless {
@@ -857,8 +856,7 @@ header h1 {
     gap: 1px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--cerulean200);
-    box-shadow: 0px 0px 8px var(--cerulean100);
+    background-color: var(--cerulean200);
 }
 
 .hidden-ipa {
@@ -876,7 +874,6 @@ header h1 {
     gap: 1px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--cerulean100);
 }
 
 .space {
@@ -924,8 +921,7 @@ header h1 {
     gap: 1px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--cerulean100);
-    box-shadow: 0px 0px 2px var(--cerulean100);
+    background-color: var(--cerulean200);
 }
 
 .alphabet-transcription {
@@ -947,8 +943,8 @@ header h1 {
 /*HOVER/CLICK ↓ */
 
 .hovered {
-    background-color: var(--cerulean600);
-    box-shadow: 0px 0px 4px var(--cerulean600);
+    background-color: var(--petroleum600);
+    box-shadow: 0px 0px 4px var(--petroleum600);
     color: var(--neutralgray);
     fill: var(--neutralgray);
     transition-duration: 0.2s;
@@ -956,8 +952,8 @@ header h1 {
 }
 
 .clicked {
-    background-color: var(--cerulean600);
-    box-shadow: 0px 0px 4px var(--cerulean600);
+    background-color: var(--petroleum600);
+    box-shadow: 0px 0px 4px var(--petroleum600);
     color: var(--neutralgray);
     fill: var(--neutralgray);
     transform: scale(1.1);
