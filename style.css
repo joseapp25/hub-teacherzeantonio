@@ -840,7 +840,7 @@ header h1 {
     flex-shrink: 0;
     border-radius: 5px;
     background: var(--cerulean100);
-    box-shadow: 0px 0px 1px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--cerulean100);
 }
 
 .voiceless {
@@ -857,8 +857,8 @@ header h1 {
     gap: 1px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--cerulean300);
-    box-shadow: 0px 0px 1px var(--petroleum100);
+    background: var(--cerulean200);
+    box-shadow: 0px 0px 8px var(--cerulean100);
 }
 
 .hidden-ipa {
@@ -925,7 +925,7 @@ header h1 {
     flex-shrink: 0;
     border-radius: 5px;
     background: var(--cerulean100);
-    box-shadow: 0px 0px 1px var(--petroleum100);
+    box-shadow: 0px 0px 2px var(--cerulean100);
 }
 
 .alphabet-transcription {
@@ -947,7 +947,8 @@ header h1 {
 /*HOVER/CLICK ↓ */
 
 .hovered {
-    background-color: var(--petroleum500);
+    background-color: var(--cerulean600);
+    box-shadow: 0px 0px 4px var(--cerulean600);
     color: var(--neutralgray);
     fill: var(--neutralgray);
     transition-duration: 0.2s;
@@ -955,8 +956,10 @@ header h1 {
 }
 
 .clicked {
+    background-color: var(--cerulean600);
+    box-shadow: 0px 0px 4px var(--cerulean600);
     color: var(--neutralgray);
-    background-color: var(--cerulean800);
+    fill: var(--neutralgray);
     transform: scale(1.1);
     transition-duration: 0.2s;
 }
