@@ -592,41 +592,56 @@
     </footer>
 
     <script>
-
+        
         const letters = document.querySelectorAll(".alphabet-letter, .voiced, .voiceless");
 
         letters.forEach(letter => {
-            // Hover effect
+            // Hover effect with different styles
             letter.addEventListener("mouseenter", () => {
-                if (!letter.classList.contains("clicked")) {
-                    letter.classList.add("hovered");
+                if (!letter.classList.contains("clicked-alphabet") &&
+                    !letter.classList.contains("clicked-voiced") &&
+                    !letter.classList.contains("clicked-voiceless")) {
+
+                    if (letter.classList.contains("alphabet-letter")) {
+                        letter.classList.add("hovered-alphabet");
+                    } else if (letter.classList.contains("voiced")) {
+                        letter.classList.add("hovered-voiced");
+                    } else if (letter.classList.contains("voiceless")) {
+                        letter.classList.add("hovered-voiceless");
+                    }
                 }
             });
 
             letter.addEventListener("mouseleave", () => {
-                letter.classList.remove("hovered");
+                letter.classList.remove("hovered-alphabet", "hovered-voiced", "hovered-voiceless");
             });
 
-            // Click effect
+            // Click effect with different styles
             letter.addEventListener("click", () => {
                 const audioSrc = letter.getAttribute("data-audio");
                 const audio = new Audio(audioSrc);
 
-                // Remove hover so it doesn't conflict
-                letter.classList.remove("hovered");
+                // Remove hover styles
+                letter.classList.remove("hovered-alphabet", "hovered-voiced", "hovered-voiceless");
 
-                // Add clicked style
-                letter.classList.add("clicked");
+                // Add the right clicked style
+                if (letter.classList.contains("alphabet-letter")) {
+                    letter.classList.add("clicked-alphabet");
+                } else if (letter.classList.contains("voiced")) {
+                    letter.classList.add("clicked-voiced");
+                } else if (letter.classList.contains("voiceless")) {
+                    letter.classList.add("clicked-voiceless");
+                }
 
-                // Remove clicked style when audio finishes
+                // Remove clicked style when audio ends
                 audio.addEventListener("ended", () => {
-                    letter.classList.remove("clicked");
+                    letter.classList.remove("clicked-alphabet", "clicked-voiced", "clicked-voiceless");
                 });
 
                 audio.play();
             });
         });
-        
+
     </script>
     
 </body>

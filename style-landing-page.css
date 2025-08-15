@@ -21,7 +21,7 @@
 }
 
 :root {
-    --neutralgray: #FAFAFA;
+    --graycool0: #FAFAFA;
 
     --cerulean100: #CBDCF6;
     --cerulean200: #A7C5F1;
@@ -48,7 +48,7 @@
 }
 
 html, body {
-    background-color: var(--neutralgray);
+    background-color: var(--graycool0);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
 }
@@ -237,7 +237,7 @@ html, body {
 /* HERO SECTION ↓ */
 
 .hero-section {
-    color: var(--neutralgray);
+    color: var(--graycool0);
     background-color: var(--cerulean900);
     padding-top: 80px;
     padding-bottom: 80px;
@@ -404,7 +404,7 @@ html, body {
 /* WHO-SECTION ↓ */
 
 .who-section {
-    color: var(--neutralgray);
+    color: var(--graycool0);
     background-color: var(--petroleum700);
     padding-top: 80px;
     padding-bottom: 80px;
@@ -565,7 +565,7 @@ html, body {
 /* MEET SECTION ↓ */
 
 .meet-section {
-    color: var(--neutralgray);
+    color: var(--graycool0);
     background-color: var(--cerulean900);
     padding-top: 80px;
     padding-bottom: 80px;

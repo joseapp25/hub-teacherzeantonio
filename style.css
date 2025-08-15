@@ -21,9 +21,21 @@
 }
 
 :root {
-    --neutralgray: #FAFAFA;
+    --graycool0: #FBFBFB;
+    --graycool50: #EEEEF1;
+    --graycool100: #E2E4E9;
+    --graycool200: #C7C8D1;
+    --graycool300: #B0B2BF;
+    --graycool400: #9A9CAC;
+    --graycool500: #83869A;
+    --graycool600: #6E7187;
+    --graycool700: #535565;
+    --graycool800: #40424F;
+    --graycool900: #2E2F38;
+    --graycool1000: #1C1C22;
 
-    --cerulean100: #CBDCF6;
+    --cerulean50: #EDF3FC;
+    --cerulean100: #CADCF6;
     --cerulean200: #A7C5F1;
     --cerulean300: #84ADEB;
     --cerulean400: #6196E5;
@@ -32,24 +44,27 @@
     --cerulean700: #1D58AF;
     --cerulean800: #143D7B;
     --cerulean900: #0E2C58;
+    --cerulean1000: #091A35;
 
-    --petroleum100: #5E646E;
-    --petroleum200: #545A63;
-    --petroleum300: #4B5058;
-    --petroleum400: #42464D;
-    --petroleum500: #383C42;
-    --petroleum600: #2F3237;
-    --petroleum700: #26282C;
-    --petroleum800: #1C1E21;
-    --petroleum900: #131416;
+    --sunset50: #FDF4ED;
+    --sunset100: #FBE9DA;
+    --sunset200: #F5C9A3;
+    --sunset300: #F1B37E;
+    --sunset400: #ED9F5A;
+    --sunset500: #E98935;
+    --sunset600: #DC7418;
+    --sunset700: #A55712;
+    --sunset800: #81440E;
+    --sunset900: #5C300A;
+    --sunset1000: #371D06;
 
     --font-noto: "Noto Serif", serif;
     --font-grotesk: "Space Grotesk", serif;
 }
 
 html, body {
-    background-color: var(--neutralgray);
-    color: var(--petroleum500);
+    background-color: var(--graycool0);
+    color: var(--graycool800);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
 }
@@ -90,8 +105,8 @@ html, body {
 }
 
 .globalmenu a:hover {
-    color: var(--neutralgray);
-    fill: var(--neutralgray);
+    color: var(--graycool0);
+    fill: var(--graycool0);
     background-color: var(--cerulean500);
     transition-duration: 0.2s;
     border-radius: 3px;
@@ -118,7 +133,7 @@ header {
     background-image: linear-gradient(to right, var(--cerulean600), var(--cerulean400));
     padding-top: 51px;
     padding-bottom: 10px;
-    fill: var(--petroleum500);
+    fill: var(--graycool800);
     margin-bottom: 50px;
 }
 
@@ -129,7 +144,7 @@ header h1 {
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    color: var(--neutralgray);
+    color: var(--graycool0);
     font-size: 1.8em;
 }
 
@@ -381,7 +396,7 @@ header h1 {
 }
 
 .word:hover {
-    color: var(--neutralgray);
+    color: var(--graycool0);
     box-shadow: 0px 0px 4px var(--cerulean500);
     background-color: var(--cerulean500);
 }
@@ -416,7 +431,7 @@ header h1 {
 /* HIGHLIGHT TEXT AUDIO ↓ */
 
 .highlight {
-    color: var(--neutralgray);
+    color: var(--graycool0);
     background-color: var(--cerulean500);
     transition-duration: 0.2s;
     border-radius: 2px;
@@ -500,7 +515,7 @@ header h1 {
 }
 
 .anchor-inside a:hover {
-    color: var(--neutralgray);
+    color: var(--graycool0);
     background-color: var(--cerulean500);
     transition-duration: 0.2s;
     border-radius: 3px;
@@ -542,7 +557,7 @@ header h1 {
     font-weight: bold;
     padding: 10px;
     background-color: var(--cerulean100);
-    border: 1px solid var(--petroleum500);
+    border: 1px solid var(--graycool800);
     border-bottom: none;
 }
 
@@ -553,7 +568,7 @@ header h1 {
     padding-left: 30px;
     padding-right: 30px;
     background-color: var(--cerulean100);
-    border: 1px solid var(--petroleum500);
+    border: 1px solid var(--graycool800);
 }
 
 .vocabulary-table td {
@@ -563,7 +578,7 @@ header h1 {
     padding-left: 30px;
     padding-right: 30px;
     background-color: var(--cerulean100);
-    border: 1px solid var(--petroleum500);
+    border: 1px solid var(--graycool800);
 }
 
 /* TABLES ↑ */
@@ -588,8 +603,8 @@ header h1 {
 
 .custom-bookmark {
     text-decoration: none;
-    color: var(--petroleum500);
-    fill: var(--petroleum500);
+    color: var(--graycool800);
+    fill: var(--graycool800);
     background-color: var(--cerulean100);
     display: flex;
     box-shadow: 0px 0px 4px var(--cerulean500);
@@ -600,8 +615,8 @@ header h1 {
 .custom-bookmark:hover {
     background-color: var(--cerulean400);
     box-shadow: 0px 0px 4px var(--cerulean500);
-    color: var(--neutralgray);
-    fill: var(--neutralgray);
+    color: var(--graycool0);
+    fill: var(--graycool0);
     transform: scale(1.02);
 }
 
@@ -612,7 +627,7 @@ header h1 {
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 3px;
-    box-shadow: 0px 0px 3px var(--petroleum100);
+    box-shadow: 0px 0px 3px var(--graycool500);
 }
 
 .bookmark-info {
@@ -714,7 +729,7 @@ header h1 {
     width: 70vw;
     height: auto;
     border-radius: 3px;
-    box-shadow: 0px 0px 3px var(--petroleum100);
+    box-shadow: 0px 0px 3px var(--graycool500);
     transition: transform 0.1s ease-in-out;
 }
 
@@ -814,11 +829,13 @@ header h1 {
 /*IPA ↓ */
 
 .ipa-section {
-    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
     overflow-x: auto;
     display: grid;
     justify-items: center;
-    background-color: white;
 }
 
 .ipa-div {
@@ -856,7 +873,7 @@ header h1 {
     gap: 1px;
     flex-shrink: 0;
     border-radius: 5px;
-    background-color: var(--cerulean200);
+    background-color: var(--sunset200);
 }
 
 .hidden-ipa {
@@ -896,11 +913,13 @@ header h1 {
 /*ALPHABET ↓ */
 
 .alphabet-section {
-    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
     overflow-x: auto;
     display: grid;
     justify-items: center;
-    background-color: white;
 }
 
 .alphabet-div {
@@ -921,7 +940,7 @@ header h1 {
     gap: 1px;
     flex-shrink: 0;
     border-radius: 5px;
-    background-color: var(--cerulean200);
+    background-color: var(--graycool200);
 }
 
 .alphabet-transcription {
@@ -940,24 +959,53 @@ header h1 {
 
 
 
-/*HOVER/CLICK ↓ */
+/*HOVERED/CLICKED ↓ */
 
-.hovered {
-    background-color: var(--petroleum600);
-    box-shadow: 0px 0px 4px var(--petroleum600);
-    color: var(--neutralgray);
-    fill: var(--neutralgray);
-    transition-duration: 0.2s;
+
+.hovered-alphabet {
+    color: var(--graycool0);
+    background-color: var(--graycool800);
+    transition: all 0.2s ease;
     cursor: pointer;
 }
 
-.clicked {
-    background-color: var(--petroleum600);
-    box-shadow: 0px 0px 4px var(--petroleum600);
-    color: var(--neutralgray);
-    fill: var(--neutralgray);
-    transform: scale(1.1);
-    transition-duration: 0.2s;
+.hovered-voiced {
+    color: var(--graycool0);
+    background-color: var(--cerulean600);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.hovered-voiceless {
+    color: var(--graycool0);
+    background-color: var(--sunset600);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+
+.clicked-alphabet {
+    color: var(--graycool0);
+    background-color: var(--graycool800);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.clicked-voiced {
+    color: var(--graycool0);
+    background-color: var(--cerulean600);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.clicked-voiceless {
+    color: var(--graycool0);
+    background-color: var(--sunset600);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 /*HOVER/CLICK ↑ */
@@ -1092,16 +1140,15 @@ header h1 {
 
 .flashcard-hint-container {
     margin-top: 32px;
-    color: var(--petroleum300);
     border: 2px solid var(--cerulean100);
-    background-color: var(--neutralgray);
+    background-color: var(--graycool0);
     border-radius: 8px;
     padding: 16px;
 }
 
 .flashcard-hint {
     font-size: 1.1em;
-    color: var(--petroleum100);
+    color: var(--graycool600);
     font-weight: 600;
     margin-bottom: 8px;
 }
@@ -1227,14 +1274,14 @@ header h1 {
     padding: 5px;
     border-radius: 3px;
     background-color: var(--cerulean100);
-    fill: var(--petroleum500);
-    box-shadow: 0px 0px 4px var(--petroleum100);
+    fill: var(--graycool800);
+    box-shadow: 0px 0px 4px var(--graycool600);
 }
 
 .move-to-top:hover {
     background-color: var(--cerulean500);
     transition-duration: 0.2s;
-    fill: var(--neutralgray);
+    fill: var(--graycool0);
 }
 
 /*MOVE TO TOP ARROW ↑ */
@@ -1284,8 +1331,8 @@ header h1 {
 /*FOOTER ↓ */
 
 footer {
-    background-image: linear-gradient(to right, var(--petroleum900), var(--petroleum600));
-    color: var(--neutralgray);
+    background-image: linear-gradient(to right, var(--graycool1000), var(--graycool900));
+    color: var(--graycool0);
     font-weight: 300;
     font-size: 0.9em;
     padding-top: 40px;
