@@ -1299,7 +1299,7 @@ header h1 {
 
 .contacts-container {
     gap: 4px;
-    margin-top: 32px;
+    margin-bottom: 24px;
     display: flex;
     justify-content: center;
 }
@@ -1334,9 +1334,9 @@ footer {
     background-image: linear-gradient(to right, var(--graycool1000), var(--graycool900));
     color: var(--graycool0);
     font-weight: 300;
-    font-size: 0.9em;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-top: 32px;
 }
 
