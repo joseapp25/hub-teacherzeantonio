@@ -4,62 +4,11 @@ class ComponentFooter extends HTMLElement{
         this.attachShadow({mode: 'open'})
         this.shadowRoot.innerHTML=`
 
-            <style>
-
-                .footer-style {
-                    background-image: linear-gradient(to right, var(--graycool1000), var(--graycool900));
-                    color: var(--graycool0);
-                    font-weight: 300;
-                    font-size: 16px;
-                    padding-top: 32px;
-                    padding-bottom: 32px;
-                    margin-top: 40px;
-                }
-
-                .footer-copyright-container {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-
-                .footer-logo-container {
-                    margin-left: 0px;
-                }
-
-                .footer-text-container {
-                    margin-left: 4px;
-                    line-height: 4px;
-                }
-
-                .footer-style img {
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .contacts-container {
-                    gap: 4px;
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .contacts-link {
-                    border-radius: 4px;
-                    padding: 4px;
-                    cursor: pointer;
-                    align-items: center;
-                }
-
-                .contacts-link:hover {
-                    background-color: var(--cerulean100);
-                    transition-duration: 0.2s;
-                    box-shadow: 0px 0px 4px var(--cerulean300);
-                }
-
-            </style>
+            <link rel="stylesheet" href="style.css">
 
             <div class="footer-style">
 
-                <div id="contatos" class="contacts-container">
+                <div class="contacts-container">
 
                     <a href="https://teacherzeantonio.com.br" target="_blank">
 
