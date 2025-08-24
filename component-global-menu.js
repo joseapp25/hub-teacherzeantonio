@@ -32,7 +32,7 @@ class ComponentGlobalMenu extends HTMLElement{
                 </a>
 
                 <a href="ipa-chart.html">
-                    Phonetic
+                    Phonetics
                 </a>
 
                 <a href="tools.html">
