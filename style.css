@@ -63,7 +63,6 @@
 }
 
 html, body {
-    background-color: var(--graycool0);
     color: var(--graycool800);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
@@ -159,7 +158,6 @@ html, body {
 /* TABLE OF CONTENTS ↓ */
 
 .toc {
-    background-color: white;
     max-width: 70vw;
     margin-left: auto;
     margin-right: auto;
@@ -226,27 +224,6 @@ html, body {
 
 
 
-/* FULL AUDIO ↓ */
-
-.fullaudio {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-/* FULL AUDIO ↑ */
-
-
-
-
-
-
-
-
-
-
 /* SECTION CONTENT ↓ */
  
 .section-content {
@@ -258,19 +235,19 @@ html, body {
 }
 
 .section-content h2 {
-    scroll-margin-top: 60px;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    border-radius: 3px;
-    padding: 3px;
-    background-color: var(--cerulean100);
+    scroll-margin-top: 64px;
+    margin-bottom: 16px;
+    margin-top: 64px;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: var(--cerulean50);
 }
 
 .section-content h3 {
-    scroll-margin-top: 60px;
-    margin-bottom: 15px;
+    scroll-margin-top: 64px;
+    margin-bottom: 16px;
     margin-top: 40px;
-    margin-left: 3px;
+    margin-left: 4px;
 }
 
 .section-content section {
@@ -310,9 +287,28 @@ html, body {
 
 
 
-/* ASIDE CONTENT ↓ */
+/* FULL AUDIO ↓ */
+
+.fullaudio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FULL AUDIO ↑ */
+
+
+
+
+
+
+
+
+
+
+/* TOOLS CONTENT ↓ */
  
-.aside-content {
+.tools-content {
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
@@ -320,23 +316,13 @@ html, body {
     
 }
 
-.aside-content h2 {
-    scroll-margin-top: 60px;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    border-radius: 3px;
-    padding: 3px;
-    background-color: var(--cerulean100);
-
-}
-
 @media only screen and (min-width: 600px) {
-    .aside-content {
+    .tools-content {
         max-width: 50vw;
     }
 }
 
-/* ASIDE CONTENT ↑ */
+/* TOOLS CONTENT ↑ */
 
 
 
@@ -351,7 +337,7 @@ html, body {
 
 .hidden-heading {
     visibility: hidden;
-    scroll-margin-top: 60px;
+    scroll-margin-top: 64px;
 }
 
 /* HIDDEN HEADING ↑ */
@@ -628,7 +614,7 @@ html, body {
 
 @media only screen and (min-width: 600px) {
     .youtube-video-section {
-        max-width: 50vw;
+        max-width: 40vw;
     }
 }
 
@@ -961,12 +947,12 @@ html, body {
 }
 
 .flashcard-section-content h2 {
-    scroll-margin-top: 60px;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    border-radius: 3px;
-    padding: 3px;
-    background-color: var(--cerulean100);
+    scroll-margin-top: 64px;
+    margin-bottom: 16px;
+    margin-top: 64px;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: var(--cerulean50);
 }
 
 .flashcard-section-content h3 {
