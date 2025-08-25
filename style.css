@@ -117,7 +117,7 @@ html, body {
     gap: 4px;
     color: var(--cerulean300);
     background-color: white;
-    box-shadow: 0px 0px 4px var(--cerulean100);
+    box-shadow: 0px 0px 4px var(--graycool200);
     z-index: 1;
     padding-left: 4px;
     padding-right: 4px;
@@ -367,7 +367,6 @@ html, body {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: var(--cerulean100);
     transition-duration: 0.2s;
 }
 
