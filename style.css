@@ -21,7 +21,7 @@
 }
 
 :root {
-    --graycool0: #FBFBFB;
+    --graycool0: #F1F1FF;
     --graycool50: #EEEEF1;
     --graycool100: #E2E4E9;
     --graycool200: #C7C8D1;
@@ -92,8 +92,8 @@ html, body {
 }
 
 .header-style h1 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin-left: auto;
     margin-right: auto;
     color: var(--graycool0);
@@ -159,19 +159,19 @@ html, body {
 
 .toc {
     background-color: var(--graycool50);
-    max-width: 70vw;
+    max-width: 75vw;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    padding-top: 24px;
     border-radius: 4px;
     box-shadow: 0px 0px 8px var(--graycool50);
 }
 
 .toc h3 {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .toc a {
@@ -210,7 +210,7 @@ html, body {
 
 @media only screen and (min-width: 600px) {
     .toc {
-        max-width: 45vw;
+        max-width: 40vw;
     }
 }
 
@@ -231,8 +231,8 @@ html, body {
     max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .section-content h2 {
@@ -312,8 +312,8 @@ html, body {
 .tools-content {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
     
 }
 
@@ -615,6 +615,12 @@ html, body {
 
 @media only screen and (min-width: 600px) {
     .youtube-video-section {
+        max-width: 70vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .youtube-video-section {
         max-width: 40vw;
     }
 }
@@ -716,21 +722,27 @@ html, body {
 
 /* IPA & ALPHABET HEADING ↓ */
 .heading-container {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 64px;
+    margin-bottom: 8px;
 }
 
 .ipa-heading {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 64px;
 }
 
 @media only screen and (min-width: 600px) {
     .heading-container {
-        max-width: 50vw;
+        max-width: 70vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .heading-container {
+        max-width: 42vw;
     }
 }
 /* IPA & ALPHABET HEADING ↑ */
@@ -749,8 +761,8 @@ html, body {
 .ipa-section {
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
     overflow-x: auto;
     display: grid;
     justify-items: center;
@@ -762,53 +774,47 @@ html, body {
 
 .voiced {
     font-family: var(--font-noto);
-    font-size: 1.5em;
+    font-size: 1.6em;
     display: flex;
-    width: 60px;
-    height: 60px;
-    padding: 5px;
+    width: 64px;
+    height: 64px;
+    padding: 4px;
     margin: 8px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 1px;
-    flex-shrink: 0;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: var(--cerulean200);
 }
 
 .voiceless {
     font-family: var(--font-noto);
-    font-size: 1.5em;
+    font-size: 1.6em;
     display: flex;
-    width: 60px;
-    height: 60px;
-    padding: 5px;
+    width: 64px;
+    height: 64px;
+    padding: 4px;
     margin: 8px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 1px;
-    flex-shrink: 0;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: var(--sunset200);
 }
 
 .hidden-ipa {
     visibility: hidden;
     font-family: var(--font-noto);
-    font-size: 1.5em;
+    font-size: 1.6em;
     display: flex;
-    width: 60px;
-    height: 60px;
-    padding: 5px;
+    width: 64px;
+    height: 64px;
+    padding: 4px;
     margin: 8px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 1px;
-    flex-shrink: 0;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .space {
@@ -833,8 +839,8 @@ html, body {
 .alphabet-section {
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
     overflow-x: auto;
     display: grid;
     justify-items: center;
@@ -846,24 +852,23 @@ html, body {
 
 .alphabet-letter {
     font-family: var(--font-noto);
-    font-size: 1.4em;
+    font-size: 1.6em;
     display: grid;
-    width: 60px;
-    height: 60px;
-    padding: 5px;
+    align-content: space-evenly;
+    width: 80px;
+    height: 80px;
+    padding: 4px;
     margin: 8px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 1px;
-    flex-shrink: 0;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: var(--graycool200);
 }
 
 .alphabet-transcription {
     font-family: var(--font-noto);
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 /* ALPHABET ↑ */
@@ -883,6 +888,7 @@ html, body {
 .hovered-alphabet {
     color: var(--graycool0);
     background-color: var(--graycool800);
+    box-shadow: 0px 0px 4px var(--graycool800);
     transition: all 0.2s ease;
     cursor: pointer;
 }
@@ -890,6 +896,7 @@ html, body {
 .hovered-voiced {
     color: var(--graycool0);
     background-color: var(--cerulean600);
+    box-shadow: 0px 0px 4px var(--cerulean600);
     transition: all 0.2s ease;
     cursor: pointer;
 }
@@ -897,6 +904,7 @@ html, body {
 .hovered-voiceless {
     color: var(--graycool0);
     background-color: var(--sunset600);
+    box-shadow: 0px 0px 4px var(--sunset600);
     transition: all 0.2s ease;
     cursor: pointer;
 }
@@ -905,25 +913,28 @@ html, body {
 .clicked-alphabet {
     color: var(--graycool0);
     background-color: var(--graycool800);
+    box-shadow: 0px 0px 4px var(--graycool800);
     transition: all 0.2s ease;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .clicked-voiced {
     color: var(--graycool0);
     background-color: var(--cerulean600);
+    box-shadow: 0px 0px 4px var(--cerulean600);
     transition: all 0.2s ease;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .clicked-voiceless {
     color: var(--graycool0);
     background-color: var(--sunset600);
+    box-shadow: 0px 0px 4px var(--sunset600);
     transition: all 0.2s ease;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* HOVER/CLICK ↑ */
@@ -943,8 +954,8 @@ html, body {
     max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .flashcard-section-content h2 {
@@ -1078,6 +1089,7 @@ html, body {
 .flashcard-button-answer {
     margin-top: 32px;
     color: var(--cerulean500);
+    background-color: var(--graycool100);
     border: none;
     cursor: pointer;
     padding: 8px;
@@ -1086,27 +1098,27 @@ html, body {
     font-family: var(--font-grotesk);
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .flashcard-button-answer:hover {
-    background-color: var(--cerulean100);
+    background-color: var(--cerulean200);
+    color: var(--cerulean800);
     transition-duration: 0.2s;
     box-shadow: 0px 0px 4px var(--cerulean200);
 }
 
 .flashcard-button-correct {
+    background-color: var(--graycool100);
     border: none;
     cursor: pointer;
     padding: 8px;
     border-radius: 3px;
     margin-left: 8px;
     margin-right: 8px;
-
 }
 
 .flashcard-button-correct:hover {
-    background-color: var(--cerulean100);
+    background-color: var(--cerulean200);
     transition-duration: 0.2s;
     box-shadow: 0px 0px 4px var(--cerulean200);
 }
@@ -1117,17 +1129,17 @@ html, body {
 }
 
 .flashcard-button-wrong {
+    background-color: var(--graycool100);
     border: none;
     cursor: pointer;
     padding: 8px;
     border-radius: 3px;
     margin-left: 8px;
     margin-right: 8px;
-
 }
 
 .flashcard-button-wrong:hover {
-    background-color: var(--cerulean100);
+    background-color: var(--cerulean200);
     transition-duration: 0.2s;
     box-shadow: 0px 0px 4px var(--cerulean200);
 }
@@ -1138,6 +1150,7 @@ html, body {
 }
 
 .flashcard-button-reset {
+    background-color: var(--graycool100);
     display: flex;
     border: none;
     cursor: pointer;
@@ -1148,7 +1161,7 @@ html, body {
 }
 
 .flashcard-button-reset:hover {
-    background-color: var(--cerulean100);
+    background-color: var(--cerulean200);
     transition-duration: 0.2s;
     box-shadow: 0px 0px 4px var(--cerulean200);
 }
