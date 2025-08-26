@@ -31,7 +31,7 @@ class ComponentGlobalMenu extends HTMLElement{
                     Lessons
                 </a>
 
-                <a href="ipa-chart.html">
+                <a href="phonetics.html">
                     Phonetics
                 </a>
 
