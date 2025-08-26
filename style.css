@@ -241,7 +241,7 @@ html, body {
     margin-top: 64px;
     border-radius: 4px;
     padding: 4px;
-    background-color: var(--cerulean50);
+    background-color: var(--cerulean100);
 }
 
 .section-content h3 {
@@ -444,14 +444,13 @@ html, body {
 /* TRANSLATION-TEXT ↓*/
 
     .translation-text {
-        background-color: var(--graycool0);
         font-size: 0.9em;
         color: transparent;
         padding: 20px;
         transition: color 0.3s;
         cursor: pointer;
         border-radius: 3px;
-        box-shadow: 0px 0px 4px var(--graycool0);
+        box-shadow: 0px 0px 8px var(--graycool100);
     }
 
     .translation-text.visible {
@@ -510,82 +509,6 @@ html, body {
 
 
 
-/* BOOKMARK LINK ↓ */
-
-.bookmark-container {
-    text-align: left;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.custom-bookmark {
-    text-decoration: none;
-    color: var(--graycool800);
-    fill: var(--graycool800);
-    background-color: var(--cerulean100);
-    display: flex;
-    box-shadow: 0px 0px 4px var(--cerulean500);
-    transition-duration: 0.2s;
-    border-radius: 3px;
-}
-
-.custom-bookmark:hover {
-    background-color: var(--cerulean400);
-    box-shadow: 0px 0px 4px var(--cerulean500);
-    color: var(--graycool0);
-    fill: var(--graycool0);
-    transform: scale(1.02);
-}
-
-.bookmark-thumbnail {
-    width: 35%;
-    height: 35%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 3px var(--graycool500);
-}
-
-.bookmark-info {
-    display: grid;
-    margin-left: 10px;
-}
-
-.bookmark-title {
-    margin-left: 5px;
-    margin-top: 15px;
-    margin-bottom: 2.5px;
-    font-weight: 500;
-    font-size: 0.8em;
-}
-
-.bookmark-subtitle {
-    margin-left: 5px;
-    margin-top: 2.5px;
-    margin-bottom: 15px;
-    font-weight: 300;
-    font-size: 0.7em;
-}
-
-.bookmark-outside-link-icon {
-    padding-top: 10px;
-    padding-right: 10px;
-    margin-left: auto;
-}
-
-/* BOOKMARK LINK ↑ */
-
-
-
-
-
-
-
-
-
-
 /* YOUTUBE VIDEO ↓ */
 
 .youtube-video-section {
@@ -626,48 +549,6 @@ html, body {
 }
 
 /* YOUTUBE VIDEO ↑ */
-
-
-
-
-
-
-
-
-
-
-/* YOUTUBE THUMBNAIL ↓ */
-
-.video-container {
-    display: flex;
-}
-
-.video-link {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.video-thumbnail {
-    width: 70vw;
-    height: auto;
-    border-radius: 3px;
-    box-shadow: 0px 0px 3px var(--graycool500);
-    transition: transform 0.1s ease-in-out;
-}
-
-.video-thumbnail:hover {
-    transform: scale(1.05);
-}
-
-@media only screen and (min-width: 600px) {
-    .video-thumbnail {
-        width: 25vw;
-    }
-}
-
-/* YOUTUBE THUMBNAIL ↑ */
 
 
 
@@ -964,7 +845,7 @@ html, body {
     margin-top: 64px;
     border-radius: 4px;
     padding: 4px;
-    background-color: var(--cerulean50);
+    background-color: var(--cerulean100);
 }
 
 .flashcard-section-content h3 {
