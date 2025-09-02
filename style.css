@@ -403,9 +403,7 @@ html, body {
 
 
 
-
-
-
+/* VOCABULARY CALLOUT ↓ */
 
 .vocabulary-container {
     border: 2px solid var(--cerulean600);
@@ -450,6 +448,8 @@ html, body {
 .vocabulary-translation {
     color: var(--cerulean400);
 }
+
+/* VOCABULARY CALLOUT ↑ */
 
 
 

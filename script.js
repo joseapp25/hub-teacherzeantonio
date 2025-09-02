@@ -15,6 +15,17 @@
 
 // TRANSLATION ↑
 
+
+
+
+
+
+
+
+
+
+// VOCABULARY AUDIO ↓
+
   document.querySelectorAll(".vocabulary-audio").forEach(button => {
     button.addEventListener("click", () => {
       const audioSrc = button.getAttribute("data-audio");
@@ -22,3 +33,5 @@
       audio.play();
     });
   });
+
+  // VOCABULARY AUDIO ↑
