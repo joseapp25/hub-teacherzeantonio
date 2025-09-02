@@ -13,6 +13,12 @@
         });
         });
 
-    document.addEventListener("DOMContentLoaded", setYouTubeThumbnails);
-
 // TRANSLATION ↑
+
+  document.querySelectorAll(".vocabulary-audio").forEach(button => {
+    button.addEventListener("click", () => {
+      const audioSrc = button.getAttribute("data-audio");
+      const audio = new Audio(audioSrc);
+      audio.play();
+    });
+  });

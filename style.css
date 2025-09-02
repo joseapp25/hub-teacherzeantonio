@@ -403,6 +403,63 @@ html, body {
 
 
 
+
+
+
+
+.vocabulary-container {
+    border: 2px solid var(--cerulean600);
+    box-shadow: 0px 0px 4px var(--cerulean300);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.vocabulary-word-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.vocabulary-word {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cerulean600);
+}
+
+.vocabulary-class-word {
+    font-size: 16px;
+    color: var(--cerulean400);
+}
+
+.vocabulary-phonetic {
+    display: flex;
+    gap: 8px;
+    font-family: var(--font-noto);
+    font-size: 16px;
+}
+
+.vocabulary-audio {
+    cursor: pointer;
+}
+
+.vocabulary-translation {
+    color: var(--cerulean400);
+}
+
+
+
+
+
+
+
+
+
+
 /* HIGHLIGHT TEXT AUDIO ↓ */
 
 .highlight {
