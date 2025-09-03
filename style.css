@@ -82,7 +82,7 @@ html, body {
 /* HEADER & GLOBAL MENU ↓ */
 
 .header-style {
-    background-image: linear-gradient(to right, var(--cerulean600), var(--cerulean400));
+    background-image: linear-gradient(to right, var(--cerulean700), var(--cerulean600));
     fill: var(--graycool800);
     margin-bottom: 64px;
     margin-top: 40px;
@@ -406,8 +406,8 @@ html, body {
 /* VOCABULARY CALLOUT ↓ */
 
 .vocabulary-container {
-    border: 2px solid var(--cerulean600);
-    box-shadow: 0px 0px 4px var(--cerulean300);
+    border: 2px solid var(--cerulea200);
+    box-shadow: 0px 0px 4px var(--cerulean200);
     border-radius: 8px;
     padding: 16px;
     display: flex;
@@ -415,6 +415,7 @@ html, body {
     gap: 8px;
     margin-left: 8px;
     margin-right: 8px;
+    margin-top: 24px;
 }
 
 .vocabulary-word-container {
@@ -424,13 +425,13 @@ html, body {
 }
 
 .vocabulary-word {
-    font-size: 24px;
+    font-size: 1.3em;
     font-weight: 600;
     color: var(--cerulean600);
 }
 
 .vocabulary-class-word {
-    font-size: 16px;
+    font-size: 0.8em;
     color: var(--cerulean400);
 }
 
@@ -438,7 +439,7 @@ html, body {
     display: flex;
     gap: 8px;
     font-family: var(--font-noto);
-    font-size: 16px;
+    font-size: 0.8em;
 }
 
 .vocabulary-audio {
@@ -447,6 +448,7 @@ html, body {
 
 .vocabulary-translation {
     color: var(--cerulean400);
+    font-size: 1em;
 }
 
 /* VOCABULARY CALLOUT ↑ */
