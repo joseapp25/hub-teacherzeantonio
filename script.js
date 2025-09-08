@@ -25,7 +25,7 @@
 
 
 // WEB SPEECH API ↓
-
+/*
 document.addEventListener("DOMContentLoaded", () => {
     const audioButtons = document.querySelectorAll(".vocabulary-audio");
 
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
+*/
 // WEB SPEECH API ↑
 
 
