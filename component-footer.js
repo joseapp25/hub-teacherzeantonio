@@ -22,19 +22,19 @@ class ComponentFooter extends HTMLElement{
 
                     </a>
 
-                    <a href="https://www.youtube.com/@teacher.zeantonio" target="_blank">
+                    <a href="https://www.youtube.com/@teacherzeantonio" target="_blank">
 
                         <img class="contacts-link" src="images/icons/youtube-icon.svg" alt="YouTube Logo">
 
                     </a>
 
-                    <a href="https://www.instagram.com/teacher.zeantonio" target="_blank">
+                    <a href="https://www.instagram.com/teacherzeantonio" target="_blank">
 
                         <img class="contacts-link" src="images/icons/instagram-icon.svg" alt="Instagram Logo">
 
                     </a>
 
-                    <a href="https://www.tiktok.com/@teacher.zeantonio" target="_blank">
+                    <a href="https://www.tiktok.com/@teacherzeantonio" target="_blank">
 
                         <img class="contacts-link" src="images/icons/tiktok-icon.svg" alt="TikTok Logo">
                         
