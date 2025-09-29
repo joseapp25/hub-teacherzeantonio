@@ -52,8 +52,8 @@ class ComponentFooter extends HTMLElement{
 
                     <div class="footer-text-container">
 
-                        <p>Teacher Zé | English Classes</p>
-                        <p>®2025 | All Rights Reserved</p>
+                        <p>Teacher Zé Antonio</p>
+                        <p>&#174;2025 | All Rights Reserved</p>
 
                     </div>
 
