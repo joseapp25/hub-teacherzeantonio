@@ -762,6 +762,7 @@ html, body {
     text-align: center;
     border-radius: 4px;
     background-color: var(--cerulean200);
+    transition: all 0.2s ease;
 }
 
 .voiceless {
@@ -777,6 +778,7 @@ html, body {
     text-align: center;
     border-radius: 4px;
     background-color: var(--sunset200);
+    transition: all 0.2s ease;
 }
 
 .hidden-ipa {
@@ -841,6 +843,7 @@ html, body {
     text-align: center;
     border-radius: 4px;
     background-color: var(--graycool200);
+    transition: all 0.2s ease;
 }
 
 .alphabet-transcription {
