@@ -64,6 +64,7 @@
 }
 
 html, body {
+    background-color: var(--graycool0);
     color: var(--graycool800);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
@@ -191,7 +192,7 @@ html, body {
 /* TABLE OF CONTENTS ↓ */
 
 .toc {
-    background-color: var(--graycool50);
+    background-color: var(--graycool100);
     max-width: 75vw;
     margin-left: auto;
     margin-right: auto;
@@ -200,7 +201,7 @@ html, body {
     padding-bottom: 24px;
     padding-top: 24px;
     border-radius: 4px;
-    box-shadow: 0px 0px 8px var(--graycool50);
+    box-shadow: 0px 0px 8px var(--graycool100);
 }
 
 .toc h3 {
@@ -544,11 +545,11 @@ html, body {
         transition: color 0.3s;
         cursor: pointer;
         border-radius: 3px;
-        box-shadow: 0px 0px 8px var(--graycool100);
+        box-shadow: 0px 0px 4px var(--graycool200);
     }
 
     .translation-text.visible {
-        color: var(--cerulean400);
+        color: var(--cerulean600);
     }
 
     .translation-text::before {
