@@ -274,6 +274,8 @@ html, body {
     scroll-margin-top: 64px;
     margin-bottom: 16px;
     margin-top: 64px;
+    margin-left: -4px;
+    margin-right: -4px;
     border-radius: 4px;
     padding: 4px;
     background-color: var(--cerulean100);
@@ -283,7 +285,6 @@ html, body {
     scroll-margin-top: 64px;
     margin-bottom: 16px;
     margin-top: 40px;
-    margin-left: 4px;
 }
 
 .section-content section {
@@ -300,7 +301,6 @@ html, body {
 .section-content p {
     text-align: left;
     font-weight: 400;
-    margin-left: 3px;
     margin-top: 16px;
     margin-bottom: 16px;
     line-height: 1.6em;
@@ -329,6 +329,13 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 32px;
+}
+
+audio {
+    box-shadow: 0px 0px 4px var(--graycool600);
+    border-radius: 64px;
+    margin-top: 8px;
 }
 
 /* FULL AUDIO ↑ */
@@ -387,71 +394,17 @@ html, body {
 
 
 
-/* VOCABULARY HIDE & SHOW ↓ */
-
-.word-container {
-    display: flex;
-    gap: 5px;
-}
-
-.word {
-    font-weight: 500;
-    cursor: pointer;
-    padding: 5px;
-    border-radius: 3px;
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    transition-duration: 0.2s;
-}
-
-.word:hover {
-    color: var(--graycool0);
-    box-shadow: 0px 0px 4px var(--cerulean500);
-    background-color: var(--cerulean500);
-    transition-duration: 0.2s;
-}
-
-.translation {
-    color: var(--cerulean700);
-    font-weight: 400;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 0px;
-    margin-right: auto;
-    opacity: 0;
-    transition: opacity 0.3s ease, height 0.3s ease;
-}
-
-.translation.show {
-    opacity: 1;
-    height: auto;
-}
-
-/* VOCABULARY HIDE & SHOW ↑ */
-
-
-
-
-
-
-
-
-
-
 /* VOCABULARY CALLOUT ↓ */
 
 .vocabulary-container {
-    border: 2px solid var(--cerulean200);
-    box-shadow: 0px 0px 4px var(--cerulean200);
+    box-shadow: 0px 0px 4px var(--graycool300);
     border-radius: 8px;
     padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-top: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .vocabulary-word-container {
@@ -461,20 +414,21 @@ html, body {
 }
 
 .vocabulary-word {
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 600;
     color: var(--cerulean600);
 }
 
 .vocabulary-class-word {
     font-size: 0.8em;
-    color: var(--cerulean400);
+    color: var(--graycool600);
 }
 
 .vocabulary-phonetic {
     display: flex;
     gap: 8px;
     font-family: var(--font-noto);
+    color: var(--graycool600);
     font-size: 0.8em;
 }
 
@@ -483,8 +437,8 @@ html, body {
 }
 
 .vocabulary-translation {
-    color: var(--cerulean400);
-    font-size: 1em;
+    color: var(--cerulean500);
+    font-size: 0.9em;
 }
 
 /* VOCABULARY CALLOUT ↑ */
@@ -541,11 +495,10 @@ html, body {
     .translation-text {
         font-size: 0.9em;
         color: transparent;
-        padding: 20px;
         transition: color 0.3s;
         cursor: pointer;
-        border-radius: 3px;
-        box-shadow: 0px 0px 4px var(--graycool200);
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 
     .translation-text.visible {
@@ -555,12 +508,12 @@ html, body {
     .translation-text::before {
         content: "(click to see translation) ";
         color: var(--cerulean500);
+        font-weight: 900;
+        font-size: 1.2em;
     }
 
     .translation-text:hover::before {
         text-decoration: underline;
-        color: var(--cerulean500);
-        font-weight: 400;
     }
 
 /* TRANSLATION-TEXT ↑ */
@@ -944,6 +897,8 @@ html, body {
     scroll-margin-top: 64px;
     margin-bottom: 16px;
     margin-top: 64px;
+    margin-left: -4px;
+    margin-right: -4px;
     border-radius: 4px;
     padding: 4px;
     background-color: var(--cerulean100);
@@ -951,7 +906,7 @@ html, body {
 
 .flashcard-section-content h3 {
     scroll-margin-top: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     margin-top: 40px;
     margin-left: 3px;
 }
