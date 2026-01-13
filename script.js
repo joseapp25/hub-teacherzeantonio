@@ -75,3 +75,15 @@ document.addEventListener("DOMContentLoaded", () => {
 // WEB SPEECH API ↑
 
 
+
+
+
+
+
+
+
+
+// DICTIONARY ↓
+
+
+// DICTIONARY ↑
