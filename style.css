@@ -533,8 +533,8 @@ audio {
     color: var(--cerulean600);
     text-decoration: none;
     font-weight: 500;
-    border-radius: 3px;
-    padding: 3px;
+    border-radius: 4px;
+    padding: 4px;
     transition-duration: 0.2s;
 }
 
@@ -542,9 +542,9 @@ audio {
     color: var(--graycool0);
     background-color: var(--cerulean500);
     transition-duration: 0.2s;
-    border-radius: 3px;
+    border-radius: 4px;
     box-shadow: 0px 0px 4px var(--cerulean500);
-    padding: 3px;
+    padding: 4px;
 }
 
 /* ANCHOR INSIDE ↑ */
