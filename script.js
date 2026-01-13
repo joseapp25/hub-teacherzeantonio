@@ -85,5 +85,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // DICTIONARY ↓
 
+const container = document.getElementById("vocabulary-list");
+
+vocabularyList.forEach(item => {
+    container.innerHTML += `
+        <div class="vocabulary-container">
+            <div class="vocabulary-word-container">
+                <span class="vocabulary-word">${item.word}</span>
+                <span class="vocabulary-class-word">[${item.class}]</span>
+            </div>
+            <div class="vocabulary-phonetic">
+                <span>${item.phonetic}</span>
+                <img src="images/icons/audio-icon.svg" alt="Audio" class="vocabulary-audio">
+            </div>
+            <div class="vocabulary-translation">
+                <span>${item.translation}</span>
+            </div>
+        </div>
+    `;
+});
 
 // DICTIONARY ↑
