@@ -132,7 +132,7 @@ html, body {
     fill: var(--cerulean600);
     text-decoration: none;
     font-weight: 500;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 4px;
     transition-duration: 0.2s;
 }
@@ -140,10 +140,9 @@ html, body {
 .globalmenu a:hover {
     color: var(--graycool0);
     fill: var(--graycool0);
-    background-color: var(--cerulean500);
+    background-color: var(--cerulean600);
     transition-duration: 0.2s;
-    border-radius: 3px;
-    box-shadow: 0px 0px 4px var(--cerulean500);
+    box-shadow: 0px 0px 4px var(--cerulean600);
     cursor: pointer;
 }
 
@@ -225,7 +224,6 @@ html, body {
     font-weight: 500;
     text-decoration: underline;
     transition-duration: 0.2s;
-    padding: 2px;
 }
 
 .toc li {
@@ -295,7 +293,6 @@ html, body {
     list-style-type: none;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 3px;
 }
 
 .section-content p {
@@ -534,17 +531,16 @@ audio {
     text-decoration: none;
     font-weight: 500;
     border-radius: 4px;
-    padding: 4px;
     transition-duration: 0.2s;
 }
 
 .anchor-inside a:hover {
     color: var(--graycool0);
-    background-color: var(--cerulean500);
+    background-color: var(--cerulean600);
     transition-duration: 0.2s;
-    border-radius: 4px;
-    box-shadow: 0px 0px 4px var(--cerulean500);
     padding: 4px;
+    box-shadow: 0px 0px 4px var(--cerulean600);
+    cursor: pointer;
 }
 
 /* ANCHOR INSIDE ↑ */
