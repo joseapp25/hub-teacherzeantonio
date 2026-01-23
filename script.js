@@ -106,3 +106,4 @@ vocabularyList.forEach(item => {
 });
 
 // DICTIONARY ↑
+
