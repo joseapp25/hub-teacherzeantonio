@@ -35,10 +35,6 @@ class ComponentGlobalMenu extends HTMLElement{
                     Phonetics
                 </a>
 
-                <a href="tools.html">
-                    Tools
-                </a>
-
             </div>
 
         `
