@@ -24,9 +24,30 @@
 
 
 
+// DATA-AUDIO VOCABULARY ↓
+
+document.addEventListener("click", function (e) {
+    if (e.target.classList.contains("vocabulary-audio")) {
+        const audioSrc = e.target.dataset.audio;
+        const audio = new Audio(audioSrc);
+        audio.play();
+    }
+});
+
+// DATA-AUDIO VOCABULARY ↑
+
+
+
+
+
+
+
+
+
+
 // WEB SPEECH API ↓
 
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
     const audioButtons = document.querySelectorAll(".vocabulary-audio");
 
     let englishVoices = [];
@@ -70,40 +91,6 @@ document.addEventListener("DOMContentLoaded", () => {
             speechSynthesis.speak(utterance);
         });
     });
-});
+});*/
 
 // WEB SPEECH API ↑
-
-
-
-
-
-
-
-
-
-
-// DICTIONARY ↓
-
-const container = document.getElementById("vocabulary-list");
-
-vocabularyList.forEach(item => {
-    container.innerHTML += `
-        <div class="vocabulary-container">
-            <div class="vocabulary-word-container">
-                <span class="vocabulary-word">${item.word}</span>
-                <span class="vocabulary-class-word">[${item.class}]</span>
-            </div>
-            <div class="vocabulary-phonetic">
-                <span>${item.phonetic}</span>
-                <img src="images/icons/audio-icon.svg" alt="Audio" class="vocabulary-audio">
-            </div>
-            <div class="vocabulary-translation">
-                <span>${item.translation}</span>
-            </div>
-        </div>
-    `;
-});
-
-// DICTIONARY ↑
-
