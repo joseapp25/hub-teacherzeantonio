@@ -109,7 +109,7 @@ html, body {
     }
 }
 
-.globalmenu {
+.global-menu {
     position: fixed;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ html, body {
     padding-right: 4px;
 }
 
-.globalmenu a {
+.global-menu a {
     display: flex;
     align-items: center;
     color: var(--cerulean600);
@@ -138,7 +138,7 @@ html, body {
 
 }
 
-.globalmenu a:hover {
+.global-menu a:hover {
     color: var(--graycool0);
     fill: var(--graycool0);
     background-color: var(--cerulean600);
@@ -147,12 +147,12 @@ html, body {
     cursor: pointer;
 }
 
-.globalmenu-chevron {
+.global-menu-chevron {
     width: 16px;
     height: 16px;
 }
 
-.globalmenu-logo {
+.global-menu-logo {
     width: 24px;
     height: 24px;
 }
