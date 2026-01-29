@@ -1154,11 +1154,14 @@ audio {
 }
 
 .contacts-link {
+    height: 24px;
+    width: 24px;
     border-radius: 4px;
     padding: 4px;
     cursor: pointer;
     align-items: center;
     transition-duration: 0.2s;
+    fill: var(--cerulean600);
 }
 
 .contacts-link:hover {
