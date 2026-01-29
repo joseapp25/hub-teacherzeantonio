@@ -9,30 +9,40 @@ class ComponentGlobalMenu extends HTMLElement{
             <div class="globalmenu">
 
                 <a href="index.html">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M21.0806 3.96429V0.75L2.91797 3.96429H21.0806Z"/>
-                        <path d="M17.7446 16.8214L21.0806 5.25H2.91797V11.6786H6.25397L2.91797 23.25H21.0806V16.8214H17.7446Z"/>
+
+                    <svg class="globalmenu-logo" viewBox="0 0 1024 1024">
+                        <path d="M899.471 169.143V32L124.531 169.143H899.471Z"/>
+                        <path d="M757.135 717.714L899.471 224H124.531V498.286H266.867L124.531 992H899.471V717.714H757.135Z"/>
                     </svg>
+
                 </a>
 
                 <a href="javascript:history.back()">
-                    <svg width="7" height="12" viewBox="0 0 7 12">
-                        <path d="M7 11.0255L1.95617 6L7 0.974525L6.02192 0L0 6L6.02192 12L7 11.0255Z"/>
+
+                    <svg class="globalmenu-chevron" viewBox="0 0 1024 1024">
+                        <path d="M712.835 823.161L401.672 511.997L712.835 200.834L652.495 140.494L280.992 511.997L652.495 883.501L712.835 823.161Z"/>
                     </svg>
+
                 </a>
 
                 <a href="javascript:history.forward()">
-                    <svg width="7" height="12" viewBox="0 0 7 12">
-                        <path d="M0 0.974524L5.04383 6L0 11.0255L0.978083 12L7 6L0.978083 0L0 0.974524Z"/>
+
+                    <svg class="globalmenu-chevron" viewBox="0 0 1024 1024">
+                        <path d="M311.168 200.84L622.331 512.003L311.168 823.167L371.508 883.507L743.011 512.003L371.508 140.5L311.168 200.84Z"/>
                     </svg>
+
                 </a>
 
                 <a href="lessons.html">
+
                     Lessons
+
                 </a>
 
                 <a href="phonetics.html">
+
                     Phonetics
+
                 </a>
 
             </div>

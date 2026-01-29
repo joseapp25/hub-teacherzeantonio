@@ -135,6 +135,7 @@ html, body {
     border-radius: 4px;
     padding: 4px;
     transition-duration: 0.2s;
+
 }
 
 .globalmenu a:hover {
@@ -144,6 +145,16 @@ html, body {
     transition-duration: 0.2s;
     box-shadow: 0px 0px 4px var(--cerulean600);
     cursor: pointer;
+}
+
+.globalmenu-chevron {
+    width: 16px;
+    height: 16px;
+}
+
+.globalmenu-logo {
+    width: 24px;
+    height: 24px;
 }
 
 .elevenlabs-container {
@@ -1127,13 +1138,15 @@ audio {
 /* FOOTER, MOVE TO TOP, CONTACTS ↓ */
 
 .move-to-top {
+    height: 24px;
+    width: 24px;
     cursor: pointer;
     position: fixed;
     bottom: 10px;
     right: 10px;
     text-decoration: none;
-    padding: 5px;
-    border-radius: 3px;
+    padding: 4px;
+    border-radius: 4px;
     background-color: var(--cerulean100);
     fill: var(--graycool800);
     box-shadow: 0px 0px 4px var(--graycool600);
@@ -1194,12 +1207,13 @@ audio {
     margin-left: 2px;
 }
 
-.footer-style img {
+.footer-logo {
     display: flex;
     justify-content: center;
+    height: 40px;
+    width: 40px;
+    fill: var(--cerulean100);
 }
-
-
 
 /* FOOTER, MOVE TO TOP, CONTACTS ↑ */
 

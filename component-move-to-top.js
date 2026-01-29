@@ -7,10 +7,12 @@ class ComponentMovetoTop extends HTMLElement{
             <link rel="stylesheet" href="style.css">
 
             <a href="#">
-                <svg class="move-to-top" width="24" height="24" viewBox="0 0 24 24">
-                    <path d="M20 4H4V2H20V4Z"/>
-                    <path d="M12 5.58579L18.7071 12.2929L17.2929 13.7071L13 9.41421L13 22H11L11 9.41421L6.70711 13.7071L5.29289 12.2929L12 5.58579Z"/>
+            
+                <svg class="move-to-top" viewBox="0 0 1024 1024">
+                    <path d="M853.335 170.667H170.668V85.334H853.335V170.667Z"/>
+                    <path d="M512.001 238.328L798.171 524.497L737.831 584.837L554.668 401.674L554.668 938.667H469.335V401.674L286.171 584.837L225.831 524.497L512.001 238.328Z"/>
                 </svg>
+
             </a>
             
         `
