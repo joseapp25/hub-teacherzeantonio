@@ -94,3 +94,10 @@ document.addEventListener("click", function (e) {
 });*/
 
 // WEB SPEECH API ↑
+
+/* PHONETICANDO LOGO
+<svg viewBox="0 0 1024 1024">
+    <path d="M899.471 169.143V32L124.531 169.143H899.471Z"/>
+    <path d="M757.135 717.714L899.471 224H124.531V498.286H266.867L124.531 992H899.471V717.714H757.135Z"/>
+</svg>
+*/
