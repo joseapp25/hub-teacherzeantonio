@@ -117,7 +117,6 @@ html, body {
     height: 40px;
     top: 0;
     gap: 4px;
-    color: var(--cerulean300);
     background-color: white;
     box-shadow: 0px 0px 4px var(--graycool200);
     z-index: 1;
@@ -1160,7 +1159,7 @@ audio {
 }
 
 .contacts-container {
-    gap: 8px;
+    gap: 4px;
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
