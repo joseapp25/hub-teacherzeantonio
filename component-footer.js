@@ -30,12 +30,14 @@ class ComponentFooter extends HTMLElement{
                 }
 
                 .contacts-link {
-                    height: 24px;
+                   height: 24px;
                     width: 24px;
                     border-radius: 4px;
                     padding: 4px;
                     cursor: pointer;
+                    display: flex;
                     align-items: center;
+                    justify-content: center;
                     transition-duration: 0.2s;
                     fill: var(--cerulean600);
                 }
