@@ -15,9 +15,9 @@ class ComponentFooter extends HTMLElement{
                     gap: 8px;
                     background-color: var(--graycool1000);
                     color: var(--graycool0);
-                    padding-top: 40px;
-                    padding-bottom: 40px;
-                    padding-left: 40px;
+                    padding-top: 24px;
+                    padding-bottom: 24px;
+                    padding-left: 24px;
                 }
 
                 @media only screen and (min-width: 600px) {
