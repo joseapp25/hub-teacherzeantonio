@@ -205,7 +205,7 @@ class ComponentFooter extends HTMLElement{
                         <span>&#169;</span>
                         <span>2026</span>
                         <span>|</span>
-                        <p>Todos os Direitos Reservados</p>
+                        <span>Todos os Direitos Reservados</span>
                     </div>
                 </div>
             </div>
