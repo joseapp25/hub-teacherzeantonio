@@ -18,6 +18,7 @@ class ComponentFooter extends HTMLElement{
                     padding-top: 24px;
                     padding-bottom: 24px;
                     padding-left: 24px;
+                    margin-top: 32px;
                 }
 
                 @media only screen and (min-width: 600px) {

@@ -134,11 +134,9 @@ html, body {
 }
 
 .global-menu a:hover {
-    color: var(--graycool0);
-    fill: var(--graycool0);
-    background-color: var(--cerulean600);
+    color: var(--sunset600);
+    fill: var(--sunset600);
     transition-duration: 0.2s;
-    box-shadow: 0px 0px 4px var(--cerulean600);
     cursor: pointer;
 }
 
