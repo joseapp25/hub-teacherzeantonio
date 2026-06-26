@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-logo.png" type="image/x-icon">
+    <title>Sweets Shop | Phoneticando Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header-style">
+
+        <nav>
+
+            <component-global-menu></component-global-menu>
+
+            <script src="component-global-menu.js"></script>
+
+        </nav>
+
+        <h1>Sweets <br>Shop</h1>
+
+        <cite>
+
+            <component-elevenlabs></component-elevenlabs>
+
+            <script src="component-elevenlabs.js"></script>
+
+        </cite>
+
+    </header>
+
+    <main>
+
+        <nav class="toc">
+
+            <h3>Contents</h3>
+
+            <ol>
+                <li class="heading-one">
+                    <a href="#fullaudio">Full Audio</a>
+                </li>
+                <li class="heading-one">
+                    <a href="#transcription">Transcription</a>
+                        <ol>
+                            <li class="heading-two">
+                                <a href="#part01">Part 01</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part02">Part 02</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part03">Part 03</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part04">Part 04</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part05">Part 05</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part06">Part 06</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part07">Part 07</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part08">Part 08</a>
+                            </li>
+                        </ol>
+                </li>
+            </ol>
+            
+        </nav>
+
+        <section class="section-content">
+            <h2 id="fullaudio">Full Audio</h2>
+                <audio class="fullaudio" preload="metadata" controls>
+                    <source src="midia/sweets-shop/sweets-shop.mp3" type="audio/mpeg">
+                </audio>
+        </section>
+
+        <section class="section-content">
+
+            <h2 id="transcription">Transcription</h2>
+
+                <h3 id="part01">Part 01</h3>
+
+                    <audio id="audio-part01" preload="metadata" controls>
+                        <source src="midia/sweets-shop/sweets-shop-part-01.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Customer 01: </span>
+                        <span id="part01-sentence01">Hello! What's that?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part01-sentence02">Hi hi! That's a Dango.</span>
+                        <span id="part01-sentence03">It's a traditional Japanese sweet made from sweet rice flour.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 01: </span>
+                        <span id="part01-sentence04">Does it have a filling?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part01-sentence05">No, it doesn't.</span>
+                        <span id="part01-sentence06">Dango is just colored rice dough.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 01: </span>
+                        <span id="part01-sentence07">What colors do you have?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part01-sentence08">We have pink, white, and green dango.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 01: </span>
+                        <span id="part01-sentence09">Is there any difference between them?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part01-sentence10">The white dango is served with sweet soy sauce.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 01: </span>
+                        <span id="part01-sentence11">How much is it?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part01-sentence12">It's 2 for a skewer.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 01: </span>
+                        <span id="part01-sentence13">I'll have one, please.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part01-sentence14">Good choice!</span>
+                    </p>
+                    
+                    <div class="translation-text">
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part01").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence10").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence11").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence12").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence13").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part01-sentence14").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h3 id="part02">Part 02</h3>
+
+                    <audio id="audio-part02" preload="metadata" controls>
+                        <source src="midia/sweets-shop/sweets-shop-part-02.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Customer 02: </span>
+                        <span id="part02-sentence01">Hello there!</span>
+                        <span id="part02-sentence02">What are those?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part02-sentence03">Those are mochi.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 02: </span>
+                        <span id="part02-sentence04">What is mochi exactly?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part02-sentence05">Mochi is made from soft rice dough with a filling inside.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 02: </span>
+                        <span id="part02-sentence06">What kinds of mochi do you have?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part02-sentence07">We have strawberry brigadeiro,</span>
+                        <span id="part02-sentence08">powdered milk cream with grape,</span>
+                        <span id="part02-sentence09">sweet bean paste with strawberry,</span>
+                        <span id="part02-sentence10">sweet bean paste,</span>
+                        <span id="part02-sentence11">and truffle chocolate mochi.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 02: </span>
+                        <span id="part02-sentence12">Which flavor is the most popular?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part02-sentence13">The strawberry brigadeiro mochi is one of our best sellers.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 02: </span>
+                        <span id="part02-sentence14">How much does it cost?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part02-sentence15">It's 5 each.</span>
+                    </p>
+                    <p>
+                        <span class="name-highlight">Customer 02: </span>
+                        <span id="part02-sentence16">I'll take two strawberry brigadeiro mochi.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part02-sentence17">Perfect! Your total is 10 dollars.</span>
+                    </p>
+                    
+                    <div class="translation-text">
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+                
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+                
+                            if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence10").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence11").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence12").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence13").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence14").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence15").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence16").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part02-sentence17").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+
+                <h3 id="part03">Part 03</h3>
+
+                    <audio id="audio-part03" preload="metadata" controls>
+                        <source src="midia/sweets-shop/sweets-shop-part-03.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Customer 03: </span>
+                        <span id="part03-sentence01">Excuse me, what is dorayaki?</span>
+
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part03-sentence02">Hi! Dorayaki is a Japanese sweet made with two soft sponge cake pancakes and a filling inside.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 03: </span>
+                        <span id="part03-sentence03">What fillings do you have?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part03-sentence04">Chocolate,</span>
+                        <span id="part03-sentence05">vanilla cream with strawberry,</span>
+                        <span id="part03-sentence06">matcha,</span>
+                        <span id="part03-sentence07">pistachio,</span>
+                        <span id="part03-sentence08">sweet bean paste,</span>
+                        <span id="part03-sentence09">and churros.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 03: </span>
+                        <span id="part03-sentence10">Which one do you recommend?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part03-sentence11">The pistachio and matcha flavors are very popular.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 03: </span>
+                        <span id="part03-sentence12">How much are they?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part03-sentence13">They are 2 dollars each.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 03: </span>
+                        <span id="part03-sentence14">I'll try the pistachio one.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part03-sentence15">Excellent choice!</span>
+                    </p>
+                    
+                    <div class="translation-text">
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part03").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence10").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence11").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence12").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence13").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence14").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part03-sentence15").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+
+                <h3 id="part04">Part 04</h3>
+
+                    <audio id="audio-part04" preload="metadata" controls>
+                        <source src="midia/sweets-shop/sweets-shop-part-04.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Customer 04: </span>
+                        <span id="part04-sentence00">Hi, it's my first time here. What do you recommend?</span>
+                        <span id="part04-sentence00">-</span>
+                        <span id="part04-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part04-sentence00">Hello! If you like soft sweets, I recommend mochi. If you like cake, I recommend dorayaki.</span>
+                        <span id="part04-sentence00">-</span>
+                        <span id="part04-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 04: </span>
+                        <span id="part04-sentence00">Which one is sweeter?</span>
+                        <span id="part04-sentence00">-</span>
+                        <span id="part04-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part04-sentence00">The chocolate dorayaki is usually sweeter than mochi.</span>
+                        <span id="part04-sentence00">-</span>
+                        <span id="part04-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 04: </span>
+                        <span id="part04-sentence00">How much is the chocolate dorayaki?</span>
+                        <span id="part04-sentence00">-</span>
+                        <span id="part04-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part04-sentence00">It's 3 dollars.</span>
+                        <span id="part04-sentence00">-</span>
+                        <span id="part04-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 04: </span>
+                        <span id="part04-sentence00">I'll take one, please.</span>
+                        <span id="part04-sentence00">-</span>
+                        <span id="part04-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part04-sentence00">Sure!</span>
+                        <span id="part04-sentence00">-</span>
+                        <span id="part04-sentence00">-</span>
+                    </p>
+                    
+                    <div class="translation-text">
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part04").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part04-sentence10").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+
+                <h3 id="part05">Part 05</h3>
+
+                    <audio id="audio-part05" preload="metadata" controls>
+                        <source src="midia/sweets-shop/sweets-shop-part-05.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Customer 05: </span>
+                        <span id="part05-sentence00">Hey! Which sweet is the most traditional?</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part05-sentence00">Hi! Dango and sweet bean paste dorayaki are very traditional Japanese sweets.</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 05: </span>
+                        <span id="part05-sentence00">What is sweet bean paste?</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part05-sentence00">It's a sweet filling made from red beans.</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 05: </span>
+                        <span id="part05-sentence00">I have never tried that before.</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part05-sentence00">You should try it.</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 05: </span>
+                        <span id="part05-sentence00">How much is the traditional dorayaki?</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part05-sentence00">It's 3 dollars.</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 05: </span>
+                        <span id="part05-sentence00">I'll give it a try.</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part05-sentence00">Nice! Here you go.</span>
+                        <span id="part05-sentence00">-</span>
+                        <span id="part05-sentence00">-</span>
+                    </p>
+                    
+                    <div class="translation-text">
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part05").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part05-sentence10").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+                    
+                <h3 id="part06">Part 06</h3>
+
+                    <audio id="audio-part06" preload="metadata" controls>
+                        <source src="midia/sweets-shop/sweets-shop-part-06.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Customer 06: </span>
+                        <span id="part06-sentence00">Morning! What's the difference between dango and mochi?</span>
+                        <span id="part06-sentence00">-</span>
+                        <span id="part06-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part06-sentence00">Morning! Dango doesn't have a filling, while mochi has a filling inside.</span>
+                        <span id="part06-sentence00">-</span>
+                        <span id="part06-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 06: </span>
+                        <span id="part06-sentence00">Which one is softer?</span>
+                        <span id="part06-sentence00">-</span>
+                        <span id="part06-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part06-sentence00">Mochi is usually softer and chewier.</span>
+                        <span id="part06-sentence00">-</span>
+                        <span id="part06-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 06: </span>
+                        <span id="part06-sentence00">Which one sells more?</span>
+                        <span id="part06-sentence00">-</span>
+                        <span id="part06-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part06-sentence00">Mochi is our best-selling item.</span>
+                        <span id="part06-sentence00">-</span>
+                        <span id="part06-sentence00">-</span>
+                    </p>
+
+                    <div class="translation-text">
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part06").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part06-sentence10").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+                    
+                <h3 id="part07">Part 07</h3>
+
+                    <audio id="audio-part07" preload="metadata" controls>
+                        <source src="midia/sweets-shop/sweets-shop-part-07.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Customer 07: </span>
+                        <span id="part07-sentence00">Hello! I would like three mochis and two dorayakis, please.</span>
+                        <span id="part07-sentence00"></span>
+                        <span id="part07-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part07-sentence00">Hi! Certainly. Which flavors would you like?</span>
+                        <span id="part07-sentence00">-</span>
+                        <span id="part07-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 07: </span>
+                        <span id="part07-sentence00">Two strawberry brigadeiro mochis, one chocolate mochi, one pistachio dorayaki, and one matcha dorayaki.</span>
+                        <span id="part07-sentence00">-</span>
+                        <span id="part07-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part07-sentence00">Good choice. It's 23.</span>
+                        <span id="part07-sentence00">-</span>
+                        <span id="part07-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 07: </span>
+                        <span id="part07-sentence00">Here you go.</span>
+                        <span id="part07-sentence00">-</span>
+                        <span id="part07-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part07-sentence00">Thank you very much. Enjoy your treats!</span>
+                        <span id="part07-sentence00">-</span>
+                        <span id="part07-sentence00">-</span>
+                    </p>
+                    
+                    <div class="translation-text">
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part07").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part07-sentence10").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+                    
+                <h3 id="part08">Part 08</h3>
+
+                    <audio id="audio-part08" preload="metadata" controls>
+                        <source src="midia/sweets-shop/sweets-shop-part-08.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Customer 08: </span>
+                        <span id="part08-sentence00">Hi there! I like chocolate, what should I get?</span>
+                        <span id="part08-sentence00">-</span>
+                        <span id="part08-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part08-sentence00">Hi! I recommend the chocolate dorayaki or the truffle chocolate mochi.</span>
+                        <span id="part08-sentence00">-</span>
+                        <span id="part08-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 08: </span>
+                        <span id="part08-sentence00">Which one is more intense?</span>
+                        <span id="part08-sentence00">-</span>
+                        <span id="part08-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part08-sentence00">The truffle chocolate mochi is richer and more intense.</span>
+                        <span id="part08-sentence00">-</span>
+                        <span id="part08-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Customer 08: </span>
+                        <span id="part08-sentence00">Then I'll take one of those.</span>
+                        <span id="part08-sentence00">-</span>
+                        <span id="part08-sentence00">-</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part08-sentence00">Great choice!</span>
+                        <span id="part08-sentence00">-</span>
+                        <span id="part08-sentence00">-</span>
+                    </p>
+                    
+                    <div class="translation-text">
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part08").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+            
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+            
+                                if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 0.0 && currentTime < 0.0) {
+                                document.getElementById("part08-sentence10").classList.add("highlight");
+                            } 
+                        });
+                    </script>
+
+    </main>
+
+    <footer>
+
+        <nav>
+
+            <component-move-to-top></component-move-to-top>
+
+            <script src="component-move-to-top.js"></script>
+
+        </nav>
+
+        <component-footer></component-footer>
+
+        <script src="component-footer.js"></script>
+
+    </footer>
+    
+</body>
+</html>
