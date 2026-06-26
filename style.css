@@ -81,7 +81,7 @@ html, body {
 .header-style {
     background-image: linear-gradient(to right, var(--cerulean700), var(--cerulean600));
     fill: var(--graycool800);
-    margin-bottom: 64px;
+    margin-bottom: 32px;
     margin-top: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -195,15 +195,9 @@ html, body {
 /* TABLE OF CONTENTS ↓ */
 
 .toc {
-    border: 2px solid var(--graycool100);
-    max-width: 75vw;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    border-radius: 4px;
 }
 
 .toc h3 {
@@ -216,8 +210,8 @@ html, body {
     font-weight: 400;
     border-radius: 4px;
     padding: 2px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     font-size: 0.9em;
     transition-duration: 0.2s;
 }
@@ -246,7 +240,7 @@ html, body {
 
 @media only screen and (min-width: 600px) {
     .toc {
-        max-width: 40vw;
+        max-width: 50vw;
     }
 }
 
