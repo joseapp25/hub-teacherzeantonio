@@ -6,16 +6,35 @@ class ComponentGlobalMenu extends HTMLElement{
 
             <link rel="stylesheet" href="style.css">
 
+            <style>
+
+            .container {
+                display: flex;
+                justify-items: center;
+                align-items: center;
+                gap: 4px;
+            }
+                
+            </style>
+
             <div class="global-menu">
 
-                <a href="index.html">
+                    <a href="index.html" class="container">
 
-                    <svg class="global-menu-logo" viewBox="0 0 1024 1024">
-                        <path d="M899.471 169.143V32L124.531 169.143H899.471Z"/>
-                        <path d="M757.135 717.714L899.471 224H124.531V498.286H266.867L124.531 992H899.471V717.714H757.135Z"/>
-                    </svg>
+                        <div class="container">
+                            <svg class="global-menu-logo" viewBox="0 0 1024 1024">
+                                <path d="M899.471 169.143V32L124.531 169.143H899.471Z"/>
+                                <path d="M757.135 717.714L899.471 224H124.531V498.286H266.867L124.531 992H899.471V717.714H757.135Z"/>
+                            </svg>
+                        </div>
 
-                </a>
+                        <div class="container">
+                            Phoneticando Hub
+                        </div>
+
+                    </a>
+
+            </div>
 
         `
     }
