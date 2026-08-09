@@ -60,9 +60,10 @@
 }
 
 html, body {
-    color: var(--graycool800);
+    color: var(--graycool1000);
     font-family: var(--font-dm-sans);
     scroll-behavior: smooth;
+    background-color: var(--graycool0);
 }
 
 /* HTML | BODY | ROOT | ↑ */
@@ -79,7 +80,7 @@ html, body {
 /* HEADER & GLOBAL MENU ↓ */
 
 .header-style {
-    background-image: linear-gradient(to right, var(--cerulean900), var(--cerulean1000));
+    background-color: var(--graycool1000);
     fill: var(--graycool800);
     margin-bottom: 32px;
     margin-top: 40px;
@@ -109,12 +110,13 @@ html, body {
     position: fixed;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 40px;
     top: 0;
     gap: 4px;
-    background-color: white;
-    box-shadow: 0px 0px 4px var(--graycool200);
+    background-color: var(--graycool0);
+    box-shadow: 0px 0px 4px var(--graycool50);
     z-index: 1;
     padding-left: 4px;
     padding-right: 4px;
@@ -123,8 +125,8 @@ html, body {
 .global-menu a {
     display: flex;
     align-items: center;
-    color: var(--cerulean600);
-    fill: var(--cerulean600);
+    color: var(--sunset600);
+    fill: var(--sunset600);
     text-decoration: none;
     font-weight: 500;
     border-radius: 4px;
@@ -134,8 +136,8 @@ html, body {
 }
 
 .global-menu a:hover {
-    color: var(--sunset600);
-    fill: var(--sunset600);
+    color: var(--cerulean600);
+    fill: var(--cerulean600);
     transition-duration: 0.2s;
     cursor: pointer;
 }
@@ -168,7 +170,7 @@ html, body {
 }
 
 .elevenlabs-container a {
-    color: var(--sunset200);
+    color: var(--sunset600);
     padding: 2px;
     font-weight: 600;
     text-decoration: none;
@@ -207,7 +209,7 @@ html, body {
 }
 
 .toc a {
-    color: var(--cerulean600);
+    color: var(--graycool800);
     text-decoration: none;
     font-weight: 400;
     padding: 2px;
@@ -218,7 +220,7 @@ html, body {
 }
 
 .toc a:hover {
-    color: var(--cerulean700);
+    color: var(--graycool600);
     text-decoration: underline;
     transition-duration: 0.2s;
 }
@@ -450,7 +452,7 @@ audio {
 
 .highlight {
     color: var(--graycool0);
-    background-color: var(--cerulean600);
+    background-color: var(--graycool1000);
     transition-duration: 0.2s;
     border-radius: 4px;
     box-shadow: 0px 0px 2px var(--graycool1000);
@@ -496,12 +498,12 @@ audio {
     }
 
     .translation-text.visible {
-        color: var(--cerulean600);
+        color: var(--graycool800);
     }
 
     .translation-text::before {
         content: "(click to see translation) ";
-        color: var(--cerulean500);
+        color: var(--sunset500);
         font-weight: 900;
         font-size: 1.2em;
     }
@@ -524,7 +526,7 @@ audio {
 /* ANCHOR INSIDE ↓ */
 
 .anchor-inside a {
-    color: var(--cerulean600);
+    color: var(--sunset600);
     text-decoration: none;
     font-weight: 500;
     border-radius: 4px;
@@ -532,11 +534,8 @@ audio {
 }
 
 .anchor-inside a:hover {
-    color: var(--graycool0);
-    background-color: var(--cerulean600);
+    color: var(--cerulean600);
     transition-duration: 0.2s;
-    padding: 4px;
-    box-shadow: 0px 0px 4px var(--cerulean600);
     cursor: pointer;
 }
 
@@ -1132,16 +1131,15 @@ audio {
     text-decoration: none;
     padding: 4px;
     border-radius: 4px;
-    background-color: var(--cerulean100);
-    fill: var(--graycool800);
-    box-shadow: 0px 0px 4px var(--graycool600);
+    background-color: var(--sunset600);
+    fill: var(--graycool0);
+    box-shadow: 2px 2px 0px var(--graycool1000);
     transition-duration: 0.2s;
 }
 
 .move-to-top:hover {
     background-color: var(--cerulean500);
     transition-duration: 0.2s;
-    fill: var(--graycool0);
 }
 
 /* FOOTER, MOVE TO TOP, CONTACTS ↑ */
