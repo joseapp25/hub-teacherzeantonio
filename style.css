@@ -83,7 +83,7 @@ html, body {
     background-color: var(--graycool1000);
     fill: var(--graycool800);
     margin-bottom: 32px;
-    margin-top: 24px;
+    margin-top: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
 
@@ -112,7 +112,7 @@ html, body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 24px;
+    height: 40px;
     top: 0;
     gap: 4px;
     background-color: var(--graycool0);
@@ -121,7 +121,7 @@ html, body {
     padding-left: 4px;
     padding-right: 4px;
     font-family: var(--font-inter-tight);
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .global-menu a {
@@ -150,8 +150,8 @@ html, body {
 }
 
 .global-menu-logo {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
 }
 
 .elevenlabs-container {
@@ -284,6 +284,7 @@ html, body {
     scroll-margin-top: 64px;
     margin-bottom: 16px;
     margin-top: 40px;
+    font-weight: 900;
 }
 
 .section-content section {
@@ -334,6 +335,7 @@ audio {
     box-shadow: 0px 0px 4px var(--graycool600);
     border-radius: 64px;
     margin-top: 8px;
+    width: 100%;
 }
 
 /* FULL AUDIO ↑ */
@@ -529,7 +531,7 @@ audio {
 .anchor-inside a {
     color: var(--sunset600);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 800;
     border-radius: 4px;
     transition-duration: 0.2s;
 }
