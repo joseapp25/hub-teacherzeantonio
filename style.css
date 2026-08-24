@@ -332,7 +332,6 @@ html, body {
 }
 
 audio {
-    box-shadow: 0px 0px 4px var(--graycool600);
     border-radius: 64px;
     margin-top: 8px;
     width: 100%;
@@ -455,7 +454,7 @@ audio {
 /* HIGHLIGHT TEXT AUDIO ↓ */
 
 .highlight {
-    color: var(--graycool0);
+    color: white;
     background-color: var(--graycool1000);
     transition-duration: 0.2s;
     border-radius: 4px;
