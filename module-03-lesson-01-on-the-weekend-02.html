@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-logo.png" type="image/x-icon">
+    <title>On the Weekend | Phoneticando Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header-style">
+
+        <nav>
+
+            <component-global-menu></component-global-menu>
+
+            <script src="component-global-menu.js"></script>
+
+        </nav>
+
+        <h1>On the <br>Weekend</h1>
+
+        <cite>
+
+            <component-elevenlabs></component-elevenlabs>
+
+            <script src="component-elevenlabs.js"></script>
+
+        </cite>
+
+    </header>
+
+    <main>
+
+        <nav class="toc">
+
+            <h3>Contents</h3>
+
+            <ol>
+                <li class="heading-one">
+                    <a href="#fullaudio">Full Audio</a>
+                </li>
+                <li class="heading-one">
+                    <a href="#transcription">Transcription</a>
+                        <ol>
+                            <li class="heading-two">
+                                <a href="#part01">Part 01</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part02">Part 02</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part03">Part 03</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part04">Part 04</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part05">Part 05</a>
+                            </li>
+                            <li class="heading-two">
+                                <a href="#part06">Part 06</a>
+                            </li>
+                        </ol>
+                </li>
+            </ol>
+            
+        </nav>
+
+        <section class="section-content">
+            <h2 id="fullaudio">Full Audio</h2>
+                <audio class="fullaudio" preload="metadata" controls>
+                    <source src="midia/on-the-weekend-02/on-the-weekend-full.mp3" type="audio/mpeg">
+                </audio>
+        </section>
+
+        <section class="section-content">
+
+            <h2 id="transcription">Transcription</h2>
+
+                <h3 id="part01">Part 01</h3>
+
+                    <audio id="audio-part01" preload="metadata" controls>
+                        <source src="midia/on-the-weekend-02/on-the-weekend-part01.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part01-sentence01">Hey Alisha! Hi Vanessa!</span>
+                        <span id="part01-sentence02">What did you do on the weekend?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part01-sentence03">Hi River!</span>
+                        <span id="part01-sentence04">I stayed home on Saturday.</span>
+                        <span id="part01-sentence05">I watched a movie and played video games.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vanessa: </span>
+                        <span id="part01-sentence06">Nice!</span>
+                    </p>
+
+                    <div class="translation-text">
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Ei, Alisha! Oi, Vanessa! O que vocês fizeram no fim de semana?
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            Oi, River! Eu fiquei em casa no sábado. Assisti a um filme e joguei videogame.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Vanessa: </span>
+                            Legal!
+                        </p>
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part01").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+
+                            if (currentTime >= 0.01 && currentTime < 1.94) {
+                                document.getElementById("part01-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.94 && currentTime < 3.80) {
+                                document.getElementById("part01-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.80 && currentTime < 4.94) {
+                                document.getElementById("part01-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.94 && currentTime < 7.00) {
+                                document.getElementById("part01-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 7.00 && currentTime < 9.99) {
+                                document.getElementById("part01-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 9.99 && currentTime < 11.60) {
+                                document.getElementById("part01-sentence06").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h3 id="part02">Part 02</h3>
+
+                    <audio id="audio-part02" preload="metadata" controls>
+                        <source src="midia/on-the-weekend-02/on-the-weekend-part02.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Vanessa: </span>
+                        <span id="part02-sentence01">What movie did you watch, Alisha?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part02-sentence02">I watched Matrix.</span>
+                        <span id="part02-sentence03">It was really fun!</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part02-sentence04">And what game did you play?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part02-sentence05">Oh, I played The Last of Us with some friends.</span>
+                        <span id="part02-sentence06">I also cooked lunch with my dad.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part02-sentence07">Pretty cool Alisha.</span>
+                    </p>
+
+                    <div class="translation-text">
+
+                        <p>
+                            <span class="name-highlight">Vanessa: </span>
+                            Que filme você assistiu, Alisha?
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            Eu assisti Matrix. Foi muito divertido!
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            E qual jogo você jogou?
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            Ah, eu joguei The Last of Us com alguns amigos. Eu também cozinhei o almoço com meu pai.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Muito legal, Alisha.
+                        </p>
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part02").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+
+                            if (currentTime >= 0.01 && currentTime < 2.02) {
+                                document.getElementById("part02-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 2.02 && currentTime < 3.55) {
+                                document.getElementById("part02-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 3.55 && currentTime < 4.93) {
+                                document.getElementById("part02-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.93 && currentTime < 6.79) {
+                                document.getElementById("part02-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.79 && currentTime < 10.04) {
+                                document.getElementById("part02-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 10.04 && currentTime < 12.13) {
+                                document.getElementById("part02-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 12.13 && currentTime < 14.82) {
+                                document.getElementById("part02-sentence07").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h3 id="part03">Part 03</h3>
+
+                    <audio id="audio-part03" preload="metadata" controls>
+                        <source src="midia/on-the-weekend-02/on-the-weekend-part03.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part03-sentence01">I didn’t cook anything this weekend.</span>
+                        <span id="part03-sentence02">I just cleaned my room and stayed in bed most of the time.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vanessa: </span>
+                        <span id="part03-sentence03">I was pretty busy.</span>
+                        <span id="part03-sentence04">On Saturday, I helped my dad organizing the house.</span>
+                        <span id="part03-sentence05">On Sunday, I studied for the math test.</span>
+                    </p>
+
+                    <div class="translation-text">
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Eu não cozinhei nada neste fim de semana. Eu só limpei meu quarto e fiquei na cama a maior parte do tempo.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Vanessa: </span>
+                            Eu estive bem ocupada. No sábado, ajudei meu pai a organizar a casa. No domingo, estudei para a prova de matemática.
+                        </p>
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part03").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+
+                            if (currentTime >= 0.01 && currentTime < 1.73) {
+                                document.getElementById("part03-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.73 && currentTime < 4.67) {
+                                document.getElementById("part03-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 4.67 && currentTime < 6.38) {
+                                document.getElementById("part03-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 6.38 && currentTime < 9.83) {
+                                document.getElementById("part03-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 9.83 && currentTime < 13.46) {
+                                document.getElementById("part03-sentence05").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h3 id="part04">Part 04</h3>
+
+                    <audio id="audio-part04" preload="metadata" controls>
+                        <source src="midia/on-the-weekend-02/on-the-weekend-part04.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part04-sentence01">Did you study all day?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vanessa: </span>
+                        <span id="part04-sentence02">No, I didn’t.</span>
+                        <span id="part04-sentence03">I relaxed a little.</span>
+                        <span id="part04-sentence04">But I didn’t watch TV or play video games.</span>
+                        <span id="part04-sentence05">What about you, River?</span>
+                        <span id="part04-sentence06">Did you study?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part04-sentence07">No, I didn’t study.</span>
+                        <span id="part04-sentence08">I wanted to, but I didn’t.</span>
+                        <span id="part04-sentence09">I was too lazy!</span>
+                        <span id="part04-sentence10">I watched two movies and stayed on the couch all day.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part04-sentence11">That sounds great!</span>
+                    </p>
+
+                    <div class="translation-text">
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Você estudou o dia todo?
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Vanessa: </span>
+                            Não, não estudei. Relaxei um pouco. Mas não assisti TV nem joguei videogame. E você, River? Você estudou?
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Não, não estudei. Eu queria, mas não estudei. Eu estava preguiçoso demais! Assisti a dois filmes e fiquei no sofá o dia todo.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            Isso parece ótimo!
+                        </p>
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part04").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+
+                            if (currentTime >= 0.01 && currentTime < 1.39) {
+                                document.getElementById("part04-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.39 && currentTime < 2.82) {
+                                document.getElementById("part04-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.82 && currentTime < 4.33) {
+                                document.getElementById("part04-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 4.33 && currentTime < 7.67) {
+                                document.getElementById("part04-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 7.67 && currentTime < 9.42) {
+                                document.getElementById("part04-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 9.42 && currentTime < 10.86) {
+                                document.getElementById("part04-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 10.86 && currentTime < 12.48) {
+                                document.getElementById("part04-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 12.48 && currentTime < 13.82) {
+                                document.getElementById("part04-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 13.82 && currentTime < 14.98) {
+                                document.getElementById("part04-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 14.98 && currentTime < 17.33) {
+                                document.getElementById("part04-sentence10").classList.add("highlight");
+                            } else if (currentTime >= 17.33 && currentTime < 20.17) {
+                                document.getElementById("part04-sentence11").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h3 id="part05">Part 05</h3>
+
+                    <audio id="audio-part05" preload="metadata" controls>
+                        <source src="midia/on-the-weekend-02/on-the-weekend-part05.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part05-sentence01">Did you like the movies?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part05-sentence02">Yes, I did!</span>
+                        <span id="part05-sentence03">I don’t remember exactly but it was a horror movie and a drama movie.</span>
+                        <span id="part05-sentence04">What about you, Alisha?</span>
+                        <span id="part05-sentence05">Did you study or work?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part05-sentence06">I studied a little on Sunday morning.</span>
+                        <span id="part05-sentence07">Then I washed my clothes and cleaned the kitchen.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vanessa: </span>
+                        <span id="part05-sentence08">I hate washing clothes!</span>
+                        <span id="part05-sentence09">I washed the dishes after lunch, but I didn’t clean anything else.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part05-sentence10">I don’t love cleaning either, but I had to help my mom.</span>
+                        <span id="part05-sentence11">She worked all weekend.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part05-sentence12">That was nice of you, Alisha.</span>
+                    </p>
+
+                    <div class="translation-text">
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            Você gostou dos filmes?
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Sim, gostei! Não me lembro exatamente, mas foi um filme de terror e um drama. E você, Alisha? Você estudou ou trabalhou?
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            Estudei um pouco no domingo de manhã. Depois lavei minhas roupas e limpei a cozinha.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Vanessa: </span>
+                            Eu odeio lavar roupa! Lavei a louça depois do almoço, mas não limpei mais nada.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            Eu também não amo limpar, mas tive que ajudar minha mãe. Ela trabalhou o fim de semana todo.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Foi legal da sua parte, Alisha.
+                        </p>
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part05").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+
+                            if (currentTime >= 0.01 && currentTime < 1.71) {
+                                document.getElementById("part05-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.71 && currentTime < 2.98) {
+                                document.getElementById("part05-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.98 && currentTime < 6.41) {
+                                document.getElementById("part05-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 6.41 && currentTime < 7.81) {
+                                document.getElementById("part05-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 7.81 && currentTime < 9.42) {
+                                document.getElementById("part05-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 9.42 && currentTime < 12.52) {
+                                document.getElementById("part05-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 12.52 && currentTime < 16.66) {
+                                document.getElementById("part05-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 16.66 && currentTime < 18.98) {
+                                document.getElementById("part05-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 18.98 && currentTime < 23.25) {
+                                document.getElementById("part05-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 23.25 && currentTime < 27.56) {
+                                document.getElementById("part05-sentence10").classList.add("highlight");
+                            } else if (currentTime >= 27.56 && currentTime < 29.33) {
+                                document.getElementById("part05-sentence11").classList.add("highlight");
+                            } else if (currentTime >= 29.33 && currentTime < 32.71) {
+                                document.getElementById("part05-sentence12").classList.add("highlight");
+                            }
+                        });
+                    </script>
+
+                <h3 id="part06">Part 06</h3>
+
+                    <audio id="audio-part06" preload="metadata" controls>
+                        <source src="midia/on-the-weekend-02/on-the-weekend-part06.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part06-sentence01">Did you cook anything else?</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part06-sentence02">Yes!</span>
+                        <span id="part06-sentence03">I cooked pancakes for breakfast on Sunday.</span>
+                        <span id="part06-sentence04">My brother helped me.</span>
+                        <span id="part06-sentence05">He didn’t cook, but he washed the dishes.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vanessa: </span>
+                        <span id="part06-sentence06">That’s teamwork!</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part06-sentence07">So, the weekend was great.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Alisha: </span>
+                        <span id="part06-sentence08">Yeah!</span>
+                        <span id="part06-sentence09">I had fun and got things done.</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">Vanessa: </span>
+                        <span id="part06-sentence10">Same here.</span>
+                        <span id="part06-sentence11">I didn’t relax much, but I did a lot!</span>
+                    </p>
+
+                    <p>
+                        <span class="name-highlight">River: </span>
+                        <span id="part06-sentence12">I relaxed too much, maybe!</span>
+                        <span id="part06-sentence13">But I had a good weekend too.</span>
+                    </p>
+
+                    <div class="translation-text">
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Você cozinhou mais alguma coisa?
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            Sim! Fiz panquecas no café da manhã de domingo. Meu irmão me ajudou. Ele não cozinhou, mas lavou a louça.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Vanessa: </span>
+                            Isso é trabalho em equipe!
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Então, o fim de semana foi ótimo.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Alisha: </span>
+                            É! Eu me diverti e fiz muita coisa.
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">Vanessa: </span>
+                            Comigo também. Eu não relaxei muito, mas fiz bastante coisa!
+                        </p>
+
+                        <p>
+                            <span class="name-highlight">River: </span>
+                            Eu relaxei demais, talvez! Mas eu também tive um bom fim de semana.
+                        </p>
+
+                    </div>
+
+                    <script>
+                        document.getElementById("audio-part06").addEventListener("timeupdate", function() {
+                            let currentTime = this.currentTime;
+
+                            document.querySelectorAll(".highlight").forEach(el => el.classList.remove("highlight"));
+
+                            if (currentTime >= 0.01 && currentTime < 1.38) {
+                                document.getElementById("part06-sentence01").classList.add("highlight");
+                            } else if (currentTime >= 1.38 && currentTime < 2.20) {
+                                document.getElementById("part06-sentence02").classList.add("highlight");
+                            } else if (currentTime >= 2.20 && currentTime < 5.15) {
+                                document.getElementById("part06-sentence03").classList.add("highlight");
+                            } else if (currentTime >= 5.15 && currentTime < 6.78) {
+                                document.getElementById("part06-sentence04").classList.add("highlight");
+                            } else if (currentTime >= 6.78 && currentTime < 9.65) {
+                                document.getElementById("part06-sentence05").classList.add("highlight");
+                            } else if (currentTime >= 9.65 && currentTime < 10.99) {
+                                document.getElementById("part06-sentence06").classList.add("highlight");
+                            } else if (currentTime >= 10.99 && currentTime < 12.51) {
+                                document.getElementById("part06-sentence07").classList.add("highlight");
+                            } else if (currentTime >= 12.51 && currentTime < 13.46) {
+                                document.getElementById("part06-sentence08").classList.add("highlight");
+                            } else if (currentTime >= 13.46 && currentTime < 15.75) {
+                                document.getElementById("part06-sentence09").classList.add("highlight");
+                            } else if (currentTime >= 15.75 && currentTime < 16.96) {
+                                document.getElementById("part06-sentence10").classList.add("highlight");
+                            } else if (currentTime >= 16.96 && currentTime < 19.56) {
+                                document.getElementById("part06-sentence11").classList.add("highlight");
+                            } else if (currentTime >= 19.56 && currentTime < 21.40) {
+                                document.getElementById("part06-sentence12").classList.add("highlight");
+                            } else if (currentTime >= 21.40 && currentTime < 23.72) {
+                                document.getElementById("part06-sentence13").classList.add("highlight");
+                            }
+                        });
+                    </script>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <nav>
+
+            <component-move-to-top></component-move-to-top>
+
+            <script src="component-move-to-top.js"></script>
+
+        </nav>
+
+        <component-footer></component-footer>
+
+        <script src="component-footer.js"></script>
+
+    </footer>
+    
+</body>
+</html>
