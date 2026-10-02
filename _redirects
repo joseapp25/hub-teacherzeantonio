@@ -1,0 +1,66 @@
+# Redirects 301 para o hub novo (phoneticando/api#235).
+# "!" força o redirect mesmo com o arquivo .html ainda existindo aqui.
+# O navegador preserva o #hash (ex.: #part02) no redirect.
+
+/module-01-lesson-01-likes-and-dislikes.html                 https://hub.phoneticando.com.br/aulas/modulo-1/likes-and-dislikes  301!
+/module-01-lesson-01-likes-and-dislikes                      https://hub.phoneticando.com.br/aulas/modulo-1/likes-and-dislikes  301!
+/module-01-lesson-02-work-and-study.html                     https://hub.phoneticando.com.br/aulas/modulo-1/work-and-study  301!
+/module-01-lesson-02-work-and-study                          https://hub.phoneticando.com.br/aulas/modulo-1/work-and-study  301!
+/module-01-lesson-03-eat-and-drink.html                      https://hub.phoneticando.com.br/aulas/modulo-1/eat-and-drink  301!
+/module-01-lesson-03-eat-and-drink                           https://hub.phoneticando.com.br/aulas/modulo-1/eat-and-drink  301!
+/module-01-lesson-04-siblings-and-pets.html                  https://hub.phoneticando.com.br/aulas/modulo-1/siblings-and-pets  301!
+/module-01-lesson-04-siblings-and-pets                       https://hub.phoneticando.com.br/aulas/modulo-1/siblings-and-pets  301!
+/module-01-lesson-05-occupations-and-professions.html        https://hub.phoneticando.com.br/aulas/modulo-1/occupations-and-professions  301!
+/module-01-lesson-05-occupations-and-professions             https://hub.phoneticando.com.br/aulas/modulo-1/occupations-and-professions  301!
+/module-01-lesson-06-locations-and-places.html               https://hub.phoneticando.com.br/aulas/modulo-1/locations-and-places  301!
+/module-01-lesson-06-locations-and-places                    https://hub.phoneticando.com.br/aulas/modulo-1/locations-and-places  301!
+/module-01-lesson-07-colors-and-things.html                  https://hub.phoneticando.com.br/aulas/modulo-1/colors-and-things  301!
+/module-01-lesson-07-colors-and-things                       https://hub.phoneticando.com.br/aulas/modulo-1/colors-and-things  301!
+/module-01-lesson-08-talking-about-cities.html               https://hub.phoneticando.com.br/aulas/modulo-1/talking-about-cities  301!
+/module-01-lesson-08-talking-about-cities                    https://hub.phoneticando.com.br/aulas/modulo-1/talking-about-cities  301!
+/module-01-lesson-09-chatting-with-friends.html              https://hub.phoneticando.com.br/aulas/modulo-1/chatting-with-friends  301!
+/module-01-lesson-09-chatting-with-friends                   https://hub.phoneticando.com.br/aulas/modulo-1/chatting-with-friends  301!
+/module-01-lesson-10-favourite-things.html                   https://hub.phoneticando.com.br/aulas/modulo-1/favourite-things  301!
+/module-01-lesson-10-favourite-things                        https://hub.phoneticando.com.br/aulas/modulo-1/favourite-things  301!
+/module-01-lesson-11-your-neighbourhood.html                 https://hub.phoneticando.com.br/aulas/modulo-1/your-neighbourhood  301!
+/module-01-lesson-11-your-neighbourhood                      https://hub.phoneticando.com.br/aulas/modulo-1/your-neighbourhood  301!
+/module-02-lesson-01-hang-out-or-stay-home.html              https://hub.phoneticando.com.br/aulas/modulo-2/hang-out-or-stay-home  301!
+/module-02-lesson-01-hang-out-or-stay-home                   https://hub.phoneticando.com.br/aulas/modulo-2/hang-out-or-stay-home  301!
+/module-02-lesson-02-future-plans.html                       https://hub.phoneticando.com.br/aulas/modulo-2/future-plans  301!
+/module-02-lesson-02-future-plans                            https://hub.phoneticando.com.br/aulas/modulo-2/future-plans  301!
+/module-02-lesson-03-christmas-holiday.html                  https://hub.phoneticando.com.br/aulas/modulo-2/christmas-holiday  301!
+/module-02-lesson-03-christmas-holiday                       https://hub.phoneticando.com.br/aulas/modulo-2/christmas-holiday  301!
+/module-02-lesson-04-healthy-habits.html                     https://hub.phoneticando.com.br/aulas/modulo-2/healthy-habits  301!
+/module-02-lesson-04-healthy-habits                          https://hub.phoneticando.com.br/aulas/modulo-2/healthy-habits  301!
+/module-02-lesson-05-crochet-lesson.html                     https://hub.phoneticando.com.br/aulas/modulo-2/crochet-lesson  301!
+/module-02-lesson-05-crochet-lesson                          https://hub.phoneticando.com.br/aulas/modulo-2/crochet-lesson  301!
+/module-03-lesson-01-on-the-weekend.html                     https://hub.phoneticando.com.br/aulas/modulo-3/on-the-weekend  301!
+/module-03-lesson-01-on-the-weekend                          https://hub.phoneticando.com.br/aulas/modulo-3/on-the-weekend  301!
+/module-03-lesson-01-on-the-weekend-02.html                  https://hub.phoneticando.com.br/aulas/modulo-3/on-the-weekend-02  301!
+/module-03-lesson-01-on-the-weekend-02                       https://hub.phoneticando.com.br/aulas/modulo-3/on-the-weekend-02  301!
+/module-03-lesson-02-retired-people.html                     https://hub.phoneticando.com.br/aulas/modulo-3/retired-people  301!
+/module-03-lesson-02-retired-people                          https://hub.phoneticando.com.br/aulas/modulo-3/retired-people  301!
+/module-03-lesson-03-historical-figures.html                 https://hub.phoneticando.com.br/aulas/modulo-3/historical-figures  301!
+/module-03-lesson-03-historical-figures                      https://hub.phoneticando.com.br/aulas/modulo-3/historical-figures  301!
+/module-03-lesson-04-free-time.html                          https://hub.phoneticando.com.br/aulas/modulo-3/free-time  301!
+/module-03-lesson-04-free-time                               https://hub.phoneticando.com.br/aulas/modulo-3/free-time  301!
+/module-03-lesson-05-vacation-and-traveling.html             https://hub.phoneticando.com.br/aulas/modulo-3/vacation-and-traveling  301!
+/module-03-lesson-05-vacation-and-traveling                  https://hub.phoneticando.com.br/aulas/modulo-3/vacation-and-traveling  301!
+/module-03-lesson-06-sweets-shop.html                        https://hub.phoneticando.com.br/aulas/modulo-3/sweets-shop  301!
+/module-03-lesson-06-sweets-shop                             https://hub.phoneticando.com.br/aulas/modulo-3/sweets-shop  301!
+/module-05-lesson-01-what-is-the-purpose-of-your-visit.html  https://hub.phoneticando.com.br/aulas/modulo-5/what-is-the-purpose-of-your-visit  301!
+/module-05-lesson-01-what-is-the-purpose-of-your-visit       https://hub.phoneticando.com.br/aulas/modulo-5/what-is-the-purpose-of-your-visit  301!
+
+/phonetics.html                                              https://hub.phoneticando.com.br/phonetics  301!
+/phonetics                                                   https://hub.phoneticando.com.br/phonetics  301!
+/template-elementary.html                                    https://hub.phoneticando.com.br/aulas  301!
+/template-elementary                                         https://hub.phoneticando.com.br/aulas  301!
+/index.html                                                  https://hub.phoneticando.com.br/  301!
+
+# Áudios (caso alguém tenha linkado um mp3 direto)
+/midia/alphabet-sounds/*                                     https://hub.phoneticando.com.br/midia/phonetics/alphabet-sounds/:splat  301!
+/midia/ipa-sounds/*                                          https://hub.phoneticando.com.br/midia/phonetics/ipa-sounds/:splat  301!
+/midia/*                                                     https://hub.phoneticando.com.br/midia/aulas/:splat  301!
+
+# Todo o resto (inclusive a home) vai pra home nova
+/*                                                           https://hub.phoneticando.com.br/  301!
